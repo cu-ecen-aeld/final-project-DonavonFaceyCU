@@ -1,0 +1,39 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Wed May 21 22:58:25 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Sat Nov  8 17:08:59 2025
+# Process ID         : 6618
+# Current directory  : /home/stealthadmin/ECEN5713/XilinxTestFolder/PL/vivado
+# Command line       : vivado
+# Log file           : /home/stealthadmin/ECEN5713/XilinxTestFolder/PL/vivado/vivado.log
+# Journal file       : /home/stealthadmin/ECEN5713/XilinxTestFolder/PL/vivado/vivado.jou
+# Running On         : Ubuntu
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 22.04.5 LTS
+# Processor Detail   : AMD Ryzen 7 5700G with Radeon Graphics
+# CPU Frequency      : 3792.870 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 8
+# Host memory        : 16769 MB
+# Swap memory        : 4087 MB
+# Total Virtual      : 20856 MB
+# Available Virtual  : 19410 MB
+#-----------------------------------------------------------
+start_gui
+open_project /home/stealthadmin/ECEN5713/XilinxTestFolder/PL/vivado/Example_Project/Example_Project.xpr
+open_run impl_1
+set_property platform.vendor {Xilinx} [current_project]
+set_property platform.board_id {KV260} [current_project]
+set_property platform.name {kria_starter_kit_kv} [current_project]
+set_property pfm_name {Xilinx:KV260:kria_starter_kit_kv:1.0} [get_files -all {/home/stealthadmin/ECEN5713/XilinxTestFolder/PL/vivado/Example_Project/Example_Project.srcs/sources_1/bd/kria_starter_kit/kria_starter_kit.bd}]
+set_property platform.description {Vivado generated Hardware Platform for KV260 - DonavonFacey} [current_project]
+set_property platform.design_intent.embedded {true} [current_project]
+set_property platform.design_intent.datacenter {false} [current_project]
+set_property platform.design_intent.server_managed {false} [current_project]
+set_property platform.design_intent.external_host {false} [current_project]
+set_property platform.default_output_type {sd_card} [current_project]
+set_property platform.platform_state {impl} [current_project]
+set_property platform.uses_pr {true} [current_project]
+write_hw_platform -hw -include_bit -force -file /home/stealthadmin/ECEN5713/XilinxTestFolder/PL/SharedFiles/TopLevelModuleRev1.xsa

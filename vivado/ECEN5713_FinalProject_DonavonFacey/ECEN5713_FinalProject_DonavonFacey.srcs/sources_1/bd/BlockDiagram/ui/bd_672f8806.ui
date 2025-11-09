@@ -1,0 +1,15 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-315,-440",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0 TLS
+#  -string -flagsOSRD
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 1 -x 310 -y -150 -defaultsOSRD
+levelinfo -pg 1 0 310 620
+pagesize -pg 1 -db -bbox -sgen 0 -260 620 180
+"
+}
+{
+   "da_zynq_ultra_ps_e_cnt":"1"
+}

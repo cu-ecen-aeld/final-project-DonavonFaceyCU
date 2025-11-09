@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Wed May 21 22:58:25 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Sat Nov  8 14:55:24 2025
+# Process ID         : 26911
+# Current directory  : /home/stealthadmin/ECEN5713/XilinxTestFolder/PL/vivado/Example_Project/Example_Project.runs/kria_starter_kit_rst_ps8_0_99M_0_synth_1
+# Command line       : vivado -log kria_starter_kit_rst_ps8_0_99M_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source kria_starter_kit_rst_ps8_0_99M_0.tcl
+# Log file           : /home/stealthadmin/ECEN5713/XilinxTestFolder/PL/vivado/Example_Project/Example_Project.runs/kria_starter_kit_rst_ps8_0_99M_0_synth_1/kria_starter_kit_rst_ps8_0_99M_0.vds
+# Journal file       : /home/stealthadmin/ECEN5713/XilinxTestFolder/PL/vivado/Example_Project/Example_Project.runs/kria_starter_kit_rst_ps8_0_99M_0_synth_1/vivado.jou
+# Running On         : Ubuntu
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 22.04.5 LTS
+# Processor Detail   : AMD Ryzen 7 5700G with Radeon Graphics
+# CPU Frequency      : 3792.872 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 8
+# Host memory        : 16769 MB
+# Swap memory        : 4087 MB
+# Total Virtual      : 20856 MB
+# Available Virtual  : 13992 MB
+#-----------------------------------------------------------
+source kria_starter_kit_rst_ps8_0_99M_0.tcl -notrace
