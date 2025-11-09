@@ -210,3 +210,17 @@ selectTreeTable(PAResourceOtoP.PSSTreeTablePanelBuilder_MIO_TREE, "SD 0 ; MIO 13
 dismissDialog("Re-customize IP"); // m (dialog1)
 // [GUI Memory]: 198 MB (+8491kb) [00:05:19]
 // HMemoryUtils.trashcanNow. Engine heap size: 2,369 MB. GUI used memory: 117 MB. Current time: 11/9/25, 12:30:42 AM MST
+// WARNING: HEventQueue.dispatchEvent() is taking  70977 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 2,369 MB. GUI used memory: 117 MB. Current time: 11/9/25, 1:00:44 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,369 MB. GUI used memory: 118 MB. Current time: 11/9/25, 1:30:44 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,369 MB. GUI used memory: 93 MB. Current time: 11/9/25, 2:00:45 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,369 MB. GUI used memory: 92 MB. Current time: 11/9/25, 2:30:46 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,369 MB. GUI used memory: 93 MB. Current time: 11/9/25, 3:00:47 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,369 MB. GUI used memory: 92 MB. Current time: 11/9/25, 3:30:48 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,369 MB. GUI used memory: 93 MB. Current time: 11/9/25, 4:00:48 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,369 MB. GUI used memory: 92 MB. Current time: 11/9/25, 4:30:49 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,369 MB. GUI used memory: 92 MB. Current time: 11/9/25, 5:00:49 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,369 MB. GUI used memory: 93 MB. Current time: 11/9/25, 5:30:49 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,369 MB. GUI used memory: 92 MB. Current time: 11/9/25, 6:00:50 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,369 MB. GUI used memory: 93 MB. Current time: 11/9/25, 6:30:51 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,369 MB. GUI used memory: 93 MB. Current time: 11/9/25, 7:00:51 AM MST
