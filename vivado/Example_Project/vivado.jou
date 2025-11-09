@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Wed May 21 22:58:25 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Sat Nov  8 23:59:13 2025
+# Process ID         : 279166
+# Current directory  : /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project
+# Command line       : vivado
+# Log file           : /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/vivado.log
+# Journal file       : /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/vivado.jou
+# Running On         : Ubuntu
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 22.04.5 LTS
+# Processor Detail   : AMD Ryzen 7 5700G with Radeon Graphics
+# CPU Frequency      : 3792.872 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 8
+# Host memory        : 16769 MB
+# Swap memory        : 4087 MB
+# Total Virtual      : 20856 MB
+# Available Virtual  : 17239 MB
+#-----------------------------------------------------------
+start_gui
+open_project /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.xpr
+open_bd_design {/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/bd/kria_starter_kit/kria_starter_kit.bd}

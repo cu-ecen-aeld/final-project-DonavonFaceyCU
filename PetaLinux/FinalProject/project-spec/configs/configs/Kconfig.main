@@ -33,28 +33,28 @@ config SUBSYSTEM_ENDIAN_LITTLE
 
 if SUBSYSTEM_SDT_FLOW
 
-source /home/stealthadmin/ECEN5713/XilinxTestFolder/PL/PetaLinux/FinalProject/project-spec/configs/configs/Kconfig.bootcompselection
+source /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/PetaLinux/FinalProject/project-spec/configs/configs/Kconfig.bootcompselection
 
 endif
 
 if SUBSYSTEM_DISTRO_PETALINUX
 
-source /home/stealthadmin/ECEN5713/XilinxTestFolder/PL/PetaLinux/FinalProject/project-spec/configs/configs/Kconfig.linuxcompselection
+source /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/PetaLinux/FinalProject/project-spec/configs/configs/Kconfig.linuxcompselection
 
-source /home/stealthadmin/ECEN5713/XilinxTestFolder/PL/PetaLinux/FinalProject/project-spec/configs/configs/Kconfig.autoconfigsettings
+source /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/PetaLinux/FinalProject/project-spec/configs/configs/Kconfig.autoconfigsettings
 
 endif
 
-source /home/stealthadmin/ECEN5713/XilinxTestFolder/PL/PetaLinux/FinalProject/project-spec/configs/configs/Kconfig.syshw
+source /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/PetaLinux/FinalProject/project-spec/configs/configs/Kconfig.syshw
 
-source /home/stealthadmin/ECEN5713/XilinxTestFolder/PL/PetaLinux/FinalProject/project-spec/configs/configs/Kconfig.dtgsettings
+source /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/PetaLinux/FinalProject/project-spec/configs/configs/Kconfig.dtgsettings
 
-source /home/stealthadmin/ECEN5713/XilinxTestFolder/PL/PetaLinux/FinalProject/project-spec/configs/configs/Kconfig.bootcompconfigurations
+source /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/PetaLinux/FinalProject/project-spec/configs/configs/Kconfig.bootcompconfigurations
 
 if SUBSYSTEM_DISTRO_PETALINUX
 
-source /home/stealthadmin/ECEN5713/XilinxTestFolder/PL/PetaLinux/FinalProject/project-spec/configs/configs/Kconfig.imagepkgconfigurations
+source /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/PetaLinux/FinalProject/project-spec/configs/configs/Kconfig.imagepkgconfigurations
 
 endif
 
-source /home/stealthadmin/ECEN5713/XilinxTestFolder/PL/PetaLinux/FinalProject/project-spec/configs/configs/Kconfig.yoctobuildsettings
+source /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/PetaLinux/FinalProject/project-spec/configs/configs/Kconfig.yoctobuildsettings
