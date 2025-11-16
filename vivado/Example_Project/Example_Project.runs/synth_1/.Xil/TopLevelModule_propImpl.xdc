@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:/home/stealthadmin/ECEN5713/XilinxTestFolder/PL/vivado/Example_Project/Example_Project.srcs/constrs_1/new/PMOD_PINS.xdc rfile:../../../Example_Project.srcs/constrs_1/new/PMOD_PINS.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/constrs_1/new/PMOD_PINS.xdc rfile:../../../Example_Project.srcs/constrs_1/new/PMOD_PINS.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:9 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN H12 [get_ports {HDIO_OUT[0]}]
 set_property src_info {type:XDC file:1 line:10 export:INPUT save:INPUT read:READ} [current_design]

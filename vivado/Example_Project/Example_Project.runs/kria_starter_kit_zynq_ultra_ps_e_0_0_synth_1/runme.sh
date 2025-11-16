@@ -21,7 +21,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='/home/stealthadmin/ECEN5713/XilinxTestFolder/PL/vivado/Example_Project/Example_Project.runs/kria_starter_kit_zynq_ultra_ps_e_0_0_synth_1'
+HD_PWD='/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.runs/kria_starter_kit_zynq_ultra_ps_e_0_0_synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

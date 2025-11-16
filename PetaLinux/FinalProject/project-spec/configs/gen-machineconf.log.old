@@ -1,37 +1,16 @@
-2025-11-16 05:36:19,173 - [DEBUG] Using xsct from : /tools/Xilinx/2025.1/PetaLinux/tool/components/xsct/bin/xsct
-2025-11-16 05:36:19,174 - [INFO] Getting Platform info from HW file
-2025-11-16 05:36:19,174 - [DEBUG] Using the soc_family specified by user:zynqmp
-2025-11-16 05:36:19,232 - [DEBUG] Hardware Configuration:
-2025-11-16 05:36:19,232 - [DEBUG] MACHINE     = "None"
-2025-11-16 05:36:19,232 - [DEBUG] DEVICE_ID   = "xck26"
-2025-11-16 05:36:19,232 - [DEBUG] SOC_FAMILY  = "zynqmp"
-2025-11-16 05:36:19,232 - [DEBUG] SOC_VARIANT = "ev"
-2025-11-16 05:36:19,232 - [INFO] Menuconfig project
-2025-11-16 05:36:19,232 - [DEBUG] Running CMD: env KCONFIG_CONFIG=/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/PetaLinux/FinalProject/project-spec/configs/config mconf -s /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/PetaLinux/FinalProject/project-spec/configs/configs/Kconfig
-2025-11-16 05:36:40,433 - [DEBUG] xsct -sdx -nodisp /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/PetaLinux/FinalProject/components/yocto/layers/meta-xilinx/meta-xilinx-core/gen-machine-conf/gen-machine-scripts/petalinux_hsm.tcl get_flash_width_parts /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/PetaLinux/FinalProject/project-spec/configs/config /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/PetaLinux/FinalProject/components/yocto/layers/meta-xilinx/meta-xilinx-core/gen-machine-conf/gen-machine-scripts/data/ipinfo.yaml /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/PetaLinux/FinalProject/project-spec/hw-description/system.xsa /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/PetaLinux/FinalProject/project-spec/configs/flash_parts.txt
-2025-11-16 05:36:55,207 - [DEBUG] 
-
-****** Software Commandline Tool (XSCT) v2025.1.0
-  **** SW Build 6135694 on Thu May 15 18:54:54 MDT 2025
-    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
-    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
-
-
-Warning: XSCT is deprecated and will be removed in future releases.
-We recommend using the new Python command-line tool for project management and debugging:
-- Run "vitis -i" for interactive mode.
-- Run "vitis -s <script>" for script mode.
-WARNING: sdtgen package cannot be loaded. System Device tree commands will not 
- be available
-INFO: [Hsi 55-2053] elapsed time for repository (/tools/Xilinx/2025.1/PetaLinux/tool/components/xsct/data/embeddedsw) loading 0 seconds
-hsi::open_hw_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 740.520 ; gain = 153.156 ; free physical = 805 ; free virtual = 16682
-
-WARNING: Failed in finding /tools/Xilinx/2025.1/PetaLinux/tool/components/xsct/data/system-device-tree-xlnx/device_tree/data/device_tree.tcl path.
-
-
-2025-11-16 05:36:55,210 - [INFO] Silentconfig rootfs
-2025-11-16 05:36:55,211 - [DEBUG] Running CMD: yes "" | env KCONFIG_CONFIG=/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/PetaLinux/FinalProject/project-spec/configs/rootfs_config conf /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/PetaLinux/FinalProject/project-spec/configs/rootfsconfigs/Kconfig
-2025-11-16 05:36:55,234 - [DEBUG] *
+2025-11-16 09:27:54,746 - [DEBUG] Using xsct from : /tools/Xilinx/2025.1/PetaLinux/tool/components/xsct/bin/xsct
+2025-11-16 09:27:54,746 - [INFO] Getting Platform info from HW file
+2025-11-16 09:27:54,746 - [DEBUG] Using the soc_family specified by user:zynqmp
+2025-11-16 09:27:54,811 - [DEBUG] Hardware Configuration:
+2025-11-16 09:27:54,811 - [DEBUG] MACHINE     = "None"
+2025-11-16 09:27:54,811 - [DEBUG] DEVICE_ID   = "xck26"
+2025-11-16 09:27:54,811 - [DEBUG] SOC_FAMILY  = "zynqmp"
+2025-11-16 09:27:54,811 - [DEBUG] SOC_VARIANT = "ev"
+2025-11-16 09:27:54,811 - [INFO] Menuconfig project
+2025-11-16 09:27:54,811 - [DEBUG] Running CMD: env KCONFIG_CONFIG=/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/PetaLinux/FinalProject/project-spec/configs/config mconf -s /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/PetaLinux/FinalProject/project-spec/configs/configs/Kconfig
+2025-11-16 09:28:31,434 - [INFO] Silentconfig rootfs
+2025-11-16 09:28:31,434 - [DEBUG] Running CMD: yes "" | env KCONFIG_CONFIG=/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/PetaLinux/FinalProject/project-spec/configs/rootfs_config conf /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/PetaLinux/FinalProject/project-spec/configs/rootfsconfigs/Kconfig
+2025-11-16 09:28:31,449 - [DEBUG] *
 * Configuration
 *
 *
@@ -3500,24 +3479,7 @@ Add Users to Sudo users (ADD_USERS_TO_SUDOERS) [petalinux]
 #
 # configuration written to /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/PetaLinux/FinalProject/project-spec/configs/rootfs_config
 #
-2025-11-16 05:36:55,247 - [INFO] Generating configuration files
-2025-11-16 05:36:55,256 - [DEBUG] No multilibs enabled.
-2025-11-16 05:36:55,256 - [DEBUG] No multilibs enabled.
-2025-11-16 05:36:55,258 - [DEBUG] sed -i "\|/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/PetaLinux/FinalProject/project-spec/meta-system-controller|d"  "/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/PetaLinux/FinalProject/build/conf/layerslist"
-2025-11-16 05:36:55,265 - [DEBUG] 
-
-
-
-2025-11-16 05:36:55,265 - [DEBUG] sed -i "\|/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/PetaLinux/FinalProject/project-spec/meta-system-controller|d"  "/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/PetaLinux/FinalProject/build/conf/bblayers.conf"
-2025-11-16 05:36:55,270 - [DEBUG] 
-
-
-
-2025-11-16 05:36:55,314 - [INFO] Generating machine conf file
-2025-11-16 05:36:55,331 - [INFO] Generating plnxtool conf file
-2025-11-16 05:36:55,396 - [DEBUG] python3 /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/PetaLinux/FinalProject/components/yocto/layers/meta-xilinx/meta-xilinx-core/gen-machine-conf/gen-machine-scripts/rootfsconfigs/rootfs_config.py --update_cfg /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/PetaLinux/FinalProject/project-spec/configs/rootfs_config /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/PetaLinux/FinalProject/build/conf/plnxtool.conf zynqmp
-2025-11-16 05:36:55,492 - [DEBUG] 
-
-
-
-2025-11-16 05:36:55,494 - [DEBUG] Shutting down bitbake
+2025-11-16 09:28:31,458 - [INFO] Generating configuration files
+2025-11-16 09:28:31,466 - [DEBUG] No multilibs enabled.
+2025-11-16 09:28:31,466 - [DEBUG] No multilibs enabled.
+2025-11-16 09:28:31,513 - [DEBUG] Shutting down bitbake

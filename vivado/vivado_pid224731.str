@@ -1,0 +1,1032 @@
+/*
+
+AMD Vivado v2025.1 (64-bit) [Major: 2025, Minor: 1]
+SW Build: 6140274 on Wed May 21 22:58:25 MDT 2025
+IP Build: 6138677 on Thu May 22 03:10:11 MDT 2025
+IP Build: 6138677 on Thu May 22 03:10:11 MDT 2025
+
+Process ID (PID): 224731
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Sat Nov 15 23:10:35 MST 2025
+Time zone: 	Mountain Standard Time (America/Denver)
+
+OS: Ubuntu
+OS Version: 6.8.0-87-generic
+OS Architecture: amd64
+Available processors (cores): 8
+LSB Release Description: DISTRIB_ID=Ubuntu
+
+Display: 0
+Screen size: 2048x1152
+Local screen bounds: x = 70, y = 27, width = 1978, height = 1125
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+OS font scaling: 100%
+Anti-Alias Enabled: false
+
+Java version: 	21.0.1 64-bit
+
+Java home: 	/tools/Xilinx/2025.1/tps/lnx64/jre21.0.1_12
+Java executable: 	/tools/Xilinx/2025.1/tps/lnx64/jre21.0.1_12/bin/java
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Dsun.java2d.uiScale.enabled=false, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, -XX:+UseStringDeduplication, -XX:MaxGCPauseMillis=200, -XX:ParallelGCThreads=4, -XX:+ParallelRefProcEnabled, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, -XX:NewSize=80m, -XX:MaxNewSize=80m, -Xms812m, -Xmx6144m, -Xss10m, -Xrs]
+Java initial memory (-Xms): 	812 MB
+Java maximum memory (-Xmx):	 6 GB
+
+User name: 	stealthadmin
+User home directory: /home/stealthadmin
+User working directory: /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /tools/Xilinx/2025.1
+HDI_APPROOT: /tools/Xilinx/2025.1/Vivado
+RDI_DATADIR: /tools/Xilinx/2025.1/data
+RDI_BINDIR: /tools/Xilinx/2025.1/Vivado/bin
+
+Vivado preferences file: /home/stealthadmin/.Xilinx/Vivado/2025.1/vivado.xml
+Vivado preferences directory: /home/stealthadmin/.Xilinx/Vivado/2025.1/
+Vivado layouts directory: /home/stealthadmin/.Xilinx/Vivado/2025.1/data/layouts
+PlanAhead jar file: 	/tools/Xilinx/2025.1/Vivado/lib/classes/planAhead.jar
+Vivado log file: 	/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/vivado.log
+Vivado journal file: 	/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-224731-Ubuntu
+Non-Default Parameters:	[]
+
+Xilinx & AMD Environment Variables
+--------------------------------------------------------------------------------------------
+GNOME_SHELL_SESSION_MODE: ubuntu
+RDI_APPROOT: /tools/Xilinx/2025.1/Vivado
+RDI_BASEROOT: /tools/Xilinx/2025.1
+RDI_BINROOT: /tools/Xilinx/2025.1/Vivado/bin
+RDI_BUILD: yes
+RDI_DATADIR: /tools/Xilinx/2025.1/Vivado/data
+RDI_INSTALLROOT: /tools/Xilinx
+RDI_INSTALLVER: Vivado
+RDI_JAVA_PLATFORM: 
+RDI_JAVA_VERSION: 21.0.1_12
+RDI_LIBDIR: /tools/Xilinx/2025.1/Vivado/lib/lnx64.o/Ubuntu/22:/tools/Xilinx/2025.1/Vivado/lib/lnx64.o/Ubuntu:/tools/Xilinx/2025.1/Vivado/lib/lnx64.o
+RDI_OPT_EXT: .o
+RDI_PATCHROOT: 
+RDI_PLATFORM: lnx64
+RDI_PREPEND_PATH: /tools/Xilinx/2025.1/Vitis/bin:/tools/Xilinx/2025.1/Vivado/ids_lite/ISE/bin/lin64
+RDI_PROG: /tools/Xilinx/2025.1/Vivado/bin/unwrapped/lnx64.o/vivado
+RDI_SESSION_INFO: /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado:Ubuntu_1763273414_224684
+RDI_SHARED_DATA: /tools/Xilinx/SharedData/Vivado/data
+RDI_TPS_ROOT: /tools/Xilinx/2025.1/Vivado/tps/lnx64
+RDI_USE_JDK21: True
+SHELL: /bin/bash
+XILINX: /tools/Xilinx/2025.1/Vivado/ids_lite/ISE
+XILINX_DSP: /tools/Xilinx/2025.1/Vivado/ids_lite/ISE
+XILINX_HLS: /tools/Xilinx/2025.1/Vitis
+XILINX_PLANAHEAD: /tools/Xilinx/2025.1/Vivado
+XILINX_SDK: /tools/Xilinx/2025.1/Vitis
+XILINX_VITIS: /tools/Xilinx/2025.1/Vitis
+XILINX_VIVADO: /tools/Xilinx/2025.1/Vivado
+
+
+GUI allocated memory:	812 MB
+GUI max memory:		6,144 MB
+Engine allocated memory: 1,884 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,884 MB. GUI used memory: 70 MB. Current time: 11/15/25, 11:10:36 PM MST
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ah (PAResourceItoN.MainMenuMgr_FILE, File)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // am (PAResourceItoN.MainMenuMgr_PROJECT, Project)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // am (PAResourceItoN.MainMenuMgr_CHECKPOINT, Checkpoint)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // am (PAResourceItoN.MainMenuMgr_PROJECT, Project)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // am (PAResourceItoN.MainMenuMgr_CHECKPOINT, Checkpoint)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // am (PAResourceItoN.MainMenuMgr_PROJECT, Project)
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_PROJECT, "Open..."); // ap (PAResourceCommand.PACommandNames_OPEN_PROJECT, open_project_menu)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ah (PAResourceItoN.MainMenuMgr_FILE, File)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+setFileChooser("/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/ECEN5713_FinalProject_DonavonFacey/ECEN5713_FinalProject_DonavonFacey.xpr");
+// Opening Vivado Project: /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/ECEN5713_FinalProject_DonavonFacey/ECEN5713_FinalProject_DonavonFacey.xpr. Version: Vivado v2025.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 116 MB (+119349kb) [00:00:35]
+// [Engine Memory]: 1,929 MB (+1870883kb) [00:00:35]
+// WARNING: HEventQueue.dispatchEvent() is taking  2065 ms.
+// Tcl Message: open_project /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/ECEN5713_FinalProject_DonavonFacey/ECEN5713_FinalProject_DonavonFacey.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from '/home/stealthadmin/ECEN5713/XilinxTestFolder/PL/vivado/ECEN5713_FinalProject_DonavonFacey' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/2025.1/Vivado/data/ip'. 
+// Project name: ECEN5713_FinalProject_DonavonFacey; location: /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/ECEN5713_FinalProject_DonavonFacey; part: xck26-sfvc784-2LV-c
+// Tcl Message: open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:05 . Memory (MB): peak = 9994.590 ; gain = 173.504 ; free physical = 681 ; free virtual = 15749 
+dismissDialog("Open Project"); // bk (Open Project Progress)
+// [GUI Memory]: 126 MB (+4172kb) [00:00:38]
+// [Engine Memory]: 2,032 MB (+6990kb) [00:00:39]
+// HMemoryUtils.trashcanNow. Engine heap size: 2,045 MB. GUI used memory: 77 MB. Current time: 11/15/25, 11:11:01 PM MST
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, BlockDiagram (BlockDiagram.bd)]", 1, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, BlockDiagram (BlockDiagram.bd)]", 1, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+// TclEventType: LOAD_FEATURE
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: open_bd_design {/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/ECEN5713_FinalProject_DonavonFacey/ECEN5713_FinalProject_DonavonFacey.srcs/sources_1/bd/BlockDiagram/BlockDiagram.bd} 
+// Tcl Message: Reading block design file </home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/ECEN5713_FinalProject_DonavonFacey/ECEN5713_FinalProject_DonavonFacey.srcs/sources_1/bd/BlockDiagram/BlockDiagram.bd>... 
+// [GUI Memory]: 133 MB (+615kb) [00:00:45]
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: LOAD_FEATURE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: Adding component instance block -- xilinx.com:ip:zynq_ultra_ps_e:3.5 - zynq_ultra_ps_e_0 Successfully read diagram <BlockDiagram> from block design file </home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/ECEN5713_FinalProject_DonavonFacey/ECEN5713_FinalProject_DonavonFacey.srcs/sources_1/bd/BlockDiagram/BlockDiagram.bd> 
+// TclEventType: RSB_OPEN_DIAGRAM
+// [GUI Memory]: 156 MB (+17716kb) [00:00:52]
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "unselect_objects"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+// [Engine Memory]: 2,139 MB (+5335kb) [00:00:53]
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // x (PAResourceOtoP.PAViews_PROJECT_SUMMARY, PlanAheadTabProject Summary)
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// Tcl Message: open_bd_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 10098.195 ; gain = 77.695 ; free physical = 620 ; free virtual = 15773 
+dismissDialog("Open Block Design"); // bk (Open Block Design Progress)
+// WARNING: HTimer (Open addressing views timer) is taking 89ms to process. Increasing delay to 1300 ms.
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ah (PAResourceItoN.MainMenuMgr_FILE, File)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // am (PAResourceItoN.MainMenuMgr_PROJECT, Project)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // am (PAResourceItoN.MainMenuMgr_PROJECT, Project)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent"); // am (PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, Open Recent)
+selectMenuItem(PAResourceCommand.PACommandNames_CLOSE_PROJECT, "Close"); // ap (PAResourceCommand.PACommandNames_CLOSE_PROJECT, close_project_menu)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ah (PAResourceItoN.MainMenuMgr_FILE, File)
+// Run Command: PAResourceCommand.PACommandNames_CLOSE_PROJECT
+selectButton(RDIResource.BaseDialog_OK, "OK", "Close Project"); // f (RDIResource.BaseDialog_OK)
+dismissDialog("Close Project"); // x (dialog1)
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,175 MB. GUI used memory: 81 MB. Current time: 11/15/25, 11:11:26 PM MST
+// Tcl Message: close_project 
+dismissDialog("Close Project"); // bk (Close Project Progress)
+selectButton(PAResourceEtoH.GettingStartedView_OPEN_PROJECT, "Open Project"); // t (PAResourceEtoH.GettingStartedView_OPEN_PROJECT)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+dismissFileChooser();
+selectList(PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS, "/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.xpr", 1); // b.c (PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS)
+// Opening Vivado Project: /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.xpr. Version: Vivado v2025.1 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// WARNING: HEventQueue.dispatchEvent() is taking  1176 ms.
+// Tcl Message: open_project /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from '/home/stealthadmin/ECEN5713/XilinxTestFolder/PL/vivado/Example_Project' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/2025.1/Vivado/data/ip'. 
+// Project name: Example_Project; location: /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project; part: xck26-sfvc784-2LV-c
+dismissDialog("Open Project"); // bk (Open Project Progress)
+// [Engine Memory]: 2,248 MB (+2493kb) [00:01:13]
+// TclEventType: DG_GRAPH_GENERATED
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, kria_starter_kit_wrapper (kria_starter_kit_wrapper.v)]", 2); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, kria_starter_kit_wrapper (kria_starter_kit_wrapper.v), kria_starter_kit_i : kria_starter_kit (kria_starter_kit.bd)]", 3, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, kria_starter_kit_wrapper (kria_starter_kit_wrapper.v), kria_starter_kit_i : kria_starter_kit (kria_starter_kit.bd)]", 3, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: open_bd_design {/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/bd/kria_starter_kit/kria_starter_kit.bd} 
+// Tcl Message: Reading block design file </home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/bd/kria_starter_kit/kria_starter_kit.bd>... Adding component instance block -- xilinx.com:ip:zynq_ultra_ps_e:3.5 - zynq_ultra_ps_e_0 Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps8_0_99M Successfully read diagram <kria_starter_kit> from block design file </home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/bd/kria_starter_kit/kria_starter_kit.bd> 
+// [GUI Memory]: 166 MB (+2155kb) [00:01:23]
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "unselect_objects"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // x (PAResourceOtoP.PAViews_PROJECT_SUMMARY, PlanAheadTabProject Summary)
+// Tcl Message: open_bd_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 10295.926 ; gain = 0.000 ; free physical = 716 ; free virtual = 15789 
+dismissDialog("Open Block Design"); // bk (Open Block Design Progress)
+// Elapsed time: 17 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 987, 531, 1250, 615, false, false, false, true, false); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem) - Popup Trigger
+selectMenu(PAResourceQtoS.SystemBuilderView_PINNING, "Pinning"); // am (PAResourceQtoS.SystemBuilderView_PINNING, Pinning)
+selectMenu(PAResourceQtoS.SystemBuilderView_PINNING, "Pinning"); // am (PAResourceQtoS.SystemBuilderView_PINNING, Pinning)
+selectMenu(PAResourceQtoS.SystemBuilderView_PINNING, "Pinning"); // am (PAResourceQtoS.SystemBuilderView_PINNING, Pinning)
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_CREATE_PORT, "Create Port..."); // ap (PAResourceQtoS.SystemBuilderMenu_CREATE_PORT, Create Port...)
+selectComboBox(PAResourceAtoD.CreateRSBPortDialog_DIRECTION, "Direction:", "Output", 1); // d (PAResourceAtoD.CreateRSBPortDialog_DIRECTION, Direction: )
+setText(PAResourceAtoD.CreateRSBPortDialog_PORT_NAME, "PL_CLK"); // ad (PAResourceAtoD.CreateRSBPortDialog_PORT_NAME)
+selectComboBox(PAResourceAtoD.CreateRSBPortDialog_TYPE, "Type:", "Clock", 0); // d (PAResourceAtoD.CreateRSBPortDialog_TYPE, Type:)
+selectComboBox(PAResourceAtoD.CreateRSBPortDialog_TYPE, "Type:", "Clock", 0); // d (PAResourceAtoD.CreateRSBPortDialog_TYPE, Type:)
+selectButton(RDIResource.BaseDialog_OK, "OK", "Create Port"); // f (RDIResource.BaseDialog_OK)
+dismissDialog("Create Port"); // aS (PL_CLK)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: create_bd_port -dir O -type clk PL_CLK 
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 56s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 58s
+// HMemoryUtils.trashcanNow. Engine heap size: 2,307 MB. GUI used memory: 94 MB. Current time: 11/15/25, 11:12:31 PM MST
+// Tcl Command: 'set_property location {1097 334} [get_bd_ports PL_CLK]'
+// TclEventType: RSB_CANVAS_LOCATION
+// Tcl Message: set_property location {1097 334} [get_bd_ports PL_CLK] 
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_nets /zynq_ultra_ps_e_0_pl_clk0]"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_ports PL_CLK] [get_bd_pins zynq_ultra_ps_e_0/pl_clk0] 
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "unselect_objects"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+// Elapsed time: 119 seconds
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "unselect_objects"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 1025, 453, 1250, 615, false, false, false, true, false); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem) - Popup Trigger
+selectMenu(PAResourceQtoS.SystemBuilderView_PINNING, "Pinning"); // am (PAResourceQtoS.SystemBuilderView_PINNING, Pinning)
+selectMenu(PAResourceQtoS.SystemBuilderView_PINNING, "Pinning"); // am (PAResourceQtoS.SystemBuilderView_PINNING, Pinning)
+selectMenu(PAResourceQtoS.SystemBuilderView_PINNING, "Pinning"); // am (PAResourceQtoS.SystemBuilderView_PINNING, Pinning)
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_CREATE_PORT, "Create Port..."); // ap (PAResourceQtoS.SystemBuilderMenu_CREATE_PORT, Create Port...)
+setText(PAResourceAtoD.CreateRSBPortDialog_PORT_NAME, "PS_RESET"); // ad (PAResourceAtoD.CreateRSBPortDialog_PORT_NAME)
+selectComboBox(PAResourceAtoD.CreateRSBPortDialog_TYPE, "Type:", "Reset", 1); // d (PAResourceAtoD.CreateRSBPortDialog_TYPE, Type:)
+selectRadioButton(PAResourceAtoD.CreateRSBPortDialog_ACTIVE_LOW, "Active Low"); // a (PAResourceAtoD.CreateRSBPortDialog_ACTIVE_LOW)
+selectButton(RDIResource.BaseDialog_OK, "OK", "Create Port"); // f (RDIResource.BaseDialog_OK)
+dismissDialog("Create Port"); // aS (PS_RESET)
+// Tcl Message: startgroup 
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: create_bd_port -dir I -type rst PS_RESET 
+// Tcl Message: endgroup 
+// Tcl Command: 'set_property location {-21 373} [get_bd_ports PS_RESET]'
+// TclEventType: RSB_CANVAS_LOCATION
+// Tcl Message: set_property location {-21 373} [get_bd_ports PS_RESET] 
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "unselect_objects"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_ports PS_RESET] [get_bd_pins rst_ps8_0_99M/aux_reset_in] 
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_pins /rst_ps8_0_99M/aux_reset_in]"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_pins /rst_ps8_0_99M/aux_reset_in]"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+runCommand("customize_rsb_pin");
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_PIN
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel", "Customize Pin"); // f (RDIResource.BaseDialog_CANCEL)
+dismissDialog("Customize Pin"); // m (dialog3)
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "unselect_objects"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+// Elapsed time: 114 seconds
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_pins /zynq_ultra_ps_e_0/emio_gpio_o]"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_pins /zynq_ultra_ps_e_0/emio_gpio_o]"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+runCommand("customize_rsb_pin");
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_pins /zynq_ultra_ps_e_0/emio_gpio_o]"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_pins /zynq_ultra_ps_e_0/emio_gpio_o]"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+runCommand("customize_rsb_pin");
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 622, 229, 1250, 615, false, false, false, true, false); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem) - Popup Trigger
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_pins /zynq_ultra_ps_e_0/emio_gpio_o]"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "unselect_objects"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_cells /zynq_ultra_ps_e_0]"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_cells /zynq_ultra_ps_e_0]"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+runCommand("customize_rsb_block");
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// HMemoryUtils.trashcanNow. Engine heap size: 2,395 MB. GUI used memory: 97 MB. Current time: 11/15/25, 11:17:11 PM MST
+// Tcl Message: INFO: [PSU-1]  DP_AUDIO clock source: RPLL is also being used by other peripheral clocks. Their outputs may get impacted if any driver changes DP_AUDIO PLL source to support runtime audio change  
+// WARNING: HEventQueue.dispatchEvent() is taking  2182 ms.
+// Tcl Message: INFO: [PSU-1]  DP_AUDIO clock source: RPLL is also being used by other peripheral clocks. Their outputs may get impacted if any driver changes DP_AUDIO PLL source to support runtime audio change  
+dismissDialog("Re-customize IP"); // C (Re-customize IP Progress)
+selectSVGCanvas(PAResourceOtoP.PSSBlockDiagramPanel_PS_ULTRASCALE_SVG_BD, "GPIO"); // a (PAResourceOtoP.PSSBlockDiagramPanel_PS_ULTRASCALE_SVG_BD)
+// [GUI Memory]: 192 MB (+18121kb) [00:07:07]
+// [Engine Memory]: 2,433 MB (+75970kb) [00:07:07]
+selectTreeTable(PAResourceOtoP.PSSTreeTablePanelBuilder_MIO_TREE, "GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO", 10, "GPIO", 0, true); // aj (PAResourceOtoP.PSSTreeTablePanelBuilder_MIO_TREE) - Node
+selectTreeTable(PAResourceOtoP.PSSTreeTablePanelBuilder_MIO_TREE, "GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO", 10, "GPIO", 0, true); // aj (PAResourceOtoP.PSSTreeTablePanelBuilder_MIO_TREE) - Node
+selectTreeTable(PAResourceOtoP.PSSTreeTablePanelBuilder_MIO_TREE, "GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO", 10, "GPIO", 0, true); // aj (PAResourceOtoP.PSSTreeTablePanelBuilder_MIO_TREE) - Node
+selectTreeTable(PAResourceOtoP.PSSTreeTablePanelBuilder_MIO_TREE, "GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO", 10, "GPIO", 0, true); // aj (PAResourceOtoP.PSSTreeTablePanelBuilder_MIO_TREE) - Node
+selectTreeTable(PAResourceOtoP.PSSTreeTablePanelBuilder_MIO_TREE, "GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO", 10, "GPIO", 0, true); // aj (PAResourceOtoP.PSSTreeTablePanelBuilder_MIO_TREE) - Node
+selectTreeTable(PAResourceOtoP.PSSTreeTablePanelBuilder_MIO_TREE, "GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO", 10, "GPIO", 0, true); // aj (PAResourceOtoP.PSSTreeTablePanelBuilder_MIO_TREE) - Node
+selectTreeTable(PAResourceOtoP.PSSTreeTablePanelBuilder_MIO_TREE, "GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO", 10, "GPIO", 0, true); // aj (PAResourceOtoP.PSSTreeTablePanelBuilder_MIO_TREE) - Node
+selectTreeTable(PAResourceOtoP.PSSTreeTablePanelBuilder_MIO_TREE, "GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO", 10, "GPIO", 0, true); // aj (PAResourceOtoP.PSSTreeTablePanelBuilder_MIO_TREE) - Node
+selectTreeTable(PAResourceOtoP.PSSTreeTablePanelBuilder_MIO_TREE, "GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO", 10, "GPIO", 0, true); // aj (PAResourceOtoP.PSSTreeTablePanelBuilder_MIO_TREE) - Node
+selectTreeTable(PAResourceOtoP.PSSTreeTablePanelBuilder_MIO_TREE, "GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO", 10, "GPIO", 0, true); // aj (PAResourceOtoP.PSSTreeTablePanelBuilder_MIO_TREE) - Node
+selectTreeTable(PAResourceOtoP.PSSTreeTablePanelBuilder_MIO_TREE, "GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO", 10, "GPIO", 0, true); // aj (PAResourceOtoP.PSSTreeTablePanelBuilder_MIO_TREE) - Node
+selectTreeTable(PAResourceOtoP.PSSTreeTablePanelBuilder_MIO_TREE, "GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO", 10, "GPIO", 0, true); // aj (PAResourceOtoP.PSSTreeTablePanelBuilder_MIO_TREE) - Node
+selectTreeTable(PAResourceOtoP.PSSTreeTablePanelBuilder_MIO_TREE, "GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO", 10, "GPIO", 0, true); // aj (PAResourceOtoP.PSSTreeTablePanelBuilder_MIO_TREE) - Node
+selectTreeTable(PAResourceOtoP.PSSTreeTablePanelBuilder_MIO_TREE, "GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO", 10, "GPIO", 0, true); // aj (PAResourceOtoP.PSSTreeTablePanelBuilder_MIO_TREE) - Node
+selectTreeTable(PAResourceOtoP.PSSTreeTablePanelBuilder_MIO_TREE, "GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO", 10, "GPIO", 0, true); // aj (PAResourceOtoP.PSSTreeTablePanelBuilder_MIO_TREE) - Node
+selectTreeTable(PAResourceOtoP.PSSTreeTablePanelBuilder_MIO_TREE, "GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO", 10, "GPIO", 0, true); // aj (PAResourceOtoP.PSSTreeTablePanelBuilder_MIO_TREE) - Node
+selectTreeTable(PAResourceOtoP.PSSTreeTablePanelBuilder_MIO_TREE, "GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO ; GPIO", 10, "GPIO", 0, true); // aj (PAResourceOtoP.PSSTreeTablePanelBuilder_MIO_TREE) - Node
+selectTreeTable(PAResourceOtoP.PSSTreeTablePanelBuilder_MIO_TREE, "GPIO EMIO ; 8 ;  ;  ;  ;  ;  ;  ; ", 11, (String) null, 5, false); // aj (PAResourceOtoP.PSSTreeTablePanelBuilder_MIO_TREE)
+selectTreeTable(PAResourceOtoP.PSSTreeTablePanelBuilder_MIO_TREE, "GPIO EMIO ; 8 ;  ;  ;  ;  ;  ;  ; ", 11, (String) null, 5, false); // aj (PAResourceOtoP.PSSTreeTablePanelBuilder_MIO_TREE)
+selectTreeTable(PAResourceOtoP.PSSTreeTablePanelBuilder_MIO_TREE, "GPIO EMIO ; 8 ;  ;  ;  ;  ;  ;  ; ", 11, (String) null, 5, false, false, false, false, false, true); // aj (PAResourceOtoP.PSSTreeTablePanelBuilder_MIO_TREE) - Double Click
+// Elapsed time: 10 seconds
+selectButton(PAResourceOtoP.PSSPanelMainPage_ICON_BUTTTON, "PS-PL Configuration", "Re-customize IP"); // k (PAResourceOtoP.PSSPanelMainPage_ICON_BUTTTON, PS-PL Configuration)
+selectTreeTable(PAResourceOtoP.PSSTreeTablePanelBuilder_GENERAL_TREE, "General ; General", 0, "General", 0, true); // aj (PAResourceOtoP.PSSTreeTablePanelBuilder_GENERAL_TREE) - Node
+expandTreeTable(PAResourceOtoP.PSSTreeTablePanelBuilder_GENERAL_TREE, "General ; General", 0); // aj (PAResourceOtoP.PSSTreeTablePanelBuilder_GENERAL_TREE)
+expandTreeTable(PAResourceOtoP.PSSTreeTablePanelBuilder_GENERAL_TREE, "Interrupts ; Interrupts", 1); // aj (PAResourceOtoP.PSSTreeTablePanelBuilder_GENERAL_TREE)
+expandTreeTable(PAResourceOtoP.PSSTreeTablePanelBuilder_GENERAL_TREE, "PL to PS ; PL to PS", 2); // aj (PAResourceOtoP.PSSTreeTablePanelBuilder_GENERAL_TREE)
+selectTreeTable(PAResourceOtoP.PSSTreeTablePanelBuilder_GENERAL_TREE, "PL to PS ; PL to PS", 2, "PL to PS", 0, true, false, false, false, false, true); // aj (PAResourceOtoP.PSSTreeTablePanelBuilder_GENERAL_TREE) - Double Click - Node
+collapseTreeTable(PAResourceOtoP.PSSTreeTablePanelBuilder_GENERAL_TREE, "PL to PS ; PL to PS", 2); // aj (PAResourceOtoP.PSSTreeTablePanelBuilder_GENERAL_TREE)
+collapseTreeTable(PAResourceOtoP.PSSTreeTablePanelBuilder_GENERAL_TREE, "Interrupts ; Interrupts", 1); // aj (PAResourceOtoP.PSSTreeTablePanelBuilder_GENERAL_TREE)
+expandTreeTable(PAResourceOtoP.PSSTreeTablePanelBuilder_GENERAL_TREE, "Others ; Others", 4); // aj (PAResourceOtoP.PSSTreeTablePanelBuilder_GENERAL_TREE)
+collapseTreeTable(PAResourceOtoP.PSSTreeTablePanelBuilder_GENERAL_TREE, "Others ; Others", 4); // aj (PAResourceOtoP.PSSTreeTablePanelBuilder_GENERAL_TREE)
+expandTreeTable(PAResourceOtoP.PSSTreeTablePanelBuilder_GENERAL_TREE, "PS-PL Interfaces ; PS-PL Interfaces", 5); // aj (PAResourceOtoP.PSSTreeTablePanelBuilder_GENERAL_TREE)
+expandTreeTable(PAResourceOtoP.PSSTreeTablePanelBuilder_GENERAL_TREE, "Master Interface ; Master Interface", 6); // aj (PAResourceOtoP.PSSTreeTablePanelBuilder_GENERAL_TREE)
+collapseTreeTable(PAResourceOtoP.PSSTreeTablePanelBuilder_GENERAL_TREE, "Master Interface ; Master Interface", 6); // aj (PAResourceOtoP.PSSTreeTablePanelBuilder_GENERAL_TREE)
+expandTreeTable(PAResourceOtoP.PSSTreeTablePanelBuilder_GENERAL_TREE, "Slave Interface ; Slave Interface", 7); // aj (PAResourceOtoP.PSSTreeTablePanelBuilder_GENERAL_TREE)
+collapseTreeTable(PAResourceOtoP.PSSTreeTablePanelBuilder_GENERAL_TREE, "Slave Interface ; Slave Interface", 7); // aj (PAResourceOtoP.PSSTreeTablePanelBuilder_GENERAL_TREE)
+expandTreeTable(PAResourceOtoP.PSSTreeTablePanelBuilder_GENERAL_TREE, "Debug ; Debug", 8); // aj (PAResourceOtoP.PSSTreeTablePanelBuilder_GENERAL_TREE)
+collapseTreeTable(PAResourceOtoP.PSSTreeTablePanelBuilder_GENERAL_TREE, "Debug ; Debug", 8); // aj (PAResourceOtoP.PSSTreeTablePanelBuilder_GENERAL_TREE)
+selectButton(PAResourceOtoP.PSSPanelMainPage_ICON_BUTTTON, "DDR Configuration", "Re-customize IP"); // k (PAResourceOtoP.PSSPanelMainPage_ICON_BUTTTON, DDR Configuration)
+selectButton(PAResourceOtoP.PSSPanelMainPage_ICON_BUTTTON, "PS-PL Configuration", "Re-customize IP"); // k (PAResourceOtoP.PSSPanelMainPage_ICON_BUTTTON, PS-PL Configuration)
+expandTreeTable(PAResourceOtoP.PSSTreeTablePanelBuilder_GENERAL_TREE, "Debug ; Debug", 8); // aj (PAResourceOtoP.PSSTreeTablePanelBuilder_GENERAL_TREE)
+selectTreeTable(PAResourceOtoP.PSSTreeTablePanelBuilder_GENERAL_TREE, "GP Input[0:31] ; GPI IN", 11, "GPI IN", 1, false); // aj (PAResourceOtoP.PSSTreeTablePanelBuilder_GENERAL_TREE)
+selectTreeTable(PAResourceOtoP.PSSTreeTablePanelBuilder_GENERAL_TREE, "GP Input[0:31] ; GPI IN", 11, "GPI IN", 1, false); // aj (PAResourceOtoP.PSSTreeTablePanelBuilder_GENERAL_TREE)
+selectButton(PAResourceOtoP.PSSPanelMainPage_ICON_BUTTTON, "DDR Configuration", "Re-customize IP"); // k (PAResourceOtoP.PSSPanelMainPage_ICON_BUTTTON, DDR Configuration)
+selectButton(PAResourceOtoP.PSSPanelMainPage_ICON_BUTTTON, "Clock Configuration", "Re-customize IP"); // k (PAResourceOtoP.PSSPanelMainPage_ICON_BUTTTON, Clock Configuration)
+selectButton(PAResourceOtoP.PSSPanelMainPage_ICON_BUTTTON, "I/O Configuration", "Re-customize IP"); // k (PAResourceOtoP.PSSPanelMainPage_ICON_BUTTTON, I/O Configuration)
+selectButton(PAResourceOtoP.PSSPanelMainPage_ICON_BUTTTON, "PS UltraScale+ Block Design", "Re-customize IP"); // k (PAResourceOtoP.PSSPanelMainPage_ICON_BUTTTON, PS UltraScale+ Block Design)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel", "Re-customize IP"); // f (RDIResource.BaseDialog_CANCEL)
+dismissDialog("Re-customize IP"); // m (dialog4)
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "unselect_objects"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+// [GUI Memory]: 209 MB (+7760kb) [00:09:23]
+// Elapsed time: 92 seconds
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "unselect_objects"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+// Run Command: PAResourceCommand.PACommandNames_SAVE_RSB_DESIGN
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// Tcl Message: save_bd_design 
+// Tcl Message: Wrote  : </home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/bd/kria_starter_kit/kria_starter_kit.bd>  Wrote  : </home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/bd/kria_starter_kit/ui/bd_309a37e6.ui>  
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 08m:34s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 08m:36s
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (PAResourceTtoZ.TaskBanner_CLOSE)
+closeTask("IP Integrator", "Block Design", "DesignTask.IP_INTEGRATOR");
+selectButton(RDIResource.BaseDialog_OK, "OK", "Confirm Close"); // f (RDIResource.BaseDialog_OK)
+dismissDialog("Confirm Close"); // x (dialog5)
+// TclEventType: RSB_CLOSE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// Tcl Message: close_bd_design [get_bd_designs kria_starter_kit] 
+// TclEventType: RSB_SCRIPT_TASK
+// HMemoryUtils.trashcanNow. Engine heap size: 2,482 MB. GUI used memory: 130 MB. Current time: 11/15/25, 11:20:11 PM MST
+dismissDialog("Close Block Designs"); // bk (Close Block Designs Progress)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, kria_starter_kit_wrapper (kria_starter_kit_wrapper.v)]", 4, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, kria_starter_kit_wrapper (kria_starter_kit_wrapper.v)]", 4, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, kria_starter_kit_wrapper (kria_starter_kit_wrapper.v)]", 4, true, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_OPEN_FILE_WITH, "Open With"); // am (PAResourceCommand.PACommandNames_OPEN_FILE_WITH, Open With)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // am (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // am (PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // am (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, kria_starter_kit_wrapper (kria_starter_kit_wrapper.v)]", 4); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, kria_starter_kit_wrapper (kria_starter_kit_wrapper.v), kria_starter_kit_i : kria_starter_kit (kria_starter_kit.bd)]", 5, true, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_OPEN_FILE_WITH, "Open With"); // am (PAResourceCommand.PACommandNames_OPEN_FILE_WITH, Open With)
+selectMenu(PAResourceCommand.PACommandNames_OPEN_FILE_WITH, "Open With"); // am (PAResourceCommand.PACommandNames_OPEN_FILE_WITH, Open With)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, kria_starter_kit_wrapper (kria_starter_kit_wrapper.v)]", 4); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.sv)]", 1, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.sv)]", 1, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Run Linter]", 13, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,530 MB. GUI used memory: 130 MB. Current time: 11/15/25, 11:20:41 PM MST
+selectButton(PAResourceOtoP.OpenOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Ok", "Run Linter"); // f (PAResourceOtoP.OpenOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY)
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: HW_HANDOFF_TARGET_STALE_EVENT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// Tcl Message: generate_target all [get_files /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/bd/kria_starter_kit/kria_starter_kit.bd] 
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: MSGMGR_REFRESH_MSG
+// TclEventType: COMPOSITE_FILE_CHANGE
+// Tcl Message: Wrote  : </home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/bd/kria_starter_kit/kria_starter_kit.bd>  
+// TclEventType: COMPOSITE_FILE_CHANGE
+// Tcl Message: Verilog Output written to : /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v Verilog Output written to : /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/sim/kria_starter_kit.v Verilog Output written to : /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/hdl/kria_starter_kit_wrapper.v 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,584 MB. GUI used memory: 130 MB. Current time: 11/15/25, 11:21:12 PM MST
+// [Engine Memory]: 2,584 MB (+30925kb) [00:10:50]
+// Tcl Message: INFO: [PSU-0] Address Range of DDR (0x7ff00000 to 0x7fffffff) is reserved by PMU for internal purpose. 
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_CLOSE_DIAGRAM
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// Tcl Message: INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI_HPM0_FPD'. A default connection has been created. INFO: [BD 41-1029] Generation completed for the IP Integrator block zynq_ultra_ps_e_0 . 
+// Tcl Message: Exporting to file /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/hw_handoff/kria_starter_kit.hwh Generated Hardware Definition File /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.hwdef 
+// Tcl Message: generate_target: Time (s): cpu = 00:00:48 ; elapsed = 00:00:45 . Memory (MB): peak = 10521.207 ; gain = 65.984 ; free physical = 395 ; free virtual = 15215 
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/bd/kria_starter_kit/kria_starter_kit.bd] 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,596 MB. GUI used memory: 130 MB. Current time: 11/15/25, 11:21:27 PM MST
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// Tcl Message: launch_runs kria_starter_kit_zynq_ultra_ps_e_0_0_synth_1 -jobs 4 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// Tcl Message: [Sat Nov 15 23:21:28 2025] Launched kria_starter_kit_zynq_ultra_ps_e_0_0_synth_1... Run output will be captured here: /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.runs/kria_starter_kit_zynq_ultra_ps_e_0_0_synth_1/runme.log 
+// Tcl Message: wait_on_run kria_starter_kit_zynq_ultra_ps_e_0_0_synth_1 
+// Tcl Message: [Sat Nov 15 23:21:28 2025] Waiting for kria_starter_kit_zynq_ultra_ps_e_0_0_synth_1 to finish... 
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: [Sat Nov 15 23:21:33 2025] Waiting for kria_starter_kit_zynq_ultra_ps_e_0_0_synth_1 to finish... 
+// Tcl Message: [Sat Nov 15 23:21:38 2025] Waiting for kria_starter_kit_zynq_ultra_ps_e_0_0_synth_1 to finish... 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,630 MB. GUI used memory: 131 MB. Current time: 11/15/25, 11:21:42 PM MST
+// Tcl Message: [Sat Nov 15 23:21:43 2025] Waiting for kria_starter_kit_zynq_ultra_ps_e_0_0_synth_1 to finish... 
+// Tcl Message: [Sat Nov 15 23:21:53 2025] Waiting for kria_starter_kit_zynq_ultra_ps_e_0_0_synth_1 to finish... 
+// Tcl Message: [Sat Nov 15 23:22:03 2025] Waiting for kria_starter_kit_zynq_ultra_ps_e_0_0_synth_1 to finish... 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,630 MB. GUI used memory: 131 MB. Current time: 11/15/25, 11:22:12 PM MST
+// Tcl Message: [Sat Nov 15 23:22:13 2025] Waiting for kria_starter_kit_zynq_ultra_ps_e_0_0_synth_1 to finish... 
+// Tcl Message: [Sat Nov 15 23:22:23 2025] Waiting for kria_starter_kit_zynq_ultra_ps_e_0_0_synth_1 to finish... 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,630 MB. GUI used memory: 131 MB. Current time: 11/15/25, 11:22:42 PM MST
+// Tcl Message: [Sat Nov 15 23:22:43 2025] Waiting for kria_starter_kit_zynq_ultra_ps_e_0_0_synth_1 to finish... 
+// Tcl Message: [Sat Nov 15 23:23:03 2025] Waiting for kria_starter_kit_zynq_ultra_ps_e_0_0_synth_1 to finish... 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Tcl Message: [Sat Nov 15 23:23:13 2025] kria_starter_kit_zynq_ultra_ps_e_0_0_synth_1 finished 
+// Tcl Message: wait_on_runs: Time (s): cpu = 00:00:10 ; elapsed = 00:01:45 . Memory (MB): peak = 10555.215 ; gain = 9.996 ; free physical = 4023 ; free virtual = 15358 
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: MSGMGR_REFRESH_MSG
+// Tcl Message: synth_design -top TopLevelModule -part xck26-sfvc784-2LV-c -lint  
+// Tcl Message: Command: synth_design -top TopLevelModule -part xck26-sfvc784-2LV-c -lint Starting synth_design Attempting to get a license for feature 'Synthesis' and/or device 'xck26' 
+// Tcl Message: INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xck26' INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes. INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes INFO: [Synth 8-7075] Helper process launched with PID 226634 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,694 MB. GUI used memory: 134 MB. Current time: 11/15/25, 11:23:16 PM MST
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting Synthesize : Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 10852.070 ; gain = 240.828 ; free physical = 3430 ; free virtual = 14770 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Clean up Linter database... 
+// TclEventType: LINTER_RUN
+// [Engine Memory]: 3,003 MB (+304235kb) [00:13:05]
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'TopLevelModule' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/imports/ECEN5713/TopLevelModule.sv:23] INFO: [Synth 8-6157] synthesizing module 'kria_starter_kit' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:13] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'kria_starter_kit_rst_ps8_0_99M_0' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/.Xil/Vivado-224731-Ubuntu/realtime/kria_starter_kit_rst_ps8_0_99M_0_stub.v:6] INFO: [Synth 8-6155] done synthesizing module 'kria_starter_kit_rst_ps8_0_99M_0' (1#1) [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/.Xil/Vivado-224731-Ubuntu/realtime/kria_starter_kit_rst_ps8_0_99M_0_stub.v:6] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'kria_starter_kit_zynq_ultra_ps_e_0_0' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/.Xil/Vivado-224731-Ubuntu/realtime/kria_starter_kit_zynq_ultra_ps_e_0_0_stub.v:6] INFO: [Synth 8-6155] done synthesizing module 'kria_starter_kit_zynq_ultra_ps_e_0_0' (2#1) [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/.Xil/Vivado-224731-Ubuntu/realtime/kria_starter_kit_zynq_ultra_ps_e_0_0_stub.v:6] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'kria_starter_kit' (3#1) [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:13] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'TopLevelModule' (4#1) [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/imports/ECEN5713/TopLevelModule.sv:23] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Synthesize : Time (s): cpu = 00:00:17 ; elapsed = 00:00:13 . Memory (MB): peak = 10928.039 ; gain = 316.797 ; free physical = 3333 ; free virtual = 14674 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 37-85] Total of 1 linter message(s) generated. INFO: [Synth 37-45] Linter Run Finished! 
+// Tcl Message: Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:13 . Memory (MB): peak = 10928.039 ; gain = 316.797 ; free physical = 3325 ; free virtual = 14666 
+// Tcl Message: INFO: [Common 17-83] Releasing license: Synthesis 
+// Tcl Message: 15 Infos, 43 Warnings, 0 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:13 . Memory (MB): peak = 10928.047 ; gain = 372.832 ; free physical = 3325 ; free virtual = 14666 
+// Tcl Message: INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 2353.042; main = 2111.146; forked = 337.168 INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 11816.832; main = 10928.043; forked = 964.758 
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/O.a': 02m:45s
+// TclEventType: FILE_SET_CHANGE
+// 'a' command handler elapsed time: 171 seconds
+// Elapsed time: 170 seconds
+selectButton("OptionPane.button", "OK", "Generate Output Products"); // JButton (OptionPane.button)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 12m:00s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 12m:02s
+// Elapsed time: 10 seconds
+selectCodeEditor("TopLevelModule.sv", 144, 480); // ae (TopLevelModule.sv)
+// Elapsed time: 21 seconds
+selectCodeEditor("TopLevelModule.sv", 202, 442); // ae (TopLevelModule.sv)
+// Elapsed time: 285 seconds
+selectCodeEditor("TopLevelModule.sv", 115, 552); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 124, 560); // ae (TopLevelModule.sv)
+typeControlKey((HResource) null, "TopLevelModule.sv", 'v'); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 162, 205); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 190, 390); // ae (TopLevelModule.sv)
+// Elapsed time: 11 seconds
+selectCodeEditor("TopLevelModule.sv", 131, 232); // ae (TopLevelModule.sv)
+// Elapsed time: 18 seconds
+selectCodeEditor("TopLevelModule.sv", 116, 323); // ae (TopLevelModule.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("TopLevelModule.sv", 122, 242); // ae (TopLevelModule.sv)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 18m:02s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 18m:06s
+// HMemoryUtils.trashcanNow. Engine heap size: 3,035 MB. GUI used memory: 133 MB. Current time: 11/15/25, 11:29:41 PM MST
+// Elapsed time: 41 seconds
+selectCodeEditor("TopLevelModule.sv", 80, 230); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 74, 210); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 74, 210, false, false, false, false, true); // ae (TopLevelModule.sv) - Double Click
+typeControlKey((HResource) null, "TopLevelModule.sv", 'c'); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 140, 303); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 136, 300); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 129, 295); // ae (TopLevelModule.sv)
+typeControlKey((HResource) null, "TopLevelModule.sv", 'v'); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 215, 331); // ae (TopLevelModule.sv)
+// Elapsed time: 13 seconds
+selectCodeEditor("TopLevelModule.sv", 110, 137); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 110, 137, false, false, false, false, true); // ae (TopLevelModule.sv) - Double Click
+selectCodeEditor("TopLevelModule.sv", 281, 363); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 253, 348); // ae (TopLevelModule.sv)
+// Elapsed time: 81 seconds
+selectCodeEditor("TopLevelModule.sv", 116, 561); // ae (TopLevelModule.sv)
+typeControlKey((HResource) null, "TopLevelModule.sv", 'v'); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 341, 16); // ae (TopLevelModule.sv)
+typeControlKey((HResource) null, "TopLevelModule.sv", 'c'); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 35, 358); // ae (TopLevelModule.sv)
+typeControlKey((HResource) null, "TopLevelModule.sv", 'v'); // ae (TopLevelModule.sv)
+// Elapsed time: 16 seconds
+selectCodeEditor("TopLevelModule.sv", 80, 297); // ae (TopLevelModule.sv)
+// Elapsed time: 46 seconds
+selectCodeEditor("TopLevelModule.sv", 84, 320); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 78, 318); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 54, 201); // ae (TopLevelModule.sv)
+// Elapsed time: 41 seconds
+selectCodeEditor("TopLevelModule.sv", 63, 562); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 82, 550); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 87, 545); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 141, 541); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 144, 549); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 120, 541); // ae (TopLevelModule.sv)
+typeControlKey((HResource) null, "TopLevelModule.sv", 'v'); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 163, 341); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 158, 338); // ae (TopLevelModule.sv)
+typeControlKey(null, null, 'z');
+// Elapsed time: 22 seconds
+selectCodeEditor("TopLevelModule.sv", 166, 348); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 166, 348, false, false, false, false, true); // ae (TopLevelModule.sv) - Double Click
+// Elapsed time: 10 seconds
+selectCodeEditor("TopLevelModule.sv", 199, 364); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 199, 364, false, false, false, false, true); // ae (TopLevelModule.sv) - Double Click
+typeControlKey((HResource) null, "TopLevelModule.sv", 'c'); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 80, 411); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 80, 411, false, false, false, false, true); // ae (TopLevelModule.sv) - Double Click
+typeControlKey((HResource) null, "TopLevelModule.sv", 'v'); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 180, 346); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 180, 346, false, false, false, false, true); // ae (TopLevelModule.sv) - Double Click
+typeControlKey((HResource) null, "TopLevelModule.sv", 'c'); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 176, 411); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 158, 411); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 158, 411, false, false, false, false, true); // ae (TopLevelModule.sv) - Double Click
+typeControlKey((HResource) null, "TopLevelModule.sv", 'v'); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 149, 442); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 149, 442, false, false, false, false, true); // ae (TopLevelModule.sv) - Double Click
+selectCodeEditor("TopLevelModule.sv", 88, 313); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 53, 316); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 46, 320); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 102, 325); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 102, 325, false, false, false, false, true); // ae (TopLevelModule.sv) - Double Click
+typeControlKey((HResource) null, "TopLevelModule.sv", 'c'); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 128, 417); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 91, 450); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 91, 449, false, false, false, false, true); // ae (TopLevelModule.sv) - Double Click
+selectCodeEditor("TopLevelModule.sv", 89, 463); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 89, 463, false, false, false, false, true); // ae (TopLevelModule.sv) - Double Click
+typeControlKey((HResource) null, "TopLevelModule.sv", 'c'); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 40, 205); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 40, 205, false, false, false, false, true); // ae (TopLevelModule.sv) - Double Click
+typeControlKey((HResource) null, "TopLevelModule.sv", 'v'); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 133, 203); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 133, 203, false, false, false, false, true); // ae (TopLevelModule.sv) - Double Click
+// Elapsed time: 12 seconds
+selectCodeEditor("TopLevelModule.sv", 72, 507); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 75, 219); // ae (TopLevelModule.sv)
+// Elapsed time: 22 seconds
+selectCodeEditor("TopLevelModule.sv", 140, 233); // ae (TopLevelModule.sv)
+// Elapsed time: 23 seconds
+selectCodeEditor("TopLevelModule.sv", 99, 531); // ae (TopLevelModule.sv)
+typeControlKey((HResource) null, "TopLevelModule.sv", 'c'); // ae (TopLevelModule.sv)
+// Elapsed time: 58 seconds
+selectCodeEditor("TopLevelModule.sv", 82, 430); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 104, 189); // ae (TopLevelModule.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 26m:09s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 27 seconds
+selectCodeEditor("TopLevelModule.sv", 148, 197); // ae (TopLevelModule.sv)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 26m:11s
+selectCodeEditor("TopLevelModule.sv", 151, 176); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 151, 187); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 151, 187); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 151, 187); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 150, 188, false, false, false, false, true); // ae (TopLevelModule.sv) - Double Click
+selectCodeEditor("TopLevelModule.sv", 141, 181); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 145, 191); // ae (TopLevelModule.sv)
+// Elapsed time: 20 seconds
+selectCodeEditor("TopLevelModule.sv", 107, 244); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 127, 200); // ae (TopLevelModule.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 27m:27s
+// HMemoryUtils.trashcanNow. Engine heap size: 3,051 MB. GUI used memory: 134 MB. Current time: 11/15/25, 11:39:01 PM MST
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 27m:29s
+// Elapsed time: 54 seconds
+selectCodeEditor("TopLevelModule.sv", 148, 212); // ae (TopLevelModule.sv)
+// Elapsed time: 13 seconds
+selectCodeEditor("TopLevelModule.sv", 106, 182); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 217, 426); // ae (TopLevelModule.sv)
+typeControlKey((HResource) null, "TopLevelModule.sv", 'c'); // ae (TopLevelModule.sv)
+typeControlKey((HResource) null, "TopLevelModule.sv", 'v'); // ae (TopLevelModule.sv)
+typeControlKey(null, null, 'z');
+typeControlKey((HResource) null, "TopLevelModule.sv", 'v'); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 300, 514); // ae (TopLevelModule.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 28m:03s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("TopLevelModule.sv", 113, 321); // ae (TopLevelModule.sv)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 28m:05s
+selectCodeEditor("TopLevelModule.sv", 62, 324); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 56, 325); // ae (TopLevelModule.sv)
+// HMemoryUtils.trashcanNow. Engine heap size: 3,075 MB. GUI used memory: 134 MB. Current time: 11/15/25, 11:39:41 PM MST
+typeControlKey((HResource) null, "TopLevelModule.sv", 'c'); // ae (TopLevelModule.sv)
+typeControlKey((HResource) null, "TopLevelModule.sv", 'v'); // ae (TopLevelModule.sv)
+// Elapsed time: 26 seconds
+selectCodeEditor("TopLevelModule.sv", 196, 183); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 124, 277); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 25, 157); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 174, 188); // ae (TopLevelModule.sv)
+// Elapsed time: 10 seconds
+selectCodeEditor("TopLevelModule.sv", 145, 203); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 145, 203, false, false, false, false, true); // ae (TopLevelModule.sv) - Double Click
+typeControlKey((HResource) null, "TopLevelModule.sv", 'c'); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 151, 383); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 150, 387); // ae (TopLevelModule.sv)
+typeControlKey((HResource) null, "TopLevelModule.sv", 'v'); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 290, 380); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 291, 386); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 294, 396); // ae (TopLevelModule.sv)
+// Elapsed time: 19 seconds
+selectCodeEditor("TopLevelModule.sv", 380, 385); // ae (TopLevelModule.sv)
+// Elapsed time: 128 seconds
+selectCodeEditor("TopLevelModule.sv", 64, 456); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 107, 586); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 100, 566); // ae (TopLevelModule.sv)
+typeControlKey((HResource) null, "TopLevelModule.sv", 'v'); // ae (TopLevelModule.sv)
+selectButton("OptionPane.button", "Yes", "Confirm Paste"); // JButton (OptionPane.button)
+selectCodeEditor("TopLevelModule.sv", 119, 153); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 119, 153, false, false, false, false, true); // ae (TopLevelModule.sv) - Double Click
+selectCodeEditor("TopLevelModule.sv", 113, 139); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 113, 139, false, false, false, false, true); // ae (TopLevelModule.sv) - Double Click
+typeControlKey((HResource) null, "TopLevelModule.sv", 'c'); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 65, 295); // ae (TopLevelModule.sv)
+typeControlKey((HResource) null, "TopLevelModule.sv", 'v'); // ae (TopLevelModule.sv)
+// Elapsed time: 11 seconds
+selectCodeEditor("TopLevelModule.sv", 68, 152); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 142, 92); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 143, 84); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 149, 67); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 149, 52); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 109, 226); // ae (TopLevelModule.sv)
+typeControlKey(null, null, 'z');
+selectCodeEditor("TopLevelModule.sv", 105, 229); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 100, 249); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 116, 263); // ae (TopLevelModule.sv)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("TopLevelModule.sv", 115, 263); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 120, 489); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 121, 498); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 107, 518); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 160, 425); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 142, 426); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 217, 438); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 214, 421); // ae (TopLevelModule.sv)
+// Elapsed time: 23 seconds
+selectCodeEditor("TopLevelModule.sv", 89, 408); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 89, 408, false, false, false, false, true); // ae (TopLevelModule.sv) - Double Click
+selectCodeEditor("TopLevelModule.sv", 97, 415); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 77, 418); // ae (TopLevelModule.sv)
+typeControlKey((HResource) null, "TopLevelModule.sv", 'c'); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 209, 283); // ae (TopLevelModule.sv)
+typeControlKey((HResource) null, "TopLevelModule.sv", 'v'); // ae (TopLevelModule.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 33m:11s
+// Elapsed time: 13 seconds
+selectCodeEditor("TopLevelModule.sv", 111, 415); // ae (TopLevelModule.sv)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("TopLevelModule.sv", 111, 415, false, false, false, false, true); // ae (TopLevelModule.sv) - Double Click
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 33m:13s
+selectCodeEditor("TopLevelModule.sv", 145, 412); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 86, 101); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 86, 101, false, false, false, false, true); // ae (TopLevelModule.sv) - Double Click
+typeControlKey((HResource) null, "TopLevelModule.sv", 'c'); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 177, 501); // ae (TopLevelModule.sv)
+typeControlKey((HResource) null, "TopLevelModule.sv", 'v'); // ae (TopLevelModule.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 33m:23s
+// HMemoryUtils.trashcanNow. Engine heap size: 3,111 MB. GUI used memory: 134 MB. Current time: 11/15/25, 11:44:57 PM MST
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 33m:25s
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Run Linter]", 13, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// TclEventType: MSGMGR_REFRESH_MSG
+// Tcl Message: synth_design -top TopLevelModule -part xck26-sfvc784-2LV-c -lint  
+// Tcl Message: Command: synth_design -top TopLevelModule -part xck26-sfvc784-2LV-c -lint Starting synth_design Attempting to get a license for feature 'Synthesis' and/or device 'xck26' 
+// Tcl Message: INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xck26' INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes. 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting Synthesize : Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 11098.113 ; gain = 0.000 ; free physical = 3388 ; free virtual = 14781 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Clean up Linter database... 
+// TclEventType: LINTER_RUN
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'seven_seg_decoder' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/imports/ECEN5713/TopLevelModule.sv:92] INFO: [Synth 8-226] default block is never used [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/imports/ECEN5713/TopLevelModule.sv:98] INFO: [Synth 8-6155] done synthesizing module 'seven_seg_decoder' (3#1) [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/imports/ECEN5713/TopLevelModule.sv:92] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'kria_starter_kit' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:13] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'kria_starter_kit_rst_ps8_0_99M_0' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/.Xil/Vivado-224731-Ubuntu/realtime/kria_starter_kit_rst_ps8_0_99M_0_stub.v:6] INFO: [Synth 8-6155] done synthesizing module 'kria_starter_kit_rst_ps8_0_99M_0' (4#1) [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/.Xil/Vivado-224731-Ubuntu/realtime/kria_starter_kit_rst_ps8_0_99M_0_stub.v:6] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'kria_starter_kit_zynq_ultra_ps_e_0_0' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/.Xil/Vivado-224731-Ubuntu/realtime/kria_starter_kit_zynq_ultra_ps_e_0_0_stub.v:6] INFO: [Synth 8-6155] done synthesizing module 'kria_starter_kit_zynq_ultra_ps_e_0_0' (5#1) [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/.Xil/Vivado-224731-Ubuntu/realtime/kria_starter_kit_zynq_ultra_ps_e_0_0_stub.v:6] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'kria_starter_kit' (6#1) [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:13] INFO: [Synth 8-6155] done synthesizing module 'TopLevelModule' (7#1) [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/imports/ECEN5713/TopLevelModule.sv:23] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Synthesize : Time (s): cpu = 00:00:13 ; elapsed = 00:00:11 . Memory (MB): peak = 11098.113 ; gain = 0.000 ; free physical = 3409 ; free virtual = 14802 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 37-85] Total of 0 linter message(s) generated. INFO: [Synth 37-45] Linter Run Finished! 
+// Tcl Message: Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:11 . Memory (MB): peak = 11098.113 ; gain = 0.000 ; free physical = 3405 ; free virtual = 14798 
+// Tcl Message: INFO: [Common 17-83] Releasing license: Synthesis 
+// Tcl Message: 20 Infos, 41 Warnings, 0 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:11 . Memory (MB): peak = 11098.113 ; gain = 0.000 ; free physical = 3405 ; free virtual = 14798 
+// Tcl Message: INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 2469.423; main = 2123.051; forked = 346.372 INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 12012.480; main = 11049.902; forked = 962.594 
+// 'a' command handler elapsed time: 11 seconds
+// Elapsed time: 11 seconds
+dismissDialog("Run Linter"); // bk (Run Linter Progress)
+// Elapsed time: 10 seconds
+selectTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "Timing Summary - Power Opt Design ; report_timing_summary ; max_paths = 10; report_unconstrained = true;  ;  ; ", 20, "Timing Summary - Power Opt Design", 0, false); // K (PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE)
+// Elapsed time: 61 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 22, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(RDIResource.BaseDialog_YES, "Yes", "Synthesis is Out-of-date"); // f (RDIResource.BaseDialog_YES)
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+dismissDialog("Synthesis is Out-of-date"); // x (dialog7)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1160] Copying file /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.runs/synth_1/TopLevelModule.dcp to /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/utils_1/imports/synth_1 and adding it to utils fileset 
+selectCheckBox(PAResourceItoN.LaunchPanel_DONT_SHOW_THIS_DIALOG_AGAIN, "Don't show this dialog again", true); // f (PAResourceItoN.LaunchPanel_DONT_SHOW_THIS_DIALOG_AGAIN): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK", "Launch Runs"); // f (RDIResource.BaseDialog_OK)
+// 'cM' command handler elapsed time: 11 seconds
+// HMemoryUtils.trashcanNow. Engine heap size: 3,119 MB. GUI used memory: 139 MB. Current time: 11/15/25, 11:46:39 PM MST
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+dismissDialog("Launch Runs"); // cP (dialog8)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Sat Nov 15 23:46:39 2025] Launched synth_1... Run output will be captured here: /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.runs/synth_1/runme.log [Sat Nov 15 23:46:39 2025] Launched impl_1... Run output will be captured here: /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 79 seconds
+selectCheckBox(PAResourceItoN.MsgView_INFORMATION_MESSAGES, (String) null, false); // f (PAResourceItoN.MsgView_INFORMATION_MESSAGES): FALSE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 148 seconds
+dismissDialog("Bitstream Generation Completed"); // W.a (dialog9)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ah (PAResourceItoN.MainMenuMgr_FILE, File)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // am (PAResourceItoN.MainMenuMgr_PROJECT, Project)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // am (PAResourceItoN.MainMenuMgr_CHECKPOINT, Checkpoint)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // am (PAResourceItoN.MainMenuMgr_IP, IP)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // am (PAResourceItoN.MainMenuMgr_TEXT_EDITOR, Text Editor)
+selectMenu(PAResourceItoN.MainMenuMgr_IMPORT, "Import"); // am (PAResourceItoN.MainMenuMgr_IMPORT, Import)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // am (PAResourceItoN.MainMenuMgr_EXPORT, Export)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_PLATFORM, "Export Platform..."); // ap (PAResourceCommand.PACommandNames_EXPORT_PLATFORM, export_platform_menu)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ah (PAResourceItoN.MainMenuMgr_FILE, File)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_PLATFORM
+// Tcl (Dont Echo) Command: 'get_property pfm_name [get_files -all {/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/bd/kria_starter_kit/kria_starter_kit.bd}]'
+selectButton("NEXT", "Next", "Export Hardware Platform"); // JButton (NEXT)
+selectButton("NEXT", "Next", "Export Hardware Platform"); // JButton (NEXT)
+selectCheckBox(PAResourceEtoH.ExportHwPlatformWizard_INCLUDE_BITSTREAM, "Include bitstream", true); // f (PAResourceEtoH.ExportHwPlatformWizard_INCLUDE_BITSTREAM): TRUE
+selectButton("NEXT", "Next", "Export Hardware Platform"); // JButton (NEXT)
+selectButton("OptionPane.button", "OK", "Export Hardware Platform - Dynamic Region Path"); // JButton (OptionPane.button)
+// Elapsed time: 12 seconds
+setText(PAResourceEtoH.ExportHwPlatformWizard_DYNAMIC_REGION_PATH, "TopLevelModule"); // ad (PAResourceEtoH.ExportHwPlatformWizard_DYNAMIC_REGION_PATH)
+selectButton("NEXT", "Next", "Export Hardware Platform"); // JButton (NEXT)
+selectButton("OptionPane.button", "OK", "Export Hardware Platform - Platform State"); // JButton (OptionPane.button)
+// 'j' command handler elapsed time: 28 seconds
+dismissDialog("Export Hardware Platform"); // l (dialog10)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Open Implemented Design]", 20, true); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// Tcl Message: open_run impl_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 3,880 MB. GUI used memory: 137 MB. Current time: 11/15/25, 11:51:07 PM MST
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// [Engine Memory]: 3,997 MB (+884828kb) [00:41:04]
+// HMemoryUtils.trashcanNow. Engine heap size: 4,091 MB. GUI used memory: 136 MB. Current time: 11/15/25, 11:51:27 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 4,368 MB. GUI used memory: 136 MB. Current time: 11/15/25, 11:51:32 PM MST
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 4,384 MB. GUI used memory: 136 MB. Current time: 11/15/25, 11:51:33 PM MST
+// [Engine Memory]: 4,455 MB (+270389kb) [00:41:12]
+// TclEventType: DESIGN_NEW
+// [GUI Memory]: 336 MB (+121905kb) [00:41:15]
+// [Engine Memory]: 5,478 MB (+838851kb) [00:41:15]
+// Xgd.load filename: /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/./.Xil/Vivado-224731-Ubuntu/xck26_detail.xgd_639732D2 elapsed time: 3s
+// DeviceModel: Load Xgds SwingWorker Join Forever elapsed time: 3.4s
+// DeviceView Instantiated
+// WARNING: HEventQueue.dispatchEvent() is taking  1790 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Device 21-403] Loading part xck26-sfvc784-2LV-c 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 11801.645 ; gain = 0.000 ; free physical = 3017 ; free virtual = 14143 
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 3 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2025.1 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: Read ShapeDB Complete: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 11801.645 ; gain = 0.000 ; free physical = 3017 ; free virtual = 14143 
+// Tcl Message: INFO: [Timing 38-478] Restoring timing data from binary archive. INFO: [Timing 38-479] Binary timing data restore complete. INFO: [Project 1-856] Restoring constraints from binary archive. INFO: [Project 1-853] Binary constraint restore complete. INFO: [Designutils 20-5722] Start Reading Physical Databases. 
+// Tcl Message: Reading placement. 
+// Tcl Message: Read Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 11960.371 ; gain = 0.000 ; free physical = 3042 ; free virtual = 14167 
+// Tcl Message: Reading placer database... 
+// Tcl Message: Read Device Cache: Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.07 . Memory (MB): peak = 11960.371 ; gain = 0.000 ; free physical = 3026 ; free virtual = 14152 Read PlaceDB: Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 11960.371 ; gain = 0.000 ; free physical = 3026 ; free virtual = 14152 Read PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 11960.371 ; gain = 0.000 ; free physical = 3026 ; free virtual = 14152 
+// Tcl Message: Reading routing. 
+// Tcl Message: Read RouteStorage: Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.04 . Memory (MB): peak = 11960.371 ; gain = 0.000 ; free physical = 3026 ; free virtual = 14152 Read Physdb Files: Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 11960.371 ; gain = 0.000 ; free physical = 3026 ; free virtual = 14152 
+// Tcl Message: Restored from archive | CPU: 1.470000 secs | Memory: 0.768799 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 11960.371 ; gain = 0.000 ; free physical = 3026 ; free virtual = 14152 Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 12378.707 ; gain = 0.000 ; free physical = 2622 ; free virtual = 13748 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// [Engine Memory]: 5,765 MB (+14329kb) [00:41:16]
+// TclEventType: CURR_DESIGN_SET
+// Device view-level: 0.0
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// ExpRunCommands.openImplResults elapsed time: 36.4s
+// TclEventType: DRC_ADDED
+// Tcl Message: open_run: Time (s): cpu = 00:00:48 ; elapsed = 00:00:36 . Memory (MB): peak = 12928.496 ; gain = 1830.383 ; free physical = 1832 ; free virtual = 12988 
+// TclEventType: DRC_ADDED
+// TclEventType: METHODOLOGY_ADDED
+// TclEventType: POWER_UPDATED
+// TclEventType: TIMING_SUMMARY_UPDATED
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgdAndInitRouteStorage elapsed time: 2.6s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/q.a': 37s
+// [GUI Memory]: 353 MB (+518kb) [00:41:18]
+// 'dX' command handler elapsed time: 38 seconds
+// Device view-level: 0.0
+// Elapsed time: 38 seconds
+dismissDialog("Open Implemented Design"); // bk (Open Implemented Design Progress)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ah (PAResourceItoN.MainMenuMgr_FILE, File)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // am (PAResourceItoN.MainMenuMgr_PROJECT, Project)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // am (PAResourceItoN.MainMenuMgr_CHECKPOINT, Checkpoint)
+selectMenu(PAResourceItoN.MainMenuMgr_CONSTRAINTS, "Constraints"); // am (PAResourceItoN.MainMenuMgr_CONSTRAINTS, Constraints)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // am (PAResourceItoN.MainMenuMgr_IP, IP)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // am (PAResourceItoN.MainMenuMgr_TEXT_EDITOR, Text Editor)
+selectMenu(PAResourceItoN.MainMenuMgr_IMPORT, "Import"); // am (PAResourceItoN.MainMenuMgr_IMPORT, Import)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // am (PAResourceItoN.MainMenuMgr_EXPORT, Export)
+selectMenu(PAResourceItoN.MainMenuMgr_IMPORT, "Import"); // am (PAResourceItoN.MainMenuMgr_IMPORT, Import)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // am (PAResourceItoN.MainMenuMgr_EXPORT, Export)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_PLATFORM, "Export Platform..."); // ap (PAResourceCommand.PACommandNames_EXPORT_PLATFORM, export_platform_menu)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ah (PAResourceItoN.MainMenuMgr_FILE, File)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_PLATFORM
+// Tcl (Dont Echo) Command: 'get_property pfm_name [get_files -all {/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/bd/kria_starter_kit/kria_starter_kit.bd}]'
+selectButton("NEXT", "Next", "Export Hardware Platform"); // JButton (NEXT)
+selectButton("NEXT", "Next", "Export Hardware Platform"); // JButton (NEXT)
+selectCheckBox(PAResourceEtoH.ExportHwPlatformWizard_INCLUDE_BITSTREAM, "Include bitstream", true); // f (PAResourceEtoH.ExportHwPlatformWizard_INCLUDE_BITSTREAM): TRUE
+selectButton(PAResourceEtoH.ExportHwPlatformWizard_POST_IMPLEMENTATION, "More", "Export Hardware Platform"); // d (PAResourceEtoH.ExportHwPlatformWizard_POST_IMPLEMENTATION)
+// Elapsed time: 22 seconds
+setText(PAResourceEtoH.ExportHwPlatformWizard_DYNAMIC_REGION_PATH, "TopLevelModule"); // ad (PAResourceEtoH.ExportHwPlatformWizard_DYNAMIC_REGION_PATH)
+selectButton("NEXT", "Next", "Export Hardware Platform"); // JButton (NEXT)
+// Elapsed time: 29 seconds
+setText(PAResourceEtoH.ExportHwPlatformWizard_NAME, "KV260_uptime_clock"); // ad (PAResourceEtoH.ExportHwPlatformWizard_NAME)
+selectButton("NEXT", "Next", "Export Hardware Platform"); // JButton (NEXT)
+// Elapsed time: 10 seconds
+setText(PAResourceEtoH.ExportHwPlatformWizard_EXPORT_DIRECTORY, "/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project"); // ac (PAResourceEtoH.ExportHwPlatformWizard_EXPORT_DIRECTORY)
+setText(PAResourceEtoH.ExportHwPlatformWizard_XSA_FILE_NAME, "UptimeClock"); // ad (PAResourceEtoH.ExportHwPlatformWizard_XSA_FILE_NAME)
+selectButton("NEXT", "Next", "Export Hardware Platform"); // JButton (NEXT)
+// Tcl Command: 'set_property platform.name {KV260_uptime_clock} [current_project]'
+// TclEventType: PROJECT_CHANGE
+// Tcl Command: 'set_property pfm_name {Xilinx:KV260:KV260_uptime_clock:1.0} [get_files -all {/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/bd/kria_starter_kit/kria_starter_kit.bd}]'
+// Tcl (Dont Echo) Command: 'get_property platform.description [current_project]'
+// Tcl (Dont Echo) Command: 'get_property platform.design_intent.embedded [current_project]'
+// Tcl (Dont Echo) Command: 'get_property platform.design_intent.datacenter [current_project]'
+// Tcl (Dont Echo) Command: 'get_property platform.design_intent.server_managed [current_project]'
+// Tcl (Dont Echo) Command: 'get_property platform.design_intent.external_host [current_project]'
+// Tcl (Dont Echo) Command: 'get_property platform.default_output_type [current_project]'
+// Tcl (Dont Echo) Command: 'get_property platform.platform_state [current_project]'
+// Tcl (Dont Echo) Command: 'get_property platform.uses_pr [current_project]'
+// Tcl Command: 'set_property platform.uses_pr {true} [current_project]'
+// Tcl (Dont Echo) Command: 'get_property platform.run.steps.init_design.tcl.pre [current_project]'
+// Tcl (Dont Echo) Command: 'get_property platform.run.steps.init_design.tcl.post [current_project]'
+// Tcl (Dont Echo) Command: 'get_property platform.run.steps.opt_design.tcl.pre [current_project]'
+// Tcl (Dont Echo) Command: 'get_property platform.run.steps.opt_design.tcl.post [current_project]'
+// Tcl (Dont Echo) Command: 'get_property platform.run.steps.power_opt_design.tcl.pre [current_project]'
+// Tcl (Dont Echo) Command: 'get_property platform.run.steps.power_opt_design.tcl.post [current_project]'
+// Tcl (Dont Echo) Command: 'get_property platform.run.steps.place_design.tcl.pre [current_project]'
+// Tcl (Dont Echo) Command: 'get_property platform.run.steps.place_design.tcl.post [current_project]'
+// Tcl (Dont Echo) Command: 'get_property platform.run.steps.post_place_power_opt_design.tcl.pre [current_project]'
+// Tcl (Dont Echo) Command: 'get_property platform.run.steps.post_place_power_opt_design.tcl.post [current_project]'
+// Tcl (Dont Echo) Command: 'get_property platform.run.steps.phys_opt_design.tcl.pre [current_project]'
+// Tcl (Dont Echo) Command: 'get_property platform.run.steps.phys_opt_design.tcl.post [current_project]'
+// Tcl (Dont Echo) Command: 'get_property platform.run.steps.route_design.tcl.pre [current_project]'
+// Tcl (Dont Echo) Command: 'get_property platform.run.steps.route_design.tcl.post [current_project]'
+// Tcl (Dont Echo) Command: 'get_property platform.run.steps.post_route_phys_opt_design.tcl.pre [current_project]'
+// Tcl (Dont Echo) Command: 'get_property platform.run.steps.post_route_phys_opt_design.tcl.post [current_project]'
+// Tcl (Dont Echo) Command: 'get_property platform.pre_sys_link_overlay_tcl_hook [current_project]'
+// Tcl (Dont Echo) Command: 'get_property platform.post_sys_link_overlay_tcl_hook [current_project]'
+// Tcl (Dont Echo) Command: 'get_property platform.synth_constraint_files [current_project]'
+// Tcl (Dont Echo) Command: 'get_property platform.impl_constraint_files [current_project]'
+selectButton("FINISH", "Finish", "Export Hardware Platform"); // JButton (FINISH)
+// 'j' command handler elapsed time: 79 seconds
+// Tcl Message: set_property platform.name {KV260_uptime_clock} [current_project] 
+// Tcl Message: set_property pfm_name {Xilinx:KV260:KV260_uptime_clock:1.0} [get_files -all {/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/bd/kria_starter_kit/kria_starter_kit.bd}] 
+// Tcl Message: set_property platform.uses_pr {true} [current_project] 
+dismissDialog("Export Hardware Platform"); // l (dialog11)
+// Tcl Message: write_hw_platform -hw -include_bit -force -file /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/UptimeClock.xsa 
+// Tcl Message: INFO: [Project 1-1918] Creating Hardware Platform: /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/UptimeClock.xsa ... 
+// [GUI Memory]: 371 MB (+398kb) [00:42:43]
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_CLOSE_DIAGRAM
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_CLOSE_DIAGRAM
+// Tcl Message: INFO: [Project 1-1906] Skipping semantic label enumeration. INFO: [Project 1-1914] Call to Tcl proc to export the bd: export_bd_design -dir /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/.Xil/Vivado-224731-Ubuntu/xsa/bd /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/bd/kria_starter_kit/kria_starter_kit.bd  
+// Tcl Message: INFO: [PFM-62] PFM.AXI_PORT for zynq_ultra_ps_e_0/M_AXI_HPM0_LPD does not have an sptag specified, so is being assigned an auto generated name of GP INFO: [PFM-62] PFM.AXI_PORT for zynq_ultra_ps_e_0/S_AXI_HP0_FPD does not have an sptag specified, so is being assigned an auto generated name of HP INFO: [Project 1-1042] Successfully generated hpfm file 
+// Tcl Message: INFO: [Timing 38-480] Writing timing data to binary archive. 
+// Tcl Message: Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 12987.043 ; gain = 0.000 ; free physical = 1832 ; free virtual = 13004 Wrote PlaceDB: Time (s): cpu = 00:00:00.15 ; elapsed = 00:00:00.04 . Memory (MB): peak = 12987.043 ; gain = 0.000 ; free physical = 1832 ; free virtual = 13005 Wrote PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 12987.043 ; gain = 0.000 ; free physical = 1832 ; free virtual = 13005 
+// Tcl Message: Writing XDEF routing. Writing XDEF routing logical nets. Writing XDEF routing special nets. 
+// Tcl Message: Wrote RouteStorage: Time (s): cpu = 00:00:00.11 ; elapsed = 00:00:00.07 . Memory (MB): peak = 12987.043 ; gain = 0.000 ; free physical = 1831 ; free virtual = 13005 Wrote Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 12987.043 ; gain = 0.000 ; free physical = 1831 ; free virtual = 13005 Wrote Device Cache: Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.04 . Memory (MB): peak = 12987.043 ; gain = 0.000 ; free physical = 1831 ; free virtual = 13008 Write Physdb Complete: Time (s): cpu = 00:00:00.31 ; elapsed = 00:00:00.16 . Memory (MB): peak = 12987.043 ; gain = 0.000 ; free physical = 1831 ; free virtual = 13008 
+// Tcl Message: INFO: [Common 17-1381] The checkpoint '/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/.Xil/Vivado-224731-Ubuntu/xsa/UptimeClock.dcp' has been generated. 
+// Tcl Message: Command: write_cfgmem -force -format mcs -interface bpix16 -size 1024 -loadbit {up 0 /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/.Xil/Vivado-224731-Ubuntu/xsa/UptimeClock.bit} -file /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/.Xil/Vivado-224731-Ubuntu/xsa/firmware/UptimeClock.mcs Creating config memory files... 
+// Tcl Message: INFO: [Writecfgmem 68-23] Start address provided has been multiplied by a factor of 2 due to the use of interface BPIX16. 
+// Tcl Message: Creating bitstream load up from address 0x00000000 Loading bitfile /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/.Xil/Vivado-224731-Ubuntu/xsa/UptimeClock.bit 
+// HMemoryUtils.trashcanNow. Engine heap size: 5,843 MB. GUI used memory: 276 MB. Current time: 11/15/25, 11:53:17 PM MST
+// Tcl Message: Writing file /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/.Xil/Vivado-224731-Ubuntu/xsa/firmware/UptimeClock.mcs 
+// Tcl Message: Writing log file /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/.Xil/Vivado-224731-Ubuntu/xsa/firmware/UptimeClock.prm =================================== Configuration Memory information =================================== File Format        MCS Interface          BPIX16 Size               1024M Start Address      0x00000000 End Address        0x3FFFFFFF  Addr1         Addr2         Date                    File(s) 0x00000000    0x0076FBBB    Nov 15 23:53:16 2025    /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/.Xil/Vivado-224731-Ubuntu/xsa/UptimeClock.bit 9 Infos, 1 Warnings, 4 Critical Warnings and 0 Errors encountered. write_cfgmem completed successfully 
+// Tcl Message: INFO: [Project 1-1943] The Hardware Platform can be used for Hardware INFO: [Project 1-1941] Successfully created Hardware Platform: /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/UptimeClock.xsa INFO: [Hsi 55-2053] elapsed time for repository (/tools/Xilinx/2025.1/Vivado/data/embeddedsw) loading 0 seconds 
+// Tcl Message: write_hw_platform: Time (s): cpu = 00:00:17 ; elapsed = 00:00:16 . Memory (MB): peak = 12994.480 ; gain = 21.375 ; free physical = 1775 ; free virtual = 12956 
+// Elapsed time: 16 seconds
+dismissDialog("Export Hardware Platform"); // bk (Export Hardware Platform Progress)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK", "Export Hardware Platform"); // f (PAResourceAtoD.CmdMsgDialog_OK)
+dismissDialog("Export Hardware Platform"); // x (dialog12)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,145 MB. GUI used memory: 276 MB. Current time: 11/16/25, 12:23:18 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,145 MB. GUI used memory: 258 MB. Current time: 11/16/25, 12:53:19 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,076 MB. GUI used memory: 256 MB. Current time: 11/16/25, 1:23:21 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,076 MB. GUI used memory: 250 MB. Current time: 11/16/25, 1:53:21 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,052 MB. GUI used memory: 250 MB. Current time: 11/16/25, 2:23:22 AM MST

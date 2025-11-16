@@ -1,10 +1,5 @@
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="root" Host="Ubuntu" Pid="56738" HostCore="8" HostMemory="16376096">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="root" Host="Ubuntu" Pid="58861" HostCore="8" HostMemory="16376096">
+    <Process Command="vivado" Owner="stealthadmin" Host="Ubuntu" Pid="230125" HostCore="8" HostMemory="16376124">
     </Process>
 </ProcessHandle>
