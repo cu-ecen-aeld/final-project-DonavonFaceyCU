@@ -1,3 +1,6 @@
 [submodule "PetaLinux/FinalProject/project-spec/meta-user/meta-system-controller"]
 	path = PetaLinux/FinalProject/project-spec/meta-user/meta-system-controller
 	url = https://github.com/Xilinx/meta-system-controller
+[submodule "PetaLinux/FinalProject/project-spec/meta-system-controller"]
+	path = PetaLinux/FinalProject/project-spec/meta-system-controller
+	url = https://github.com/Xilinx/meta-system-controller
