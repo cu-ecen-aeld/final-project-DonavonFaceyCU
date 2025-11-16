@@ -1456,7 +1456,7 @@ CONFIG_libdfx=y
 #
 # libgpiod
 #
-# CONFIG_libgpiod is not set
+CONFIG_libgpiod=y
 # CONFIG_libgpiod-dev is not set
 # CONFIG_libgpiod-dbg is not set
 
@@ -3963,7 +3963,7 @@ CONFIG_imagefeature-ssh-server-openssh=y
 CONFIG_imagefeature-hwcodecs=y
 # CONFIG_imagefeature-package-management is not set
 # CONFIG_imagefeature-debug-tweaks is not set
-# CONFIG_imagefeature-empty-root-password is not set
+CONFIG_imagefeature-empty-root-password=y
 # CONFIG_imagefeature-serial-autologin-root is not set
 CONFIG_Init-manager-systemd=y
 # CONFIG_Init-manager-sysvinit is not set
@@ -3971,6 +3971,7 @@ CONFIG_Init-manager-systemd=y
 #
 # user packages 
 #
+CONFIG_libgpiod-tools=y
 # CONFIG_gpio-demo is not set
 # CONFIG_peekpoke is not set
 
