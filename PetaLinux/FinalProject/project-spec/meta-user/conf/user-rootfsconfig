@@ -5,3 +5,4 @@ CONFIG_gpio-demo
 CONFIG_peekpoke
 CONFIG_libgpiod
 CONFIG_libgpiod-tools
+CONFIG_uptimeclock

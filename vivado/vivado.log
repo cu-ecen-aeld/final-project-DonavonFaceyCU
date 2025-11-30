@@ -1095,3 +1095,5 @@ INFO: [Project 1-1943] The Hardware Platform can be used for Hardware
 INFO: [Project 1-1941] Successfully created Hardware Platform: /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/UptimeClock.xsa
 INFO: [Hsi 55-2053] elapsed time for repository (/tools/Xilinx/2025.1/Vivado/data/embeddedsw) loading 0 seconds
 write_hw_platform: Time (s): cpu = 00:00:17 ; elapsed = 00:00:16 . Memory (MB): peak = 12994.480 ; gain = 21.375 ; free physical = 1775 ; free virtual = 12956
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Nov 29 19:51:22 2025...

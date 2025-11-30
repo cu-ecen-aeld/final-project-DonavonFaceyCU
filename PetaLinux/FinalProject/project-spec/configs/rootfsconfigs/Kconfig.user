@@ -15,4 +15,8 @@ config peekpoke
 	 bool "peekpoke"
 	 help
 	
+config uptimeclock  
+	 bool "uptimeclock"
+	 help
+	
 endmenu
