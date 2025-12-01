@@ -26,8 +26,10 @@ module TopLevelModule(
     
     wire [7:0] EMIO_IN;
     wire PL_CLK;
+    
+    /*
     wire PWM_CLK;
-    wire SELECTED_DIGIT;
+    wire [3:0] SELECTED_DIGIT;
     
     clk_div_pow2 clk_div (
         .clk_in         (PL_CLK),
@@ -46,6 +48,7 @@ module TopLevelModule(
         .hex            (SELECTED_DIGIT),
         .seg            (HDIO_OUT[6:0])
     );
+    */
     
     kria_starter_kit starter_kit (
         .EMIO_OUT       (EMIO_IN),
@@ -53,7 +56,8 @@ module TopLevelModule(
         .PL_CLK         (PL_CLK)
     );
     
-    assign HDIO_OUT[7] = PWM_CLK;
+    //assign HDIO_OUT[7] = PWM_CLK;
+    assign HDIO_OUT = EMIO_IN;
     
 endmodule
 

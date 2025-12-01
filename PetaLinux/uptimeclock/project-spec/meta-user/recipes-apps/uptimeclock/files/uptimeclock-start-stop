@@ -1,0 +1,69 @@
+#!/bin/sh
+### BEGIN INIT INFO
+# Provides:          uptimeclock
+# Required-Start:    $remote_fs $syslog
+# Required-Stop:     $remote_fs $syslog
+# Default-Start:     5
+# Default-Stop:      0 1 6
+# Short-Description: Start uptimeclock GPIO daemon
+### END INIT INFO
+
+#Generated using ChatGPT
+
+DAEMON=/usr/bin/uptimeclock
+PIDFILE=/var/run/uptimeclock.pid
+NAME=uptimeclock
+
+case "$1" in
+  start)
+    echo "Starting $NAME..."
+
+    if [ -f "$PIDFILE" ] && kill -0 $(cat "$PIDFILE") 2>/dev/null; then
+        echo "$NAME already running"
+        exit 0
+    fi
+
+    # Start using start-stop-daemon, relying on the daemon's own daemonize()
+    start-stop-daemon --start --background \
+        --pidfile "$PIDFILE" --make-pidfile \
+        --exec "$DAEMON"
+
+    echo "$NAME started."
+    ;;
+
+  stop)
+    echo "Stopping $NAME..."
+
+    if [ -f "$PIDFILE" ]; then
+        start-stop-daemon --stop --pidfile "$PIDFILE" --retry=TERM/5/KILL/5
+        rm -f "$PIDFILE"
+        echo "$NAME stopped."
+    else
+        echo "$NAME not running."
+    fi
+    ;;
+
+  restart)
+    $0 stop
+    sleep 1
+    $0 start
+    ;;
+
+  status)
+    if [ -f "$PIDFILE" ] && kill -0 $(cat "$PIDFILE") 2>/dev/null; then
+        echo "$NAME is running (pid $(cat $PIDFILE))"
+        exit 0
+    else
+        echo "$NAME is not running"
+        exit 1
+    fi
+    ;;
+
+  *)
+    echo "Usage: $0 {start|stop|restart|status}"
+    exit 1
+    ;;
+esac
+
+exit 0
+

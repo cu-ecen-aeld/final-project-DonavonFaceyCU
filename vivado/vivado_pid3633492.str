@@ -1,0 +1,1061 @@
+/*
+
+AMD Vivado v2025.1 (64-bit) [Major: 2025, Minor: 1]
+SW Build: 6140274 on Wed May 21 22:58:25 MDT 2025
+IP Build: 6138677 on Thu May 22 03:10:11 MDT 2025
+IP Build: 6138677 on Thu May 22 03:10:11 MDT 2025
+
+Process ID (PID): 3633492
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Sun Nov 30 19:14:14 MST 2025
+Time zone: 	Mountain Standard Time (America/Denver)
+
+OS: Ubuntu
+OS Version: 6.8.0-87-generic
+OS Architecture: amd64
+Available processors (cores): 8
+LSB Release Description: DISTRIB_ID=Ubuntu
+
+Display: 0
+Screen size: 2048x1152
+Local screen bounds: x = 70, y = 27, width = 1978, height = 1125
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+OS font scaling: 100%
+Anti-Alias Enabled: false
+
+Java version: 	21.0.1 64-bit
+
+Java home: 	/tools/Xilinx/2025.1/tps/lnx64/jre21.0.1_12
+Java executable: 	/tools/Xilinx/2025.1/tps/lnx64/jre21.0.1_12/bin/java
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Dsun.java2d.uiScale.enabled=false, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, -XX:+UseStringDeduplication, -XX:MaxGCPauseMillis=200, -XX:ParallelGCThreads=4, -XX:+ParallelRefProcEnabled, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, -XX:NewSize=80m, -XX:MaxNewSize=80m, -Xms812m, -Xmx6144m, -Xss10m, -Xrs]
+Java initial memory (-Xms): 	812 MB
+Java maximum memory (-Xmx):	 6 GB
+
+User name: 	stealthadmin
+User home directory: /home/stealthadmin
+User working directory: /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /tools/Xilinx/2025.1
+HDI_APPROOT: /tools/Xilinx/2025.1/Vivado
+RDI_DATADIR: /tools/Xilinx/2025.1/data
+RDI_BINDIR: /tools/Xilinx/2025.1/Vivado/bin
+
+Vivado preferences file: /home/stealthadmin/.Xilinx/Vivado/2025.1/vivado.xml
+Vivado preferences directory: /home/stealthadmin/.Xilinx/Vivado/2025.1/
+Vivado layouts directory: /home/stealthadmin/.Xilinx/Vivado/2025.1/data/layouts
+PlanAhead jar file: 	/tools/Xilinx/2025.1/Vivado/lib/classes/planAhead.jar
+Vivado log file: 	/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/vivado.log
+Vivado journal file: 	/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-3633492-Ubuntu
+Non-Default Parameters:	[]
+
+Xilinx & AMD Environment Variables
+--------------------------------------------------------------------------------------------
+GNOME_SHELL_SESSION_MODE: ubuntu
+RDI_APPROOT: /tools/Xilinx/2025.1/Vivado
+RDI_BASEROOT: /tools/Xilinx/2025.1
+RDI_BINROOT: /tools/Xilinx/2025.1/Vivado/bin
+RDI_BUILD: yes
+RDI_DATADIR: /tools/Xilinx/2025.1/Vivado/data
+RDI_INSTALLROOT: /tools/Xilinx
+RDI_INSTALLVER: Vivado
+RDI_JAVA_PLATFORM: 
+RDI_JAVA_VERSION: 21.0.1_12
+RDI_LIBDIR: /tools/Xilinx/2025.1/Vivado/lib/lnx64.o/Ubuntu/22:/tools/Xilinx/2025.1/Vivado/lib/lnx64.o/Ubuntu:/tools/Xilinx/2025.1/Vivado/lib/lnx64.o
+RDI_OPT_EXT: .o
+RDI_PATCHROOT: 
+RDI_PLATFORM: lnx64
+RDI_PREPEND_PATH: /tools/Xilinx/2025.1/Vitis/bin:/tools/Xilinx/2025.1/Vivado/ids_lite/ISE/bin/lin64
+RDI_PROG: /tools/Xilinx/2025.1/Vivado/bin/unwrapped/lnx64.o/vivado
+RDI_SESSION_INFO: /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado:Ubuntu_1764555232_3633445
+RDI_SHARED_DATA: /tools/Xilinx/SharedData/Vivado/data
+RDI_TPS_ROOT: /tools/Xilinx/2025.1/Vivado/tps/lnx64
+RDI_USE_JDK21: True
+SHELL: /bin/bash
+XILINX: /tools/Xilinx/2025.1/Vivado/ids_lite/ISE
+XILINX_DSP: /tools/Xilinx/2025.1/Vivado/ids_lite/ISE
+XILINX_HLS: /tools/Xilinx/2025.1/Vitis
+XILINX_PLANAHEAD: /tools/Xilinx/2025.1/Vivado
+XILINX_SDK: /tools/Xilinx/2025.1/Vitis
+XILINX_VITIS: /tools/Xilinx/2025.1/Vitis
+XILINX_VIVADO: /tools/Xilinx/2025.1/Vivado
+
+
+GUI allocated memory:	812 MB
+GUI max memory:		6,144 MB
+Engine allocated memory: 1,864 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,865 MB. GUI used memory: 67 MB. Current time: 11/30/25, 7:14:15 PM MST
+// WARNING: HEventQueue.dispatchEvent() is taking  1003 ms.
+selectList(PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS, "/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.xpr", 0); // b.c (PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS)
+// Opening Vivado Project: /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.xpr. Version: Vivado v2025.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,920 MB. GUI used memory: 68 MB. Current time: 11/30/25, 7:14:40 PM MST
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 111 MB (+114391kb) [00:00:40]
+// [Engine Memory]: 1,945 MB (+1888139kb) [00:00:40]
+// [Engine Memory]: 2,073 MB (+32280kb) [00:00:41]
+// [GUI Memory]: 132 MB (+15589kb) [00:00:41]
+// WARNING: HEventQueue.dispatchEvent() is taking  2597 ms.
+// Tcl Message: open_project /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/2025.1/Vivado/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 10053.238 ; gain = 256.418 ; free physical = 211 ; free virtual = 15670 
+// Project name: Example_Project; location: /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project; part: xck26-sfvc784-2LV-c
+dismissDialog("Open Project"); // bk (Open Project Progress)
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 11 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.sv)]", 1); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.sv)]", 1, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.sv)]", 1, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 2,148 MB. GUI used memory: 83 MB. Current time: 11/30/25, 7:15:00 PM MST
+// Elapsed time: 37 seconds
+selectCodeEditor("TopLevelModule.sv", 118, 66); // ae (TopLevelModule.sv)
+// [GUI Memory]: 149 MB (+11016kb) [00:03:05]
+// Elapsed time: 91 seconds
+selectCodeEditor("TopLevelModule.sv", 25, 102); // ae (TopLevelModule.sv)
+// Elapsed time: 10 seconds
+selectCodeEditor("TopLevelModule.sv", 45, 433); // ae (TopLevelModule.sv)
+// Elapsed time: 12 seconds
+selectCodeEditor("TopLevelModule.sv", 153, 470); // ae (TopLevelModule.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 02m:56s
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 2,178 MB. GUI used memory: 83 MB. Current time: 11/30/25, 7:17:40 PM MST
+// [Engine Memory]: 2,178 MB (+1694kb) [00:03:39]
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 02m:58s
+// Elapsed time: 23 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 22, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(RDIResource.BaseDialog_YES, "Yes", "Synthesis is Out-of-date"); // f (RDIResource.BaseDialog_YES)
+dismissDialog("Synthesis is Out-of-date"); // x (dialog0)
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// [GUI Memory]: 157 MB (+198kb) [00:03:57]
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1161] Replacing file /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/utils_1/imports/synth_1/TopLevelModule.dcp with file /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.runs/synth_1/TopLevelModule.dcp 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,179 MB. GUI used memory: 84 MB. Current time: 11/30/25, 7:17:58 PM MST
+// 'cM' command handler elapsed time: 6 seconds
+dismissDialog("Resetting Runs"); // bk (Resetting Runs Progress)
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Sun Nov 30 19:17:59 2025] Launched synth_1... Run output will be captured here: /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.runs/synth_1/runme.log [Sun Nov 30 19:17:59 2025] Launched impl_1... Run output will be captured here: /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bk (Generate Bitstream Progress)
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 55 seconds
+selectCodeEditor("TopLevelModule.sv", 692, 301); // ae (TopLevelModule.sv)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("TopLevelModule.sv", 32, 475); // ae (TopLevelModule.sv)
+typeControlKey((HResource) null, "TopLevelModule.sv", 'c'); // ae (TopLevelModule.sv)
+typeControlKey((HResource) null, "TopLevelModule.sv", 'v'); // ae (TopLevelModule.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 04m:40s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 04m:42s
+// HMemoryUtils.trashcanNow. Engine heap size: 2,227 MB. GUI used memory: 84 MB. Current time: 11/30/25, 7:19:25 PM MST
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 38 seconds
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // j (PAResourceQtoS.SyntheticaStateMonitor_CANCEL, Cancel)
+selectButton(PAResourceQtoS.StateMonitor_RESET_RUN, "Reset Run", "Cancel Implementation"); // f (PAResourceQtoS.StateMonitor_RESET_RUN, RDIResource.BaseDialog_YES)
+dismissDialog("Cancel Implementation"); // aI (dialog1)
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Tcl Message: reset_run impl_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+dismissDialog("Resetting Runs"); // bk (Resetting Runs Progress)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Run Linter]", 13, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// TclEventType: MSGMGR_REFRESH_MSG
+// Tcl Message: synth_design -top TopLevelModule -part xck26-sfvc784-2LV-c -lint  
+// Tcl Message: Command: synth_design -top TopLevelModule -part xck26-sfvc784-2LV-c -lint Starting synth_design Attempting to get a license for feature 'Synthesis' and/or device 'xck26' 
+// Tcl Message: INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xck26' INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes. INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes INFO: [Synth 8-7075] Helper process launched with PID 3634575 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,404 MB. GUI used memory: 86 MB. Current time: 11/30/25, 7:20:05 PM MST
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 10588.012 ; gain = 397.621 ; free physical = 2384 ; free virtual = 14972 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Clean up Linter database... 
+// [Engine Memory]: 2,700 MB (+432557kb) [00:06:11]
+// TclEventType: LINTER_RUN
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'TopLevelModule' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/imports/ECEN5713/TopLevelModule.sv:23] INFO: [Synth 8-6157] synthesizing module 'kria_starter_kit' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:13] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'kria_starter_kit_rst_ps8_0_99M_0' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/.Xil/Vivado-3633492-Ubuntu/realtime/kria_starter_kit_rst_ps8_0_99M_0_stub.v:6] INFO: [Synth 8-6155] done synthesizing module 'kria_starter_kit_rst_ps8_0_99M_0' (1#1) [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/.Xil/Vivado-3633492-Ubuntu/realtime/kria_starter_kit_rst_ps8_0_99M_0_stub.v:6] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'kria_starter_kit_zynq_ultra_ps_e_0_0' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/.Xil/Vivado-3633492-Ubuntu/realtime/kria_starter_kit_zynq_ultra_ps_e_0_0_stub.v:6] INFO: [Synth 8-6155] done synthesizing module 'kria_starter_kit_zynq_ultra_ps_e_0_0' (2#1) [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/.Xil/Vivado-3633492-Ubuntu/realtime/kria_starter_kit_zynq_ultra_ps_e_0_0_stub.v:6] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'kria_starter_kit' (3#1) [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:13] INFO: [Synth 8-6155] done synthesizing module 'TopLevelModule' (4#1) [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/imports/ECEN5713/TopLevelModule.sv:23] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Synthesize : Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 10663.980 ; gain = 473.590 ; free physical = 2287 ; free virtual = 14876 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 37-85] Total of 1 linter message(s) generated. INFO: [Synth 37-45] Linter Run Finished! 
+// Tcl Message: Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 10681.793 ; gain = 491.402 ; free physical = 2271 ; free virtual = 14859 
+// Tcl Message: INFO: [Common 17-83] Releasing license: Synthesis 
+// Tcl Message: 15 Infos, 40 Warnings, 0 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 10681.801 ; gain = 491.410 ; free physical = 2271 ; free virtual = 14859 
+// Tcl Message: INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 2191.055; main = 1857.562; forked = 337.118 INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 11624.578; main = 10681.797; forked = 962.594 
+// 'a' command handler elapsed time: 11 seconds
+// Elapsed time: 11 seconds
+dismissDialog("Run Linter"); // bk (Run Linter Progress)
+// [Engine Memory]: 3,556 MB (+755917kb) [00:06:15]
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 14); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 14); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 17, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+selectCheckBox(RDIResource.MessageWithOptionDialog_DONT_SHOW_THIS_DIALOG_AGAIN, "Don't show this dialog again", true); // f (RDIResource.MessageWithOptionDialog_DONT_SHOW_THIS_DIALOG_AGAIN): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK", "Elaborate Design"); // f (RDIResource.BaseDialog_OK)
+dismissDialog("Elaborate Design"); // x (dialog2)
+// Tcl Message: synth_design -rtl -rtl_skip_mlo -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -rtl_skip_mlo -name rtl_1 Starting synth_design Using part: xck26-sfvc784-2LV-c Top: TopLevelModule 
+// HMemoryUtils.trashcanNow. Engine heap size: 4,320 MB. GUI used memory: 86 MB. Current time: 11/30/25, 7:20:25 PM MST
+// TclEventType: ELABORATE_START
+// TclEventType: MSGMGR_REFRESH_MSG
+// TclEventType: ELABORATE_FINISH
+// TclEventType: READ_XDC_FILE_START
+// HMemoryUtils.trashcanNow. Engine heap size: 3,617 MB. GUI used memory: 87 MB. Current time: 11/30/25, 7:20:50 PM MST
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 3,617 MB. GUI used memory: 85 MB. Current time: 11/30/25, 7:20:50 PM MST
+// TclEventType: DESIGN_NEW
+// [GUI Memory]: 245 MB (+84489kb) [00:06:53]
+// [Engine Memory]: 4,544 MB (+849597kb) [00:06:53]
+// Xgd.load filename: /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/./.Xil/Vivado-3633492-Ubuntu/xck26_detail.xgd_5CAA7507 elapsed time: 3.6s
+// [GUI Memory]: 288 MB (+32446kb) [00:06:54]
+// DeviceModel: Load Xgds SwingWorker Join Forever elapsed time: 4s
+// [GUI Memory]: 308 MB (+5165kb) [00:06:55]
+// [Engine Memory]: 4,807 MB (+38003kb) [00:06:55]
+// DeviceView Instantiated
+// WARNING: HEventQueue.dispatchEvent() is taking  2803 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Device 21-403] Loading part xck26-sfvc784-2LV-c INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes. 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 11446.148 ; gain = 0.035 ; free physical = 1540 ; free virtual = 14129 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'TopLevelModule' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/imports/ECEN5713/TopLevelModule.sv:23] INFO: [Synth 8-6157] synthesizing module 'kria_starter_kit' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:13] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'kria_starter_kit_rst_ps8_0_99M_0' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/.Xil/Vivado-3633492-Ubuntu/realtime/kria_starter_kit_rst_ps8_0_99M_0_stub.v:6] INFO: [Synth 8-6155] done synthesizing module 'kria_starter_kit_rst_ps8_0_99M_0' (0#1) [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/.Xil/Vivado-3633492-Ubuntu/realtime/kria_starter_kit_rst_ps8_0_99M_0_stub.v:6] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'kria_starter_kit_zynq_ultra_ps_e_0_0' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/.Xil/Vivado-3633492-Ubuntu/realtime/kria_starter_kit_zynq_ultra_ps_e_0_0_stub.v:6] INFO: [Synth 8-6155] done synthesizing module 'kria_starter_kit_zynq_ultra_ps_e_0_0' (0#1) [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/.Xil/Vivado-3633492-Ubuntu/realtime/kria_starter_kit_zynq_ultra_ps_e_0_0_stub.v:6] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'kria_starter_kit' (0#1) [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:13] INFO: [Synth 8-6155] done synthesizing module 'TopLevelModule' (0#1) [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/imports/ECEN5713/TopLevelModule.sv:23] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:10 . Memory (MB): peak = 11446.148 ; gain = 0.035 ; free physical = 1540 ; free virtual = 14129 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:10 . Memory (MB): peak = 11446.148 ; gain = 0.035 ; free physical = 1540 ; free virtual = 14129 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:10 . Memory (MB): peak = 11446.148 ; gain = 0.035 ; free physical = 1540 ; free virtual = 14129 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Project 1-454] Reading design checkpoint '/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/ip/kria_starter_kit_rst_ps8_0_99M_0/kria_starter_kit_rst_ps8_0_99M_0.dcp' for cell 'starter_kit/rst_ps8_0_99M' INFO: [Project 1-454] Reading design checkpoint '/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/ip/kria_starter_kit_zynq_ultra_ps_e_0_0/kria_starter_kit_zynq_ultra_ps_e_0_0.dcp' for cell 'starter_kit/zynq_ultra_ps_e_0' 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.02 . Memory (MB): peak = 11446.148 ; gain = 0.000 ; free physical = 1723 ; free virtual = 14312 
+// Tcl Message: INFO: [Project 1-479] Netlist was created with Vivado 2025.1 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Parsing XDC File [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/ip/kria_starter_kit_zynq_ultra_ps_e_0_0/kria_starter_kit_zynq_ultra_ps_e_0_0.xdc] for cell 'starter_kit/zynq_ultra_ps_e_0/inst' 
+// Tcl Message: create_clock: Time (s): cpu = 00:00:13 ; elapsed = 00:00:12 . Memory (MB): peak = 11570.164 ; gain = 20.000 ; free physical = 1656 ; free virtual = 14248 
+// Tcl Message: INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/tools/Xilinx/2025.1/Vivado/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/TopLevelModule_propImpl.xdc]. Resolution: To avoid this warning, move constraints listed in [.Xil/TopLevelModule_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis. INFO: [Project 1-1714] 2 XPM XDC files have been applied to the design. 
+// Tcl Message: Completed Processing XDC Constraints  
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 11570.164 ; gain = 0.000 ; free physical = 1656 ; free virtual = 14248 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Elapsed time: 36 seconds
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // x (PAResourceOtoP.PAViews_PROJECT_SUMMARY, PlanAheadTabProject Summary)
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: RTL Elaboration Complete:  : Time (s): cpu = 00:00:46 ; elapsed = 00:00:30 . Memory (MB): peak = 11953.633 ; gain = 507.520 ; free physical = 1012 ; free virtual = 13634 
+// Tcl Message: 17 Infos, 39 Warnings, 0 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:52 ; elapsed = 00:00:37 . Memory (MB): peak = 11953.633 ; gain = 1271.832 ; free physical = 1012 ; free virtual = 13634 
+// Tcl Message: INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 3428.048; main = 3428.048; forked = 0.000 INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 11953.602; main = 11953.602; forked = 0.000 
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/q.a': 39s
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+dismissDialog("Open Elaborated Design"); // bk (Open Elaborated Design Progress)
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgdAndInitRouteStorage elapsed time: 2.5s
+// Elapsed time: 99 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopLevelModule.sv", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("TopLevelModule.sv", 31, 491); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 100, 346); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 64, 171); // ae (TopLevelModule.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceOtoP.ProjectTab_RELOAD, "Reload"); // h (PAResourceOtoP.ProjectTab_RELOAD)
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 08m:05s
+selectButton("OptionPane.button", "OK", "Background Task"); // JButton (OptionPane.button)
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 08m:06s
+// HMemoryUtils.trashcanNow. Engine heap size: 4,867 MB. GUI used memory: 231 MB. Current time: 11/30/25, 7:22:50 PM MST
+selectButton(PAResourceOtoP.ProjectTab_RELOAD, "Reload"); // h (PAResourceOtoP.ProjectTab_RELOAD)
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/bd/kria_starter_kit/kria_starter_kit.bd] 
+// TclEventType: ELABORATE_START
+// TclEventType: MSGMGR_REFRESH_MSG
+// Tcl Message: refresh_design 
+// Tcl Message: INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes. 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 12026.605 ; gain = 0.000 ; free physical = 868 ; free virtual = 13466 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// TclEventType: ELABORATE_FINISH
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 4,126 MB. GUI used memory: 220 MB. Current time: 11/30/25, 7:23:03 PM MST
+// Engine heap size: 4,122 MB. GUI used memory: 221 MB. Current time: 11/30/25, 7:23:03 PM MST
+// WARNING: HEventQueue.dispatchEvent() is taking  1074 ms.
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'seven_seg_decoder' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/imports/ECEN5713/TopLevelModule.sv:96] INFO: [Synth 8-226] default block is never used [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/imports/ECEN5713/TopLevelModule.sv:102] INFO: [Synth 8-6155] done synthesizing module 'seven_seg_decoder' (0#1) [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/imports/ECEN5713/TopLevelModule.sv:96] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'kria_starter_kit' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:13] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'kria_starter_kit_rst_ps8_0_99M_0' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/.Xil/Vivado-3633492-Ubuntu/realtime/kria_starter_kit_rst_ps8_0_99M_0_stub.v:6] INFO: [Synth 8-6155] done synthesizing module 'kria_starter_kit_rst_ps8_0_99M_0' (0#1) [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/.Xil/Vivado-3633492-Ubuntu/realtime/kria_starter_kit_rst_ps8_0_99M_0_stub.v:6] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'kria_starter_kit_zynq_ultra_ps_e_0_0' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/.Xil/Vivado-3633492-Ubuntu/realtime/kria_starter_kit_zynq_ultra_ps_e_0_0_stub.v:6] INFO: [Synth 8-6155] done synthesizing module 'kria_starter_kit_zynq_ultra_ps_e_0_0' (0#1) [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/.Xil/Vivado-3633492-Ubuntu/realtime/kria_starter_kit_zynq_ultra_ps_e_0_0_stub.v:6] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'kria_starter_kit' (0#1) [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:13] INFO: [Synth 8-6155] done synthesizing module 'TopLevelModule' (0#1) [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/imports/ECEN5713/TopLevelModule.sv:23] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 12034.551 ; gain = 7.945 ; free physical = 830 ; free virtual = 13427 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 12052.363 ; gain = 25.758 ; free physical = 830 ; free virtual = 13427 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 12052.363 ; gain = 25.758 ; free physical = 830 ; free virtual = 13427 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Project 1-454] Reading design checkpoint '/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/ip/kria_starter_kit_rst_ps8_0_99M_0/kria_starter_kit_rst_ps8_0_99M_0.dcp' for cell 'starter_kit/rst_ps8_0_99M' INFO: [Project 1-454] Reading design checkpoint '/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/ip/kria_starter_kit_zynq_ultra_ps_e_0_0/kria_starter_kit_zynq_ultra_ps_e_0_0.dcp' for cell 'starter_kit/zynq_ultra_ps_e_0' 
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 4,122 MB. GUI used memory: 93 MB. Current time: 11/30/25, 7:23:17 PM MST
+// Xgd.load filename: /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/./.Xil/Vivado-3633492-Ubuntu/xck26_detail.xgd_5D88AED elapsed time: 3.1s
+// DeviceModel: Load Xgds SwingWorker Join Forever elapsed time: 2.4s
+// DeviceModel: Load Xgds SwingWorker Join Forever elapsed time: 3.5s
+// [Engine Memory]: 5,054 MB (+6556kb) [00:09:20]
+// DeviceView Instantiated
+// WARNING: HEventQueue.dispatchEvent() is taking  3705 ms.
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.03 . Memory (MB): peak = 12052.371 ; gain = 0.000 ; free physical = 1012 ; free virtual = 13610 
+// Tcl Message: INFO: [Project 1-479] Netlist was created with Vivado 2025.1 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Parsing XDC File [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/ip/kria_starter_kit_zynq_ultra_ps_e_0_0/kria_starter_kit_zynq_ultra_ps_e_0_0.xdc] for cell 'starter_kit/zynq_ultra_ps_e_0/inst' 
+// Tcl Message: create_clock: Time (s): cpu = 00:00:13 ; elapsed = 00:00:12 . Memory (MB): peak = 12052.371 ; gain = 0.000 ; free physical = 1055 ; free virtual = 13652 
+// Tcl Message: INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/tools/Xilinx/2025.1/Vivado/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/TopLevelModule_propImpl.xdc]. Resolution: To avoid this warning, move constraints listed in [.Xil/TopLevelModule_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis. INFO: [Project 1-1714] 2 XPM XDC files have been applied to the design. 
+// Tcl Message: Completed Processing XDC Constraints  
+// Elapsed time: 29 seconds
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // x (PAResourceOtoP.PAViews_PROJECT_SUMMARY, PlanAheadTabProject Summary)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,064 MB. GUI used memory: 224 MB. Current time: 11/30/25, 7:23:21 PM MST
+// Tcl Message: refresh_design: Time (s): cpu = 00:00:36 ; elapsed = 00:00:30 . Memory (MB): peak = 12082.562 ; gain = 55.957 ; free physical = 768 ; free virtual = 13386 
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/ag': 30s
+dismissDialog("Reloading"); // bk (Reloading Progress)
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgdAndInitRouteStorage elapsed time: 2s
+// Elapsed time: 18 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 17, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// Elapsed time: 20 seconds
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "unselect_objects"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "unselect_objects"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "select_objects [get_nets <const0>]"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+// Elapsed time: 16 seconds
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "select_objects [get_cells nolabel_line47/seg_i]"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "unselect_objects"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "select_objects [get_nets HDIO_OUT]"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+// Elapsed time: 13 seconds
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "unselect_objects"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "select_objects [get_nets <const0>]"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopLevelModule.sv", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 14 seconds
+selectCodeEditor("TopLevelModule.sv", 66, 244); // ae (TopLevelModule.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 10m:27s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 10m:29s
+selectButton(PAResourceOtoP.ProjectTab_RELOAD, "Reload"); // h (PAResourceOtoP.ProjectTab_RELOAD)
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/bd/kria_starter_kit/kria_starter_kit.bd] 
+// TclEventType: ELABORATE_START
+// TclEventType: MSGMGR_REFRESH_MSG
+// Tcl Message: refresh_design 
+// Tcl Message: INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes. 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 12145.594 ; gain = 0.000 ; free physical = 696 ; free virtual = 13295 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// TclEventType: ELABORATE_FINISH
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 4,179 MB. GUI used memory: 227 MB. Current time: 11/30/25, 7:25:23 PM MST
+// Engine heap size: 4,179 MB. GUI used memory: 227 MB. Current time: 11/30/25, 7:25:24 PM MST
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'kria_starter_kit_rst_ps8_0_99M_0' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/.Xil/Vivado-3633492-Ubuntu/realtime/kria_starter_kit_rst_ps8_0_99M_0_stub.v:6] INFO: [Synth 8-6155] done synthesizing module 'kria_starter_kit_rst_ps8_0_99M_0' (0#1) [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/.Xil/Vivado-3633492-Ubuntu/realtime/kria_starter_kit_rst_ps8_0_99M_0_stub.v:6] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'kria_starter_kit_zynq_ultra_ps_e_0_0' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/.Xil/Vivado-3633492-Ubuntu/realtime/kria_starter_kit_zynq_ultra_ps_e_0_0_stub.v:6] INFO: [Synth 8-6155] done synthesizing module 'kria_starter_kit_zynq_ultra_ps_e_0_0' (0#1) [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/.Xil/Vivado-3633492-Ubuntu/realtime/kria_starter_kit_zynq_ultra_ps_e_0_0_stub.v:6] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'kria_starter_kit' (0#1) [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:13] INFO: [Synth 8-6155] done synthesizing module 'TopLevelModule' (0#1) [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/imports/ECEN5713/TopLevelModule.sv:23] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:10 . Memory (MB): peak = 12145.594 ; gain = 0.000 ; free physical = 717 ; free virtual = 13316 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:10 . Memory (MB): peak = 12145.594 ; gain = 0.000 ; free physical = 717 ; free virtual = 13316 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:10 . Memory (MB): peak = 12145.594 ; gain = 0.000 ; free physical = 717 ; free virtual = 13316 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Project 1-454] Reading design checkpoint '/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/ip/kria_starter_kit_rst_ps8_0_99M_0/kria_starter_kit_rst_ps8_0_99M_0.dcp' for cell 'starter_kit/rst_ps8_0_99M' INFO: [Project 1-454] Reading design checkpoint '/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/ip/kria_starter_kit_zynq_ultra_ps_e_0_0/kria_starter_kit_zynq_ultra_ps_e_0_0.dcp' for cell 'starter_kit/zynq_ultra_ps_e_0' 
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 4,171 MB. GUI used memory: 101 MB. Current time: 11/30/25, 7:25:39 PM MST
+// Xgd.load filename: /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/./.Xil/Vivado-3633492-Ubuntu/xck26_detail.xgd_37857059 elapsed time: 3.6s
+// DeviceModel: Load Xgds SwingWorker Join Forever elapsed time: 4s
+// DeviceModel: Load Xgds SwingWorker Join Forever elapsed time: 2.9s
+// DeviceView Instantiated
+// WARNING: HEventQueue.dispatchEvent() is taking  4451 ms.
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00.22 ; elapsed = 00:00:00.05 . Memory (MB): peak = 12145.594 ; gain = 0.000 ; free physical = 906 ; free virtual = 13505 
+// Tcl Message: INFO: [Project 1-479] Netlist was created with Vivado 2025.1 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Parsing XDC File [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/ip/kria_starter_kit_zynq_ultra_ps_e_0_0/kria_starter_kit_zynq_ultra_ps_e_0_0.xdc] for cell 'starter_kit/zynq_ultra_ps_e_0/inst' 
+// Tcl Message: create_clock: Time (s): cpu = 00:00:14 ; elapsed = 00:00:13 . Memory (MB): peak = 12145.594 ; gain = 0.000 ; free physical = 979 ; free virtual = 13577 
+// Tcl Message: INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/tools/Xilinx/2025.1/Vivado/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/TopLevelModule_propImpl.xdc]. Resolution: To avoid this warning, move constraints listed in [.Xil/TopLevelModule_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis. INFO: [Project 1-1714] 2 XPM XDC files have been applied to the design. 
+// Tcl Message: Completed Processing XDC Constraints  
+// Elapsed time: 30 seconds
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // x (PAResourceOtoP.PAViews_PROJECT_SUMMARY, PlanAheadTabProject Summary)
+// Tcl Message: refresh_design: Time (s): cpu = 00:00:35 ; elapsed = 00:00:31 . Memory (MB): peak = 12145.594 ; gain = 0.000 ; free physical = 736 ; free virtual = 13355 
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/ag': 31s
+dismissDialog("Reloading"); // bk (Reloading Progress)
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgdAndInitRouteStorage elapsed time: 2.2s
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 17, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// [GUI Memory]: 329 MB (+5619kb) [00:11:49]
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "select_objects [get_nets SELECTED_DIGIT]"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "unselect_objects"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "unselect_objects"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (PAResourceTtoZ.TaskBanner_CLOSE)
+closeTask("RTL Analysis", "Elaborated Design", "DesignTask.RTL_PLANNING");
+selectButton(RDIResource.BaseDialog_OK, "OK", "Confirm Close"); // f (RDIResource.BaseDialog_OK)
+dismissDialog("Confirm Close"); // x (dialog3)
+// TclEventType: DESIGN_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 5,142 MB. GUI used memory: 229 MB. Current time: 11/30/25, 7:26:05 PM MST
+// Engine heap size: 5,012 MB. GUI used memory: 231 MB. Current time: 11/30/25, 7:26:05 PM MST
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: close_design 
+// TclEventType: CURR_DESIGN_SET
+// TclEventType: DESIGN_CLOSE
+dismissDialog("Close"); // bk (Close Progress)
+selectCodeEditor("TopLevelModule.sv", 395, 141); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 34, 80); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 89, 443); // ae (TopLevelModule.sv)
+selectCodeEditor("TopLevelModule.sv", 93, 457); // ae (TopLevelModule.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 11m:45s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 11m:47s
+// Elapsed time: 87 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Run Linter]", 13, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// TclEventType: MSGMGR_REFRESH_MSG
+// Tcl Message: synth_design -top TopLevelModule -part xck26-sfvc784-2LV-c -lint  
+// Tcl Message: Command: synth_design -top TopLevelModule -part xck26-sfvc784-2LV-c -lint Starting synth_design Attempting to get a license for feature 'Synthesis' and/or device 'xck26' 
+// Tcl Message: INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xck26' INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes. 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting Synthesize : Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 12145.594 ; gain = 0.000 ; free physical = 630 ; free virtual = 13229 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Clean up Linter database... 
+// TclEventType: LINTER_RUN
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'TopLevelModule' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/imports/ECEN5713/TopLevelModule.sv:23] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'TopLevelModule' (1#1) [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/imports/ECEN5713/TopLevelModule.sv:23] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Synthesize : Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 12145.594 ; gain = 0.000 ; free physical = 651 ; free virtual = 13251 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 37-85] Total of 3 linter message(s) generated. INFO: [Synth 37-45] Linter Run Finished! 
+// Tcl Message: Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 12145.594 ; gain = 0.000 ; free physical = 644 ; free virtual = 13244 
+// Tcl Message: INFO: [Common 17-83] Releasing license: Synthesis 
+// Tcl Message: 7 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 12145.594 ; gain = 0.000 ; free physical = 644 ; free virtual = 13244 
+// Tcl Message: INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 3673.255; main = 3336.980; forked = 336.274 INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 13070.168; main = 12107.574; forked = 962.594 
+// 'a' command handler elapsed time: 11 seconds
+// Elapsed time: 11 seconds
+dismissDialog("Run Linter"); // bk (Run Linter Progress)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 17, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// TclEventType: ELABORATE_START
+// TclEventType: MSGMGR_REFRESH_MSG
+// Tcl Message: synth_design -rtl -rtl_skip_mlo -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -rtl_skip_mlo -name rtl_1 Starting synth_design Using part: xck26-sfvc784-2LV-c Top: TopLevelModule 
+// TclEventType: ELABORATE_FINISH
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 4,180 MB. GUI used memory: 106 MB. Current time: 11/30/25, 7:28:10 PM MST
+// TclEventType: DESIGN_NEW
+// [Engine Memory]: 5,355 MB (+50551kb) [00:14:10]
+// Xgd.load filename: /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/./.Xil/Vivado-3633492-Ubuntu/xck26_detail.xgd_4694127F elapsed time: 3.1s
+// DeviceModel: Load Xgds SwingWorker Join Forever elapsed time: 3.5s
+// DeviceModel: Load Xgds SwingWorker Join Forever elapsed time: 2.4s
+// DeviceView Instantiated
+// WARNING: HEventQueue.dispatchEvent() is taking  3506 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes. 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 12145.594 ; gain = 0.000 ; free physical = 703 ; free virtual = 13303 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'TopLevelModule' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/imports/ECEN5713/TopLevelModule.sv:23] INFO: [Synth 8-6155] done synthesizing module 'TopLevelModule' (0#1) [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/imports/ECEN5713/TopLevelModule.sv:23] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 12145.594 ; gain = 0.000 ; free physical = 722 ; free virtual = 13322 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 12145.594 ; gain = 0.000 ; free physical = 722 ; free virtual = 13322 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 12145.594 ; gain = 0.000 ; free physical = 722 ; free virtual = 13322 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 12145.594 ; gain = 0.000 ; free physical = 725 ; free virtual = 13325 
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Parsing XDC File [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/constrs_1/new/PMOD_PINS.xdc] Finished Parsing XDC File [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/constrs_1/new/PMOD_PINS.xdc] Completed Processing XDC Constraints  
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 12145.594 ; gain = 0.000 ; free physical = 892 ; free virtual = 13492 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Elapsed time: 16 seconds
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // x (PAResourceOtoP.PAViews_PROJECT_SUMMARY, PlanAheadTabProject Summary)
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: RTL Elaboration Complete:  : Time (s): cpu = 00:00:19 ; elapsed = 00:00:16 . Memory (MB): peak = 12145.594 ; gain = 0.000 ; free physical = 805 ; free virtual = 13430 
+// Tcl Message: 5 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:16 . Memory (MB): peak = 12145.594 ; gain = 0.000 ; free physical = 805 ; free virtual = 13430 
+// Tcl Message: INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 3673.510; main = 3599.924; forked = 336.258 INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 13070.168; main = 12116.578; forked = 962.594 
+dismissDialog("Open Elaborated Design"); // bk (Open Elaborated Design Progress)
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgdAndInitRouteStorage elapsed time: 2.6s
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 17, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopLevelModule.sv", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 17, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 17, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 17, false, false, false, false, false, true); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree) - Double Click
+closeView(PAResourceOtoP.PAViews_PACKAGE, "Package"); // n (PAResourceOtoP.PAViews_PACKAGE, PlanAheadTabPackage)
+selectCodeEditor("TopLevelModule.sv", 344, 224); // ae (TopLevelModule.sv)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 17, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (PAResourceTtoZ.TaskBanner_CLOSE)
+closeTask("RTL Analysis", "Elaborated Design", "DesignTask.RTL_PLANNING");
+selectButton(RDIResource.BaseDialog_OK, "OK", "Confirm Close"); // f (RDIResource.BaseDialog_OK)
+dismissDialog("Confirm Close"); // x (dialog4)
+// TclEventType: DESIGN_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 5,363 MB. GUI used memory: 232 MB. Current time: 11/30/25, 7:28:29 PM MST
+// Engine heap size: 5,363 MB. GUI used memory: 234 MB. Current time: 11/30/25, 7:28:29 PM MST
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: close_design 
+// TclEventType: CURR_DESIGN_SET
+// TclEventType: DESIGN_CLOSE
+dismissDialog("Close"); // bk (Close Progress)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 17, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// TclEventType: ELABORATE_START
+// TclEventType: MSGMGR_REFRESH_MSG
+// Tcl Message: synth_design -rtl -rtl_skip_mlo -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -rtl_skip_mlo -name rtl_1 Starting synth_design Using part: xck26-sfvc784-2LV-c Top: TopLevelModule 
+// TclEventType: ELABORATE_FINISH
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 4,189 MB. GUI used memory: 110 MB. Current time: 11/30/25, 7:28:42 PM MST
+// TclEventType: DESIGN_NEW
+// [Engine Memory]: 5,845 MB (+232729kb) [00:14:42]
+// Xgd.load filename: /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/./.Xil/Vivado-3633492-Ubuntu/xck26_detail.xgd_281D6E7 elapsed time: 3s
+// DeviceModel: Load Xgds SwingWorker Join Forever elapsed time: 2.4s
+// DeviceModel: Load Xgds SwingWorker Join Forever elapsed time: 3.4s
+// DeviceView Instantiated
+// WARNING: HEventQueue.dispatchEvent() is taking  3400 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes. 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 12145.594 ; gain = 0.000 ; free physical = 516 ; free virtual = 13119 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'TopLevelModule' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/imports/ECEN5713/TopLevelModule.sv:23] INFO: [Synth 8-6155] done synthesizing module 'TopLevelModule' (0#1) [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/imports/ECEN5713/TopLevelModule.sv:23] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 12145.594 ; gain = 0.000 ; free physical = 554 ; free virtual = 13157 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 12145.594 ; gain = 0.000 ; free physical = 554 ; free virtual = 13157 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 12145.594 ; gain = 0.000 ; free physical = 554 ; free virtual = 13157 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 12145.594 ; gain = 0.000 ; free physical = 554 ; free virtual = 13157 
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Parsing XDC File [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/constrs_1/new/PMOD_PINS.xdc] Finished Parsing XDC File [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/constrs_1/new/PMOD_PINS.xdc] Completed Processing XDC Constraints  
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 12145.594 ; gain = 0.000 ; free physical = 738 ; free virtual = 13341 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Elapsed time: 16 seconds
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // x (PAResourceOtoP.PAViews_PROJECT_SUMMARY, PlanAheadTabProject Summary)
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: RTL Elaboration Complete:  : Time (s): cpu = 00:00:18 ; elapsed = 00:00:16 . Memory (MB): peak = 12145.594 ; gain = 0.000 ; free physical = 643 ; free virtual = 13272 
+// Tcl Message: 5 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:16 . Memory (MB): peak = 12145.594 ; gain = 0.000 ; free physical = 643 ; free virtual = 13272 
+// Tcl Message: INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 3681.263; main = 3604.344; forked = 336.280 INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 13078.172; main = 12115.578; forked = 962.594 
+dismissDialog("Open Elaborated Design"); // bk (Open Elaborated Design Progress)
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgdAndInitRouteStorage elapsed time: 2s
+selectTab((HResource) null, (HResource) null, "Sources", 0); // ab
+selectTab((HResource) null, (HResource) null, "Netlist", 1); // ab
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Device", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Device view-level: 0.0
+closeView(PAResourceOtoP.PAViews_DEVICE, "Device"); // L (PAResourceOtoP.PAViews_DEVICE, PlanAheadTabDevice)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 17, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 17, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+closeView(PAResourceOtoP.PAViews_PACKAGE, "Package"); // n (PAResourceOtoP.PAViews_PACKAGE, PlanAheadTabPackage)
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "HDIO_OUT (8) ; OUT ;  ;  ;  ;  ; true ; 45 ; LVCMOS33 ; 3.3 ;  ; 12 ;  ; NONE ; FP_VTT_50 ;  ;  ; ", 1, "HDIO_OUT (8)", 0, true); // o (PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE) - Node
+expandTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "HDIO_OUT (8) ; OUT ;  ;  ;  ;  ; true ; 45 ; LVCMOS33 ; 3.3 ;  ; 12 ;  ; NONE ; FP_VTT_50 ;  ;  ; ", 1); // o (PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE)
+// Elapsed time: 27 seconds
+selectTab((HResource) null, (HResource) null, "Sources", 0); // ab
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectCheckBox(RDIResource.MessageWithOptionDialog_DONT_SHOW_THIS_DIALOG_AGAIN, "Don't show this dialog again", true); // f (RDIResource.MessageWithOptionDialog_DONT_SHOW_THIS_DIALOG_AGAIN): TRUE
+selectButton(RDIResource.BaseDialog_YES, "Yes", "Synthesis is Out-of-date"); // f (RDIResource.BaseDialog_YES)
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+dismissDialog("Synthesis is Out-of-date"); // x (dialog5)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1161] Replacing file /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/utils_1/imports/synth_1/TopLevelModule.dcp with file /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.runs/synth_1/TopLevelModule.dcp 
+// HMemoryUtils.trashcanNow. Engine heap size: 5,830 MB. GUI used memory: 237 MB. Current time: 11/30/25, 7:29:37 PM MST
+dismissDialog("Resetting Runs"); // bk (Resetting Runs Progress)
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Sun Nov 30 19:29:37 2025] Launched synth_1... Run output will be captured here: /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.runs/synth_1/runme.log [Sun Nov 30 19:29:37 2025] Launched impl_1... Run output will be captured here: /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 47 seconds
+selectCodeEditor("TopLevelModule.sv", 556, 312); // ae (TopLevelModule.sv)
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // j (PAResourceQtoS.SyntheticaStateMonitor_CANCEL, Cancel)
+selectButton("OptionPane.button", "Cancel Process", "Cancel Synthesis"); // JButton (OptionPane.button)
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+dismissDialog("Resetting Runs"); // bk (Resetting Runs Progress)
+selectCodeEditor("TopLevelModule.sv", 85, 497); // ae (TopLevelModule.sv)
+typeControlKey(null, null, 'z');
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 15m:59s
+selectButton(PAResourceOtoP.ProjectTab_RELOAD, "Reload"); // h (PAResourceOtoP.ProjectTab_RELOAD)
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/bd/kria_starter_kit/kria_starter_kit.bd] 
+// Tcl Message: refresh_design 
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: ELABORATE_START
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: MSGMGR_REFRESH_MSG
+// Tcl Message: INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes. 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 12188.609 ; gain = 0.000 ; free physical = 2342 ; free virtual = 13135 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// TclEventType: ELABORATE_FINISH
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'TopLevelModule' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/imports/ECEN5713/TopLevelModule.sv:23] INFO: [Synth 8-6157] synthesizing module 'kria_starter_kit' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:13] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'kria_starter_kit_rst_ps8_0_99M_0' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/.Xil/Vivado-3633492-Ubuntu/realtime/kria_starter_kit_rst_ps8_0_99M_0_stub.v:6] INFO: [Synth 8-6155] done synthesizing module 'kria_starter_kit_rst_ps8_0_99M_0' (0#1) [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/.Xil/Vivado-3633492-Ubuntu/realtime/kria_starter_kit_rst_ps8_0_99M_0_stub.v:6] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'kria_starter_kit_zynq_ultra_ps_e_0_0' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/.Xil/Vivado-3633492-Ubuntu/realtime/kria_starter_kit_zynq_ultra_ps_e_0_0_stub.v:6] INFO: [Synth 8-6155] done synthesizing module 'kria_starter_kit_zynq_ultra_ps_e_0_0' (0#1) [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/.Xil/Vivado-3633492-Ubuntu/realtime/kria_starter_kit_zynq_ultra_ps_e_0_0_stub.v:6] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'kria_starter_kit' (0#1) [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:13] INFO: [Synth 8-6155] done synthesizing module 'TopLevelModule' (0#1) [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/imports/ECEN5713/TopLevelModule.sv:23] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 12188.609 ; gain = 0.000 ; free physical = 2365 ; free virtual = 13158 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 12188.609 ; gain = 0.000 ; free physical = 2365 ; free virtual = 13158 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 12188.609 ; gain = 0.000 ; free physical = 2365 ; free virtual = 13158 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Project 1-454] Reading design checkpoint '/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/ip/kria_starter_kit_rst_ps8_0_99M_0/kria_starter_kit_rst_ps8_0_99M_0.dcp' for cell 'starter_kit/rst_ps8_0_99M' 
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 4,229 MB. GUI used memory: 238 MB. Current time: 11/30/25, 7:30:55 PM MST
+// Engine heap size: 4,221 MB. GUI used memory: 239 MB. Current time: 11/30/25, 7:30:55 PM MST
+// Tcl Message: INFO: [Project 1-454] Reading design checkpoint '/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/ip/kria_starter_kit_zynq_ultra_ps_e_0_0/kria_starter_kit_zynq_ultra_ps_e_0_0.dcp' for cell 'starter_kit/zynq_ultra_ps_e_0' 
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 4,221 MB. GUI used memory: 113 MB. Current time: 11/30/25, 7:31:11 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,370 MB. GUI used memory: 194 MB. Current time: 11/30/25, 7:31:12 PM MST
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00.08 ; elapsed = 00:00:00.05 . Memory (MB): peak = 12188.609 ; gain = 0.000 ; free physical = 2548 ; free virtual = 13341 
+// Tcl Message: INFO: [Project 1-479] Netlist was created with Vivado 2025.1 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Parsing XDC File [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/ip/kria_starter_kit_zynq_ultra_ps_e_0_0/kria_starter_kit_zynq_ultra_ps_e_0_0.xdc] for cell 'starter_kit/zynq_ultra_ps_e_0/inst' 
+// Tcl Message: create_clock: Time (s): cpu = 00:00:14 ; elapsed = 00:00:13 . Memory (MB): peak = 12188.609 ; gain = 0.000 ; free physical = 2667 ; free virtual = 13459 
+// Tcl Message: INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/tools/Xilinx/2025.1/Vivado/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/TopLevelModule_propImpl.xdc]. Resolution: To avoid this warning, move constraints listed in [.Xil/TopLevelModule_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis. INFO: [Project 1-1714] 2 XPM XDC files have been applied to the design. 
+// Tcl Message: Completed Processing XDC Constraints  
+// Elapsed time: 30 seconds
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // x (PAResourceOtoP.PAViews_PROJECT_SUMMARY, PlanAheadTabProject Summary)
+// Tcl Message: refresh_design: Time (s): cpu = 00:00:35 ; elapsed = 00:00:30 . Memory (MB): peak = 12188.609 ; gain = 43.016 ; free physical = 2653 ; free virtual = 13467 
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/ag': 30s
+dismissDialog("Reloading"); // bk (Reloading Progress)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 16m:31s
+// Xgd.load filename: /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/./.Xil/Vivado-3633492-Ubuntu/xck26_detail.xgd_34B6A01C elapsed time: 3.3s
+// DeviceModel: Load Xgds SwingWorker Join Forever elapsed time: 3.6s
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 17, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgdAndInitRouteStorage elapsed time: 2.2s
+// Elapsed time: 11 seconds
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "select_objects [get_cells starter_kit]"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "unselect_objects"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// HMemoryUtils.trashcanNow. Engine heap size: 5,125 MB. GUI used memory: 237 MB. Current time: 11/30/25, 7:31:32 PM MST
+dismissDialog("Resetting Runs"); // bk (Resetting Runs Progress)
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Sun Nov 30 19:31:32 2025] Launched synth_1... Run output will be captured here: /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.runs/synth_1/runme.log [Sun Nov 30 19:31:32 2025] Launched impl_1... Run output will be captured here: /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 192 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_WRITE_CONFIG_MEMORY_FILE, "Generate Memory Configuration File"); // a (PAResourceCommand.PACommandNames_WRITE_CONFIG_MEMORY_FILE)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel", "Bitstream Generation Completed"); // f (RDIResource.BaseDialog_CANCEL)
+dismissDialog("Bitstream Generation Completed"); // W.a (dialog6)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ah (PAResourceItoN.MainMenuMgr_FILE, File)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // am (PAResourceItoN.MainMenuMgr_PROJECT, Project)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // am (PAResourceItoN.MainMenuMgr_CHECKPOINT, Checkpoint)
+selectMenu(PAResourceItoN.MainMenuMgr_CONSTRAINTS, "Constraints"); // am (PAResourceItoN.MainMenuMgr_CONSTRAINTS, Constraints)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // am (PAResourceItoN.MainMenuMgr_IP, IP)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // am (PAResourceItoN.MainMenuMgr_TEXT_EDITOR, Text Editor)
+selectMenu(PAResourceItoN.MainMenuMgr_IMPORT, "Import"); // am (PAResourceItoN.MainMenuMgr_IMPORT, Import)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // am (PAResourceItoN.MainMenuMgr_EXPORT, Export)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_PLATFORM, "Export Platform..."); // ap (PAResourceCommand.PACommandNames_EXPORT_PLATFORM, export_platform_menu)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ah (PAResourceItoN.MainMenuMgr_FILE, File)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_PLATFORM
+// Tcl (Dont Echo) Command: 'get_property pfm_name [get_files -all {/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/bd/kria_starter_kit/kria_starter_kit.bd}]'
+selectButton("NEXT", "Next", "Export Hardware Platform"); // JButton (NEXT)
+selectButton("NEXT", "Next", "Export Hardware Platform"); // JButton (NEXT)
+selectCheckBox(PAResourceEtoH.ExportHwPlatformWizard_INCLUDE_BITSTREAM, "Include bitstream", true); // f (PAResourceEtoH.ExportHwPlatformWizard_INCLUDE_BITSTREAM): TRUE
+selectButton("NEXT", "Next", "Export Hardware Platform"); // JButton (NEXT)
+selectButton("OptionPane.button", "OK", "Export Hardware Platform - Dynamic Region Path"); // JButton (OptionPane.button)
+setText(PAResourceEtoH.ExportHwPlatformWizard_DYNAMIC_REGION_PATH, "/"); // ad (PAResourceEtoH.ExportHwPlatformWizard_DYNAMIC_REGION_PATH)
+selectButton("NEXT", "Next", "Export Hardware Platform"); // JButton (NEXT)
+selectButton("OptionPane.button", "OK", "Export Hardware Platform - Platform State"); // JButton (OptionPane.button)
+// Elapsed time: 134 seconds
+setText(PAResourceEtoH.ExportHwPlatformWizard_DYNAMIC_REGION_PATH, (String) null); // ad (PAResourceEtoH.ExportHwPlatformWizard_DYNAMIC_REGION_PATH)
+selectButton("NEXT", "Next", "Export Hardware Platform"); // JButton (NEXT)
+selectButton("OptionPane.button", "OK", "Export Hardware Platform - Dynamic Region Path"); // JButton (OptionPane.button)
+selectButton(PAResourceEtoH.ExportHwPlatformWizard_POST_IMPLEMENTATION, "More", "Export Hardware Platform"); // d (PAResourceEtoH.ExportHwPlatformWizard_POST_IMPLEMENTATION)
+// Elapsed time: 10 seconds
+selectButton("BACK", "Back", "Export Hardware Platform"); // JButton (BACK)
+selectButton("NEXT", "Next", "Export Hardware Platform"); // JButton (NEXT)
+// Elapsed time: 48 seconds
+setText(PAResourceEtoH.ExportHwPlatformWizard_DYNAMIC_REGION_PATH, "TopLevelModule"); // ad (PAResourceEtoH.ExportHwPlatformWizard_DYNAMIC_REGION_PATH)
+selectButton("NEXT", "Next", "Export Hardware Platform"); // JButton (NEXT)
+selectButton("OptionPane.button", "OK", "Export Hardware Platform - Platform State"); // JButton (OptionPane.button)
+selectButton("CANCEL", "Cancel", "Export Hardware Platform"); // JButton (CANCEL)
+// 'j' command handler elapsed time: 225 seconds
+dismissDialog("Export Hardware Platform"); // l (dialog7)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Open Implemented Design]", 23, true); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+selectButton(RDIResource.BaseDialog_YES, "Yes", "Close Design"); // f (RDIResource.BaseDialog_YES)
+dismissDialog("Close Design"); // a.a (dialog8)
+// TclEventType: DESIGN_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 4,232 MB. GUI used memory: 239 MB. Current time: 11/30/25, 7:38:40 PM MST
+// Engine heap size: 4,232 MB. GUI used memory: 240 MB. Current time: 11/30/25, 7:38:40 PM MST
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: close_design 
+// TclEventType: CURR_DESIGN_SET
+// TclEventType: DESIGN_CLOSE
+dismissDialog("Close"); // bk (Close Progress)
+// Tcl Message: open_run impl_1 
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 4,504 MB. GUI used memory: 118 MB. Current time: 11/30/25, 7:39:09 PM MST
+// TclEventType: DESIGN_NEW
+// Xgd.load filename: /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/./.Xil/Vivado-3633492-Ubuntu/xck26_detail.xgd_1BFA913D elapsed time: 3.4s
+// DeviceModel: Load Xgds SwingWorker Join Forever elapsed time: 2.6s
+// DeviceModel: Load Xgds SwingWorker Join Forever elapsed time: 3.8s
+// DeviceView Instantiated
+// WARNING: HEventQueue.dispatchEvent() is taking  3924 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.03 . Memory (MB): peak = 12192.777 ; gain = 0.000 ; free physical = 3673 ; free virtual = 13431 
+// Tcl Message: INFO: [Project 1-479] Netlist was created with Vivado 2025.1 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: Read ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 12192.777 ; gain = 0.000 ; free physical = 3677 ; free virtual = 13434 
+// Tcl Message: INFO: [Timing 38-478] Restoring timing data from binary archive. INFO: [Timing 38-479] Binary timing data restore complete. INFO: [Project 1-856] Restoring constraints from binary archive. INFO: [Project 1-853] Binary constraint restore complete. INFO: [Designutils 20-5722] Start Reading Physical Databases. 
+// Tcl Message: Reading placement. 
+// Tcl Message: Read Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 12222.457 ; gain = 0.000 ; free physical = 3788 ; free virtual = 13541 
+// Tcl Message: Reading placer database... 
+// Tcl Message: Read Device Cache: Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.06 . Memory (MB): peak = 12222.457 ; gain = 0.000 ; free physical = 3788 ; free virtual = 13542 Read PlaceDB: Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 12222.457 ; gain = 0.000 ; free physical = 3788 ; free virtual = 13542 Read PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 12222.457 ; gain = 0.000 ; free physical = 3788 ; free virtual = 13542 
+// Tcl Message: Reading routing. 
+// Tcl Message: Read RouteStorage: Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.04 . Memory (MB): peak = 12222.457 ; gain = 0.000 ; free physical = 3788 ; free virtual = 13542 Read Physdb Files: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 12222.457 ; gain = 0.000 ; free physical = 3788 ; free virtual = 13542 
+// Tcl Message: Restored from archive | CPU: 1.630000 secs | Memory: 0.708801 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 12222.457 ; gain = 0.000 ; free physical = 3788 ; free virtual = 13542 Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 12493.871 ; gain = 0.000 ; free physical = 3534 ; free virtual = 13289 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// TclEventType: CURR_DESIGN_SET
+// [Engine Memory]: 6,184 MB (+49156kb) [00:25:13]
+// Device view-level: 0.0
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// ExpRunCommands.openImplResults elapsed time: 33s
+// TclEventType: DRC_ADDED
+// Tcl Message: open_run: Time (s): cpu = 00:00:36 ; elapsed = 00:00:33 . Memory (MB): peak = 12632.070 ; gain = 439.293 ; free physical = 3262 ; free virtual = 13042 
+// TclEventType: DRC_ADDED
+// TclEventType: METHODOLOGY_ADDED
+// TclEventType: POWER_UPDATED
+// TclEventType: TIMING_SUMMARY_UPDATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/q.a': 34s
+// 'dX' command handler elapsed time: 38 seconds
+// Elapsed time: 34 seconds
+dismissDialog("Open Implemented Design"); // bk (Open Implemented Design Progress)
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgdAndInitRouteStorage elapsed time: 2.8s
+// Device view-level: 0.0
+// [GUI Memory]: 345 MB (+190kb) [00:25:16]
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ah (PAResourceItoN.MainMenuMgr_FILE, File)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // am (PAResourceItoN.MainMenuMgr_PROJECT, Project)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // am (PAResourceItoN.MainMenuMgr_CHECKPOINT, Checkpoint)
+selectMenu(PAResourceItoN.MainMenuMgr_CONSTRAINTS, "Constraints"); // am (PAResourceItoN.MainMenuMgr_CONSTRAINTS, Constraints)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // am (PAResourceItoN.MainMenuMgr_IP, IP)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // am (PAResourceItoN.MainMenuMgr_TEXT_EDITOR, Text Editor)
+selectMenu(PAResourceItoN.MainMenuMgr_IMPORT, "Import"); // am (PAResourceItoN.MainMenuMgr_IMPORT, Import)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // am (PAResourceItoN.MainMenuMgr_EXPORT, Export)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_PLATFORM, "Export Platform..."); // ap (PAResourceCommand.PACommandNames_EXPORT_PLATFORM, export_platform_menu)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ah (PAResourceItoN.MainMenuMgr_FILE, File)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_PLATFORM
+// Tcl (Dont Echo) Command: 'get_property pfm_name [get_files -all {/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/bd/kria_starter_kit/kria_starter_kit.bd}]'
+selectButton("NEXT", "Next", "Export Hardware Platform"); // JButton (NEXT)
+selectButton("NEXT", "Next", "Export Hardware Platform"); // JButton (NEXT)
+// HMemoryUtils.trashcanNow. Engine heap size: 6,974 MB. GUI used memory: 258 MB. Current time: 11/30/25, 7:39:26 PM MST
+setText(PAResourceEtoH.ExportHwPlatformWizard_DYNAMIC_REGION_PATH, "TopLevelModule"); // ad (PAResourceEtoH.ExportHwPlatformWizard_DYNAMIC_REGION_PATH)
+selectCheckBox(PAResourceEtoH.ExportHwPlatformWizard_INCLUDE_BITSTREAM, "Include bitstream", true); // f (PAResourceEtoH.ExportHwPlatformWizard_INCLUDE_BITSTREAM): TRUE
+selectButton("NEXT", "Next", "Export Hardware Platform"); // JButton (NEXT)
+// RouteApi::getLoadDelays (initGetNetDelaysThread) elapsed time: 14.8s
+// Elapsed time: 13 seconds
+selectButton("NEXT", "Next", "Export Hardware Platform"); // JButton (NEXT)
+// Elapsed time: 15 seconds
+setText(PAResourceEtoH.ExportHwPlatformWizard_XSA_FILE_NAME, "EMIO_Passthrough"); // ad (PAResourceEtoH.ExportHwPlatformWizard_XSA_FILE_NAME)
+selectButton("NEXT", "Next", "Export Hardware Platform"); // JButton (NEXT)
+// Tcl (Dont Echo) Command: 'get_property pfm_name [get_files -all {/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/bd/kria_starter_kit/kria_starter_kit.bd}]'
+// Tcl Command: 'set_property pfm_name {Xilinx:KV260:KV260_uptime_clock:1.0} [get_files -all {/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/bd/kria_starter_kit/kria_starter_kit.bd}]'
+// Tcl (Dont Echo) Command: 'get_property platform.description [current_project]'
+// Tcl (Dont Echo) Command: 'get_property platform.design_intent.embedded [current_project]'
+// Tcl (Dont Echo) Command: 'get_property platform.design_intent.datacenter [current_project]'
+// Tcl (Dont Echo) Command: 'get_property platform.design_intent.server_managed [current_project]'
+// Tcl (Dont Echo) Command: 'get_property platform.design_intent.external_host [current_project]'
+// Tcl (Dont Echo) Command: 'get_property platform.default_output_type [current_project]'
+// Tcl (Dont Echo) Command: 'get_property platform.platform_state [current_project]'
+// Tcl (Dont Echo) Command: 'get_property platform.uses_pr [current_project]'
+// Tcl Command: 'set_property platform.uses_pr {true} [current_project]'
+// Tcl (Dont Echo) Command: 'get_property platform.run.steps.init_design.tcl.pre [current_project]'
+// Tcl (Dont Echo) Command: 'get_property platform.run.steps.init_design.tcl.post [current_project]'
+// Tcl (Dont Echo) Command: 'get_property platform.run.steps.opt_design.tcl.pre [current_project]'
+// Tcl (Dont Echo) Command: 'get_property platform.run.steps.opt_design.tcl.post [current_project]'
+// Tcl (Dont Echo) Command: 'get_property platform.run.steps.power_opt_design.tcl.pre [current_project]'
+// Tcl (Dont Echo) Command: 'get_property platform.run.steps.power_opt_design.tcl.post [current_project]'
+// Tcl (Dont Echo) Command: 'get_property platform.run.steps.place_design.tcl.pre [current_project]'
+// Tcl (Dont Echo) Command: 'get_property platform.run.steps.place_design.tcl.post [current_project]'
+// Tcl (Dont Echo) Command: 'get_property platform.run.steps.post_place_power_opt_design.tcl.pre [current_project]'
+// Tcl (Dont Echo) Command: 'get_property platform.run.steps.post_place_power_opt_design.tcl.post [current_project]'
+// Tcl (Dont Echo) Command: 'get_property platform.run.steps.phys_opt_design.tcl.pre [current_project]'
+// Tcl (Dont Echo) Command: 'get_property platform.run.steps.phys_opt_design.tcl.post [current_project]'
+// Tcl (Dont Echo) Command: 'get_property platform.run.steps.route_design.tcl.pre [current_project]'
+// Tcl (Dont Echo) Command: 'get_property platform.run.steps.route_design.tcl.post [current_project]'
+// Tcl (Dont Echo) Command: 'get_property platform.run.steps.post_route_phys_opt_design.tcl.pre [current_project]'
+// Tcl (Dont Echo) Command: 'get_property platform.run.steps.post_route_phys_opt_design.tcl.post [current_project]'
+// Tcl (Dont Echo) Command: 'get_property platform.pre_sys_link_overlay_tcl_hook [current_project]'
+// Tcl (Dont Echo) Command: 'get_property platform.post_sys_link_overlay_tcl_hook [current_project]'
+// Tcl (Dont Echo) Command: 'get_property platform.synth_constraint_files [current_project]'
+// Tcl (Dont Echo) Command: 'get_property platform.impl_constraint_files [current_project]'
+selectButton("FINISH", "Finish", "Export Hardware Platform"); // JButton (FINISH)
+// 'j' command handler elapsed time: 37 seconds
+// Tcl Message: set_property pfm_name {Xilinx:KV260:KV260_uptime_clock:1.0} [get_files -all {/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/bd/kria_starter_kit/kria_starter_kit.bd}] 
+// Tcl Message: set_property platform.uses_pr {true} [current_project] 
+dismissDialog("Export Hardware Platform"); // l (dialog9)
+// Tcl Message: write_hw_platform -hw -include_bit -force -file /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/EMIO_Passthrough.xsa 
+// Tcl Message: INFO: [Project 1-1918] Creating Hardware Platform: /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/EMIO_Passthrough.xsa ... 
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_CLOSE_DIAGRAM
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_CLOSE_DIAGRAM
+// Tcl Message: INFO: [Project 1-1906] Skipping semantic label enumeration. INFO: [Project 1-1914] Call to Tcl proc to export the bd: export_bd_design -dir /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/.Xil/Vivado-3633492-Ubuntu/xsa/bd /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/bd/kria_starter_kit/kria_starter_kit.bd  
+// Tcl Message: INFO: [PFM-62] PFM.AXI_PORT for zynq_ultra_ps_e_0/M_AXI_HPM0_LPD does not have an sptag specified, so is being assigned an auto generated name of GP INFO: [PFM-62] PFM.AXI_PORT for zynq_ultra_ps_e_0/S_AXI_HP0_FPD does not have an sptag specified, so is being assigned an auto generated name of HP INFO: [Project 1-1042] Successfully generated hpfm file 
+// Tcl Message: INFO: [Timing 38-480] Writing timing data to binary archive. 
+// Tcl Message: Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 13679.930 ; gain = 0.000 ; free physical = 2047 ; free virtual = 11872 Wrote PlaceDB: Time (s): cpu = 00:00:00.16 ; elapsed = 00:00:00.04 . Memory (MB): peak = 13679.930 ; gain = 0.000 ; free physical = 2047 ; free virtual = 11872 Wrote PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 13679.930 ; gain = 0.000 ; free physical = 2047 ; free virtual = 11872 
+// Tcl Message: Writing XDEF routing. Writing XDEF routing logical nets. Writing XDEF routing special nets. 
+// Tcl Message: Wrote RouteStorage: Time (s): cpu = 00:00:00.15 ; elapsed = 00:00:00.08 . Memory (MB): peak = 13679.930 ; gain = 0.000 ; free physical = 2047 ; free virtual = 11873 Wrote Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 13679.930 ; gain = 0.000 ; free physical = 2047 ; free virtual = 11873 Wrote Device Cache: Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.04 . Memory (MB): peak = 13679.930 ; gain = 0.000 ; free physical = 2044 ; free virtual = 11872 Write Physdb Complete: Time (s): cpu = 00:00:00.35 ; elapsed = 00:00:00.17 . Memory (MB): peak = 13679.930 ; gain = 0.000 ; free physical = 2044 ; free virtual = 11872 
+// Tcl Message: INFO: [Common 17-1381] The checkpoint '/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/.Xil/Vivado-3633492-Ubuntu/xsa/EMIO_Passthrough.dcp' has been generated. 
+// Tcl Message: Command: write_cfgmem -force -format mcs -interface bpix16 -size 1024 -loadbit {up 0 /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/.Xil/Vivado-3633492-Ubuntu/xsa/EMIO_Passthrough.bit} -file /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/.Xil/Vivado-3633492-Ubuntu/xsa/firmware/EMIO_Passthrough.mcs Creating config memory files... 
+// Tcl Message: INFO: [Writecfgmem 68-23] Start address provided has been multiplied by a factor of 2 due to the use of interface BPIX16. 
+// Tcl Message: Creating bitstream load up from address 0x00000000 Loading bitfile /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/.Xil/Vivado-3633492-Ubuntu/xsa/EMIO_Passthrough.bit 
+// Tcl Message: Writing file /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/.Xil/Vivado-3633492-Ubuntu/xsa/firmware/EMIO_Passthrough.mcs 
+// Tcl Message: INFO: [Project 1-1943] The Hardware Platform can be used for Hardware INFO: [Project 1-1941] Successfully created Hardware Platform: /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/EMIO_Passthrough.xsa INFO: [Hsi 55-2053] elapsed time for repository (/tools/Xilinx/2025.1/Vivado/data/embeddedsw) loading 0 seconds 
+// Tcl Message: write_hw_platform: Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 13679.930 ; gain = 0.000 ; free physical = 2137 ; free virtual = 11960 
+// Elapsed time: 14 seconds
+dismissDialog("Export Hardware Platform"); // bk (Export Hardware Platform Progress)
+// Elapsed time: 16 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK", "Export Hardware Platform"); // f (PAResourceAtoD.CmdMsgDialog_OK)
+dismissDialog("Export Hardware Platform"); // x (dialog10)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,748 MB. GUI used memory: 254 MB. Current time: 11/30/25, 8:09:27 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,723 MB. GUI used memory: 254 MB. Current time: 11/30/25, 8:39:29 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,683 MB. GUI used memory: 237 MB. Current time: 11/30/25, 9:09:35 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,678 MB. GUI used memory: 231 MB. Current time: 11/30/25, 9:39:31 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,678 MB. GUI used memory: 230 MB. Current time: 11/30/25, 10:09:32 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,678 MB. GUI used memory: 229 MB. Current time: 11/30/25, 10:39:32 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,678 MB. GUI used memory: 229 MB. Current time: 11/30/25, 11:09:33 PM MST
