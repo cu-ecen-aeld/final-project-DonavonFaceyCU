@@ -1755,7 +1755,7 @@
         "PACKAGE": [ { "value": "sfvc784" } ],
         "PREFHDL": [ { "value": "VERILOG" } ],
         "SILICON_REVISION": [ { "value": "" } ],
-        "SIMULATOR_LANGUAGE": [ { "value": "MIXED" } ],
+        "SIMULATOR_LANGUAGE": [ { "value": "VERILOG" } ],
         "SPEEDGRADE": [ { "value": "-2LV" } ],
         "STATIC_POWER": [ { "value": "" } ],
         "TEMPERATURE_GRADE": [ { "value": "C" } ]

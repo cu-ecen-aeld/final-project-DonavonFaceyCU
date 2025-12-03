@@ -7,7 +7,7 @@
   **** SW Build 6140274 on Wed May 21 22:58:25 MDT 2025
   **** IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
   **** SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
-  **** Start of session at: Sun Nov 30 19:31:34 2025
+  **** Start of session at: Tue Dec  2 22:28:59 2025
     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
     ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 
@@ -27,96 +27,89 @@ INFO: [Designutils 20-5440] No compile time benefit to using incremental synthes
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 3636851
+INFO: [Synth 8-7075] Helper process launched with PID 1872965
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2649.547 ; gain = 140.773 ; free physical = 911 ; free virtual = 11699
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2661.684 ; gain = 148.773 ; free physical = 1793 ; free virtual = 9688
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'TopLevelModule' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/imports/ECEN5713/TopLevelModule.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'clk_div_pow2' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/imports/ECEN5713/TopLevelModule.sv:65]
+INFO: [Synth 8-6155] done synthesizing module 'clk_div_pow2' (0#1) [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/imports/ECEN5713/TopLevelModule.sv:65]
+INFO: [Synth 8-6157] synthesizing module 'Digit_Mux' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/imports/ECEN5713/TopLevelModule.sv:85]
+INFO: [Synth 8-6155] done synthesizing module 'Digit_Mux' (0#1) [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/imports/ECEN5713/TopLevelModule.sv:85]
+INFO: [Synth 8-6157] synthesizing module 'seven_seg_decoder' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/imports/ECEN5713/TopLevelModule.sv:96]
+INFO: [Synth 8-226] default block is never used [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/imports/ECEN5713/TopLevelModule.sv:102]
+INFO: [Synth 8-6155] done synthesizing module 'seven_seg_decoder' (0#1) [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/imports/ECEN5713/TopLevelModule.sv:96]
 INFO: [Synth 8-6157] synthesizing module 'kria_starter_kit' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:13]
-WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:27]
-INFO: [Synth 8-6157] synthesizing module 'kria_starter_kit_rst_ps8_0_99M_0' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.runs/synth_1/.Xil/Vivado-3636805-Ubuntu/realtime/kria_starter_kit_rst_ps8_0_99M_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'kria_starter_kit_rst_ps8_0_99M_0' (0#1) [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.runs/synth_1/.Xil/Vivado-3636805-Ubuntu/realtime/kria_starter_kit_rst_ps8_0_99M_0_stub.v:6]
-WARNING: [Synth 8-7071] port 'mb_reset' of module 'kria_starter_kit_rst_ps8_0_99M_0' is unconnected for instance 'rst_ps8_0_99M' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:27]
-WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'kria_starter_kit_rst_ps8_0_99M_0' is unconnected for instance 'rst_ps8_0_99M' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:27]
-WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'kria_starter_kit_rst_ps8_0_99M_0' is unconnected for instance 'rst_ps8_0_99M' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:27]
-WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'kria_starter_kit_rst_ps8_0_99M_0' is unconnected for instance 'rst_ps8_0_99M' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:27]
-WARNING: [Synth 8-7071] port 'peripheral_aresetn' of module 'kria_starter_kit_rst_ps8_0_99M_0' is unconnected for instance 'rst_ps8_0_99M' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:27]
-WARNING: [Synth 8-7023] instance 'rst_ps8_0_99M' of module 'kria_starter_kit_rst_ps8_0_99M_0' has 10 connections declared, but only 5 given [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:27]
-INFO: [Synth 8-6157] synthesizing module 'kria_starter_kit_zynq_ultra_ps_e_0_0' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.runs/synth_1/.Xil/Vivado-3636805-Ubuntu/realtime/kria_starter_kit_zynq_ultra_ps_e_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'kria_starter_kit_zynq_ultra_ps_e_0_0' (0#1) [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.runs/synth_1/.Xil/Vivado-3636805-Ubuntu/realtime/kria_starter_kit_zynq_ultra_ps_e_0_0_stub.v:6]
-WARNING: [Synth 8-7071] port 'maxigp0_awid' of module 'kria_starter_kit_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:33]
-WARNING: [Synth 8-7071] port 'maxigp0_awaddr' of module 'kria_starter_kit_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:33]
-WARNING: [Synth 8-7071] port 'maxigp0_awlen' of module 'kria_starter_kit_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:33]
-WARNING: [Synth 8-7071] port 'maxigp0_awsize' of module 'kria_starter_kit_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:33]
-WARNING: [Synth 8-7071] port 'maxigp0_awburst' of module 'kria_starter_kit_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:33]
-WARNING: [Synth 8-7071] port 'maxigp0_awlock' of module 'kria_starter_kit_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:33]
-WARNING: [Synth 8-7071] port 'maxigp0_awcache' of module 'kria_starter_kit_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:33]
-WARNING: [Synth 8-7071] port 'maxigp0_awprot' of module 'kria_starter_kit_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:33]
-WARNING: [Synth 8-7071] port 'maxigp0_awvalid' of module 'kria_starter_kit_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:33]
-WARNING: [Synth 8-7071] port 'maxigp0_awuser' of module 'kria_starter_kit_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:33]
-WARNING: [Synth 8-7071] port 'maxigp0_wdata' of module 'kria_starter_kit_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:33]
-WARNING: [Synth 8-7071] port 'maxigp0_wstrb' of module 'kria_starter_kit_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:33]
-WARNING: [Synth 8-7071] port 'maxigp0_wlast' of module 'kria_starter_kit_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:33]
-WARNING: [Synth 8-7071] port 'maxigp0_wvalid' of module 'kria_starter_kit_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:33]
-WARNING: [Synth 8-7071] port 'maxigp0_bready' of module 'kria_starter_kit_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:33]
-WARNING: [Synth 8-7071] port 'maxigp0_arid' of module 'kria_starter_kit_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:33]
-WARNING: [Synth 8-7071] port 'maxigp0_araddr' of module 'kria_starter_kit_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:33]
-WARNING: [Synth 8-7071] port 'maxigp0_arlen' of module 'kria_starter_kit_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:33]
-WARNING: [Synth 8-7071] port 'maxigp0_arsize' of module 'kria_starter_kit_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:33]
-WARNING: [Synth 8-7071] port 'maxigp0_arburst' of module 'kria_starter_kit_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:33]
-WARNING: [Synth 8-7071] port 'maxigp0_arlock' of module 'kria_starter_kit_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:33]
-WARNING: [Synth 8-7071] port 'maxigp0_arcache' of module 'kria_starter_kit_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:33]
-WARNING: [Synth 8-7071] port 'maxigp0_arprot' of module 'kria_starter_kit_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:33]
-WARNING: [Synth 8-7071] port 'maxigp0_arvalid' of module 'kria_starter_kit_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:33]
-WARNING: [Synth 8-7071] port 'maxigp0_aruser' of module 'kria_starter_kit_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:33]
-WARNING: [Synth 8-7071] port 'maxigp0_rready' of module 'kria_starter_kit_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:33]
-WARNING: [Synth 8-7071] port 'maxigp0_awqos' of module 'kria_starter_kit_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:33]
-WARNING: [Synth 8-7071] port 'maxigp0_arqos' of module 'kria_starter_kit_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:33]
-WARNING: [Synth 8-7071] port 'emio_gpio_t' of module 'kria_starter_kit_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:33]
-WARNING: [Synth 8-7071] port 'emio_ttc0_wave_o' of module 'kria_starter_kit_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:33]
-WARNING: [Synth 8-7071] port 'pl_clk1' of module 'kria_starter_kit_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:33]
-WARNING: [Synth 8-7023] instance 'zynq_ultra_ps_e_0' of module 'kria_starter_kit_zynq_ultra_ps_e_0_0' has 48 connections declared, but only 17 given [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:33]
+INFO: [Synth 8-6157] synthesizing module 'kria_starter_kit_axi_gpio_0_0' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.runs/synth_1/.Xil/Vivado-1872883-Ubuntu/realtime/kria_starter_kit_axi_gpio_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'kria_starter_kit_axi_gpio_0_0' (0#1) [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.runs/synth_1/.Xil/Vivado-1872883-Ubuntu/realtime/kria_starter_kit_axi_gpio_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'kria_starter_kit_axi_smc_0' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.runs/synth_1/.Xil/Vivado-1872883-Ubuntu/realtime/kria_starter_kit_axi_smc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'kria_starter_kit_axi_smc_0' (0#1) [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.runs/synth_1/.Xil/Vivado-1872883-Ubuntu/realtime/kria_starter_kit_axi_smc_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'M00_AXI_awprot' of module 'kria_starter_kit_axi_smc_0' is unconnected for instance 'axi_smc' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:108]
+WARNING: [Synth 8-7071] port 'M00_AXI_arprot' of module 'kria_starter_kit_axi_smc_0' is unconnected for instance 'axi_smc' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:108]
+WARNING: [Synth 8-7023] instance 'axi_smc' of module 'kria_starter_kit_axi_smc_0' has 60 connections declared, but only 58 given [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:108]
+INFO: [Synth 8-6157] synthesizing module 'kria_starter_kit_rst_ps8_0_99M_0' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.runs/synth_1/.Xil/Vivado-1872883-Ubuntu/realtime/kria_starter_kit_rst_ps8_0_99M_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'kria_starter_kit_rst_ps8_0_99M_0' (0#1) [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.runs/synth_1/.Xil/Vivado-1872883-Ubuntu/realtime/kria_starter_kit_rst_ps8_0_99M_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'mb_reset' of module 'kria_starter_kit_rst_ps8_0_99M_0' is unconnected for instance 'rst_ps8_0_99M' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:167]
+WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'kria_starter_kit_rst_ps8_0_99M_0' is unconnected for instance 'rst_ps8_0_99M' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:167]
+WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'kria_starter_kit_rst_ps8_0_99M_0' is unconnected for instance 'rst_ps8_0_99M' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:167]
+WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'kria_starter_kit_rst_ps8_0_99M_0' is unconnected for instance 'rst_ps8_0_99M' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:167]
+WARNING: [Synth 8-7023] instance 'rst_ps8_0_99M' of module 'kria_starter_kit_rst_ps8_0_99M_0' has 10 connections declared, but only 6 given [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:167]
+INFO: [Synth 8-6157] synthesizing module 'kria_starter_kit_zynq_ultra_ps_e_0_0' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.runs/synth_1/.Xil/Vivado-1872883-Ubuntu/realtime/kria_starter_kit_zynq_ultra_ps_e_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'kria_starter_kit_zynq_ultra_ps_e_0_0' (0#1) [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.runs/synth_1/.Xil/Vivado-1872883-Ubuntu/realtime/kria_starter_kit_zynq_ultra_ps_e_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'emio_gpio_t' of module 'kria_starter_kit_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:174]
+WARNING: [Synth 8-7071] port 'emio_ttc0_wave_o' of module 'kria_starter_kit_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:174]
+WARNING: [Synth 8-7071] port 'pl_clk1' of module 'kria_starter_kit_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:174]
+WARNING: [Synth 8-7023] instance 'zynq_ultra_ps_e_0' of module 'kria_starter_kit_zynq_ultra_ps_e_0_0' has 48 connections declared, but only 45 given [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:174]
 INFO: [Synth 8-6155] done synthesizing module 'kria_starter_kit' (0#1) [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/synth/kria_starter_kit.v:13]
+WARNING: [Synth 8-7071] port 'som240_1_connector_bank45_gpio_tri_o' of module 'kria_starter_kit' is unconnected for instance 'starter_kit' [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/imports/ECEN5713/TopLevelModule.sv:52]
+WARNING: [Synth 8-7023] instance 'starter_kit' of module 'kria_starter_kit' has 4 connections declared, but only 3 given [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/imports/ECEN5713/TopLevelModule.sv:52]
 INFO: [Synth 8-6155] done synthesizing module 'TopLevelModule' (0#1) [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/imports/ECEN5713/TopLevelModule.sv:23]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2723.516 ; gain = 214.742 ; free physical = 835 ; free virtual = 11624
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 2740.621 ; gain = 227.711 ; free physical = 1723 ; free virtual = 9619
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2723.516 ; gain = 214.742 ; free physical = 835 ; free virtual = 11624
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 2746.559 ; gain = 233.648 ; free physical = 1723 ; free virtual = 9619
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2723.516 ; gain = 214.742 ; free physical = 835 ; free virtual = 11624
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 2746.559 ; gain = 233.648 ; free physical = 1723 ; free virtual = 9619
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2723.516 ; gain = 0.000 ; free physical = 835 ; free virtual = 11624
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2746.559 ; gain = 0.000 ; free physical = 1723 ; free virtual = 9619
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
 Parsing XDC File [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/ip/kria_starter_kit_zynq_ultra_ps_e_0_0/kria_starter_kit_zynq_ultra_ps_e_0_0/kria_starter_kit_zynq_ultra_ps_e_0_0_in_context.xdc] for cell 'starter_kit/zynq_ultra_ps_e_0'
-create_clock: Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 2766.504 ; gain = 0.000 ; free physical = 856 ; free virtual = 11645
+create_clock: Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 2840.594 ; gain = 25.047 ; free physical = 1591 ; free virtual = 9491
 Finished Parsing XDC File [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/ip/kria_starter_kit_zynq_ultra_ps_e_0_0/kria_starter_kit_zynq_ultra_ps_e_0_0/kria_starter_kit_zynq_ultra_ps_e_0_0_in_context.xdc] for cell 'starter_kit/zynq_ultra_ps_e_0'
 Parsing XDC File [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/ip/kria_starter_kit_rst_ps8_0_99M_0/kria_starter_kit_rst_ps8_0_99M_0/kria_starter_kit_rst_ps8_0_99M_0_in_context.xdc] for cell 'starter_kit/rst_ps8_0_99M'
 Finished Parsing XDC File [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/ip/kria_starter_kit_rst_ps8_0_99M_0/kria_starter_kit_rst_ps8_0_99M_0/kria_starter_kit_rst_ps8_0_99M_0_in_context.xdc] for cell 'starter_kit/rst_ps8_0_99M'
+Parsing XDC File [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/ip/kria_starter_kit_axi_gpio_0_0/kria_starter_kit_axi_gpio_0_0/kria_starter_kit_axi_gpio_0_0_in_context.xdc] for cell 'starter_kit/axi_gpio_0'
+Finished Parsing XDC File [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/ip/kria_starter_kit_axi_gpio_0_0/kria_starter_kit_axi_gpio_0_0/kria_starter_kit_axi_gpio_0_0_in_context.xdc] for cell 'starter_kit/axi_gpio_0'
+Parsing XDC File [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/ip/kria_starter_kit_axi_smc_0/kria_starter_kit_axi_smc_0/kria_starter_kit_axi_smc_0_in_context.xdc] for cell 'starter_kit/axi_smc'
+Finished Parsing XDC File [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/ip/kria_starter_kit_axi_smc_0/kria_starter_kit_axi_smc_0/kria_starter_kit_axi_smc_0_in_context.xdc] for cell 'starter_kit/axi_smc'
 Parsing XDC File [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/constrs_1/new/PMOD_PINS.xdc]
+WARNING: [Vivado 12-584] No ports matched 'PL_CLK'. [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/constrs_1/new/PMOD_PINS.xdc:18]
+WARNING: [Vivado 12-584] No ports matched 'PL_CLK'. [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/constrs_1/new/PMOD_PINS.xdc:19]
 Finished Parsing XDC File [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/constrs_1/new/PMOD_PINS.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/constrs_1/new/PMOD_PINS.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/TopLevelModule_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/constrs_1/new/PMOD_PINS.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/TopLevelModule_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/TopLevelModule_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Parsing XDC File [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.runs/synth_1/dont_touch.xdc]
 Finished Parsing XDC File [/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.runs/synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2766.504 ; gain = 0.000 ; free physical = 856 ; free virtual = 11645
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2840.594 ; gain = 0.000 ; free physical = 1591 ; free virtual = 9491
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2766.539 ; gain = 0.000 ; free physical = 856 ; free virtual = 11645
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2840.629 ; gain = 0.000 ; free physical = 1591 ; free virtual = 9491
 INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:31 ; elapsed = 00:00:31 . Memory (MB): peak = 2766.539 ; gain = 257.766 ; free physical = 738 ; free virtual = 11531
+Finished Constraint Validation : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 2840.629 ; gain = 327.719 ; free physical = 1551 ; free virtual = 9460
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
@@ -124,21 +117,23 @@ Start Loading Part and Timing Information
 Loading part: xck26-sfvc784-2LV-c
 INFO: [Synth 8-6742] Reading net delay rules and data
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:31 ; elapsed = 00:00:31 . Memory (MB): peak = 2774.508 ; gain = 265.734 ; free physical = 739 ; free virtual = 11532
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 2848.598 ; gain = 335.688 ; free physical = 1551 ; free virtual = 9460
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:31 ; elapsed = 00:00:31 . Memory (MB): peak = 2774.508 ; gain = 265.734 ; free physical = 739 ; free virtual = 11532
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 2848.598 ; gain = 335.688 ; free physical = 1552 ; free virtual = 9460
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:31 ; elapsed = 00:00:31 . Memory (MB): peak = 2774.508 ; gain = 265.734 ; free physical = 737 ; free virtual = 11531
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:32 ; elapsed = 00:00:32 . Memory (MB): peak = 2848.598 ; gain = 335.688 ; free physical = 1567 ; free virtual = 9476
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
 ---------------------------------------------------------------------------------
 Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input    4 Bit        Muxes := 1     
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -156,25 +151,25 @@ Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:00:33 . Memory (MB): peak = 2774.508 ; gain = 265.734 ; free physical = 735 ; free virtual = 11534
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:34 ; elapsed = 00:00:34 . Memory (MB): peak = 2848.598 ; gain = 335.688 ; free physical = 1568 ; free virtual = 9482
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:43 ; elapsed = 00:00:44 . Memory (MB): peak = 3447.875 ; gain = 939.102 ; free physical = 240 ; free virtual = 10979
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:44 ; elapsed = 00:00:45 . Memory (MB): peak = 3473.184 ; gain = 960.273 ; free physical = 1073 ; free virtual = 8987
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:43 ; elapsed = 00:00:44 . Memory (MB): peak = 3447.875 ; gain = 939.102 ; free physical = 240 ; free virtual = 10979
+Finished Timing Optimization : Time (s): cpu = 00:00:44 ; elapsed = 00:00:45 . Memory (MB): peak = 3493.215 ; gain = 980.305 ; free physical = 1051 ; free virtual = 8965
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:43 ; elapsed = 00:00:44 . Memory (MB): peak = 3456.891 ; gain = 948.117 ; free physical = 232 ; free virtual = 10972
+Finished Technology Mapping : Time (s): cpu = 00:00:44 ; elapsed = 00:00:45 . Memory (MB): peak = 3493.215 ; gain = 980.305 ; free physical = 1051 ; free virtual = 8965
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -192,37 +187,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:51 ; elapsed = 00:00:52 . Memory (MB): peak = 3632.703 ; gain = 1123.930 ; free physical = 256 ; free virtual = 10827
+Finished IO Insertion : Time (s): cpu = 00:00:51 ; elapsed = 00:00:53 . Memory (MB): peak = 3660.027 ; gain = 1147.117 ; free physical = 1029 ; free virtual = 8941
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:51 ; elapsed = 00:00:52 . Memory (MB): peak = 3632.703 ; gain = 1123.930 ; free physical = 256 ; free virtual = 10827
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:51 ; elapsed = 00:00:53 . Memory (MB): peak = 3660.027 ; gain = 1147.117 ; free physical = 1029 ; free virtual = 8941
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:51 ; elapsed = 00:00:52 . Memory (MB): peak = 3632.703 ; gain = 1123.930 ; free physical = 256 ; free virtual = 10827
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:51 ; elapsed = 00:00:53 . Memory (MB): peak = 3660.027 ; gain = 1147.117 ; free physical = 1029 ; free virtual = 8941
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:51 ; elapsed = 00:00:52 . Memory (MB): peak = 3632.703 ; gain = 1123.930 ; free physical = 256 ; free virtual = 10827
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:51 ; elapsed = 00:00:53 . Memory (MB): peak = 3660.027 ; gain = 1147.117 ; free physical = 1029 ; free virtual = 8941
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:51 ; elapsed = 00:00:52 . Memory (MB): peak = 3632.703 ; gain = 1123.930 ; free physical = 256 ; free virtual = 10827
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:51 ; elapsed = 00:00:53 . Memory (MB): peak = 3660.027 ; gain = 1147.117 ; free physical = 1029 ; free virtual = 8941
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:51 ; elapsed = 00:00:52 . Memory (MB): peak = 3632.703 ; gain = 1123.930 ; free physical = 256 ; free virtual = 10827
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:51 ; elapsed = 00:00:53 . Memory (MB): peak = 3660.027 ; gain = 1147.117 ; free physical = 1029 ; free virtual = 8941
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -232,40 +227,51 @@ Report BlackBoxes:
 +------+-------------------------------------+----------+
 |      |BlackBox name                        |Instances |
 +------+-------------------------------------+----------+
-|1     |kria_starter_kit_rst_ps8_0_99M_0     |         1|
-|2     |kria_starter_kit_zynq_ultra_ps_e_0_0 |         1|
+|1     |kria_starter_kit_axi_gpio_0_0        |         1|
+|2     |kria_starter_kit_axi_smc_0           |         1|
+|3     |kria_starter_kit_rst_ps8_0_99M_0     |         1|
+|4     |kria_starter_kit_zynq_ultra_ps_e_0_0 |         1|
 +------+-------------------------------------+----------+
 
 Report Cell Usage: 
 +------+-----------------------------------+------+
 |      |Cell                               |Count |
 +------+-----------------------------------+------+
-|1     |kria_starter_kit_rst_ps8_0_99M     |     1|
-|2     |kria_starter_kit_zynq_ultra_ps_e_0 |     1|
-|3     |OBUF                               |     8|
+|1     |kria_starter_kit_axi_gpio_0        |     1|
+|2     |kria_starter_kit_axi_smc           |     1|
+|3     |kria_starter_kit_rst_ps8_0_99M     |     1|
+|4     |kria_starter_kit_zynq_ultra_ps_e_0 |     1|
+|5     |CARRY8                             |     3|
+|6     |LUT1                               |     2|
+|7     |LUT3                               |     3|
+|8     |LUT6                               |     7|
+|9     |FDRE                               |    19|
+|10    |OBUF                               |     9|
 +------+-----------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:51 ; elapsed = 00:00:52 . Memory (MB): peak = 3632.703 ; gain = 1123.930 ; free physical = 256 ; free virtual = 10827
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:51 ; elapsed = 00:00:53 . Memory (MB): peak = 3660.027 ; gain = 1147.117 ; free physical = 1029 ; free virtual = 8941
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:37 ; elapsed = 00:00:39 . Memory (MB): peak = 3632.703 ; gain = 1080.906 ; free physical = 256 ; free virtual = 10827
-Synthesis Optimization Complete : Time (s): cpu = 00:00:51 ; elapsed = 00:00:53 . Memory (MB): peak = 3632.703 ; gain = 1123.930 ; free physical = 256 ; free virtual = 10827
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 3660.027 ; gain = 1053.047 ; free physical = 1154 ; free virtual = 9064
+Synthesis Optimization Complete : Time (s): cpu = 00:00:52 ; elapsed = 00:00:53 . Memory (MB): peak = 3660.027 ; gain = 1147.117 ; free physical = 1154 ; free virtual = 9064
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 3632.703 ; gain = 0.000 ; free physical = 421 ; free virtual = 10991
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3660.027 ; gain = 0.000 ; free physical = 1311 ; free virtual = 9221
+INFO: [Netlist 29-17] Analyzing 3 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3632.703 ; gain = 0.000 ; free physical = 421 ; free virtual = 10991
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3660.027 ; gain = 0.000 ; free physical = 1312 ; free virtual = 9221
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Synth Design complete | Checksum: cedfddf1
+Synth Design complete | Checksum: a36f11fb
 INFO: [Common 17-83] Releasing license: Synthesis
-31 Infos, 40 Warnings, 0 Critical Warnings and 0 Errors encountered.
+44 Infos, 18 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:01:03 ; elapsed = 00:01:03 . Memory (MB): peak = 3632.703 ; gain = 2093.711 ; free physical = 420 ; free virtual = 10990
-INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 2944.457; main = 2716.889; forked = 275.479
-INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 4563.504; main = 3600.895; forked = 962.609
-Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3632.703 ; gain = 0.000 ; free physical = 420 ; free virtual = 10990
+synth_design: Time (s): cpu = 00:01:04 ; elapsed = 00:01:04 . Memory (MB): peak = 3660.027 ; gain = 2112.977 ; free physical = 1312 ; free virtual = 9222
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 3090.204; main = 2918.408; forked = 310.393
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 4570.824; main = 3642.371; forked = 962.605
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3666.379 ; gain = 0.000 ; free physical = 1312 ; free virtual = 9222
 INFO: [Common 17-1381] The checkpoint '/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.runs/synth_1/TopLevelModule.dcp' has been generated.
 INFO: [Vivado 12-24828] Executing command : report_utilization -file TopLevelModule_utilization_synth.rpt -pb TopLevelModule_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Sun Nov 30 19:32:45 2025...
+INFO: [Common 17-206] Exiting Vivado at Tue Dec  2 22:30:16 2025...

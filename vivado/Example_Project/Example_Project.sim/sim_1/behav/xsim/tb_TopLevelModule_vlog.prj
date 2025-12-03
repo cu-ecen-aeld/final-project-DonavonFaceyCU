@@ -1,0 +1,18 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef" --include "../../../../Example_Project.gen/sources_1/bd/kria_starter_kit/ipshared/ec67/hdl" --include "../../../../Example_Project.gen/sources_1/bd/kria_starter_kit/ipshared/7711/hdl" --include "/tools/Xilinx/2025.1/Vivado/data/xilinx_vip/include" \
+"../../../../Example_Project.ip_user_files/bd/kria_starter_kit/ip/kria_starter_kit_zynq_ultra_ps_e_0_0/kria_starter_kit_zynq_ultra_ps_e_0_0_sim_netlist.v" \
+"../../../../Example_Project.ip_user_files/bd/kria_starter_kit/ip/kria_starter_kit_rst_ps8_0_99M_0/kria_starter_kit_rst_ps8_0_99M_0_sim_netlist.v" \
+"../../../../Example_Project.ip_user_files/bd/kria_starter_kit/sim/kria_starter_kit.v" \
+"../../../../Example_Project.gen/sources_1/bd/kria_starter_kit/hdl/kria_starter_kit_wrapper.v" \
+
+sv xil_defaultlib  --include "../../../../../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef" --include "../../../../Example_Project.gen/sources_1/bd/kria_starter_kit/ipshared/ec67/hdl" --include "../../../../Example_Project.gen/sources_1/bd/kria_starter_kit/ipshared/7711/hdl" --include "/tools/Xilinx/2025.1/Vivado/data/xilinx_vip/include" \
+"../../../../Example_Project.srcs/sources_1/imports/ECEN5713/TopLevelModule.sv" \
+
+verilog xil_defaultlib  --include "../../../../../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef" --include "../../../../Example_Project.gen/sources_1/bd/kria_starter_kit/ipshared/ec67/hdl" --include "../../../../Example_Project.gen/sources_1/bd/kria_starter_kit/ipshared/7711/hdl" --include "/tools/Xilinx/2025.1/Vivado/data/xilinx_vip/include" \
+"../../../../Example_Project.srcs/sim_1/new/tb_TopLevelModule.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

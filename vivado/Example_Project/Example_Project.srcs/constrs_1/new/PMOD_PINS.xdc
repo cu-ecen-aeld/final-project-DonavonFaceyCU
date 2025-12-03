@@ -14,3 +14,9 @@ set_property PACKAGE_PIN B10 [get_ports {HDIO_OUT[4]}]
 set_property PACKAGE_PIN E12 [get_ports {HDIO_OUT[5]}]
 set_property PACKAGE_PIN D11 [get_ports {HDIO_OUT[6]}]
 set_property PACKAGE_PIN B11 [get_ports {HDIO_OUT[7]}]
+
+set_property PACKAGE_PIN K12 [get_ports PL_CLK]
+set_property IOSTANDARD LVCMOS33 [get_ports PL_CLK]
+
+set_property PACKAGE_PIN K12 [get_ports PL_CLK_OUT]
+set_property IOSTANDARD LVCMOS33 [get_ports PL_CLK_OUT]

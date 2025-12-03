@@ -12,4 +12,10 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==kria_starte
 # IP: bd/kria_starter_kit/ip/kria_starter_kit_rst_ps8_0_99M_0/kria_starter_kit_rst_ps8_0_99M_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==kria_starter_kit_rst_ps8_0_99M_0 || ORIG_REF_NAME==kria_starter_kit_rst_ps8_0_99M_0} -quiet] -quiet
 
+# IP: bd/kria_starter_kit/ip/kria_starter_kit_axi_gpio_0_0/kria_starter_kit_axi_gpio_0_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==kria_starter_kit_axi_gpio_0_0 || ORIG_REF_NAME==kria_starter_kit_axi_gpio_0_0} -quiet] -quiet
+
+# IP: bd/kria_starter_kit/ip/kria_starter_kit_axi_smc_0/kria_starter_kit_axi_smc_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==kria_starter_kit_axi_smc_0 || ORIG_REF_NAME==kria_starter_kit_axi_smc_0} -quiet] -quiet
+
 # XDC: /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/kria_starter_kit_ooc.xdc

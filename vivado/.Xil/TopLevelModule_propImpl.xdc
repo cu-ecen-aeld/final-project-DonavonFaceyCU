@@ -1,0 +1,18 @@
+set_property SRC_FILE_INFO {cfile:/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/ip/kria_starter_kit_axi_gpio_0_0/kria_starter_kit_axi_gpio_0_0_board.xdc rfile:../Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/ip/kria_starter_kit_axi_gpio_0_0/kria_starter_kit_axi_gpio_0_0_board.xdc id:1 order:EARLY used_in_board:yes scoped_inst:starter_kit/axi_gpio_0/U0 prop_thru_buffer:yes} [current_design]
+set_property SRC_FILE_INFO {cfile:/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/constrs_1/new/PMOD_PINS.xdc rfile:../Example_Project/Example_Project.srcs/constrs_1/new/PMOD_PINS.xdc id:2} [current_design]
+current_instance starter_kit/axi_gpio_0/U0
+set_property src_info {type:SCOPED_XDC file:1 line:3 export:INPUT save:INPUT read:READ} [current_design]
+set_property BOARD_PART_PIN {som240_1_d18} [get_ports gpio_io_o[0]]
+set_property src_info {type:SCOPED_XDC file:1 line:5 export:INPUT save:INPUT read:READ} [current_design]
+set_property BOARD_PART_PIN {som240_1_b17} [get_ports gpio_io_o[1]]
+set_property src_info {type:SCOPED_XDC file:1 line:7 export:INPUT save:INPUT read:READ} [current_design]
+set_property BOARD_PART_PIN {som240_1_b18} [get_ports gpio_io_o[2]]
+set_property src_info {type:SCOPED_XDC file:1 line:9 export:INPUT save:INPUT read:READ} [current_design]
+set_property BOARD_PART_PIN {som240_1_a15} [get_ports gpio_io_o[3]]
+set_property src_info {type:SCOPED_XDC file:1 line:11 export:INPUT save:INPUT read:READ} [current_design]
+set_property BOARD_PART_PIN {som240_1_c24} [get_ports gpio_io_o[4]]
+current_instance
+set_property src_info {type:XDC file:2 line:18 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN K12 [get_ports PL_CLK]
+set_property src_info {type:XDC file:2 line:19 export:INPUT save:INPUT read:READ} [current_design]
+set_property IOSTANDARD LVCMOS33 [get_ports PL_CLK]

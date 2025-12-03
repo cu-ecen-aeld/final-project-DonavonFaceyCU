@@ -2,7 +2,8 @@
 // SPDX-FileCopyrightText: 2023 Kent Gibson
 
 /*
- * Modified to run as a SysV-style daemon.
+ * Modified from libgpiod example found here: https://github.com/brgl/libgpiod/blob/master/examples/toggle_multiple_line_values.c
+ * Modified to run as a SysV-style daemon by ChatGPT. Application Logic modified for uptimeclock needs.
  */
 
 #include <errno.h>
@@ -176,7 +177,7 @@ int main(void)
 		fclose(pf);
 	}
 
-	static const char *const chip_path = "/dev/gpiochip1";
+	static const char *const chip_path = "/dev/gpiochip2";
 	static const unsigned int line_offsets[NUM_LINES] = {78, 79, 80, 81, 82, 83, 84, 85};
 
 	enum gpiod_line_value values[NUM_LINES] = {
@@ -210,9 +211,8 @@ int main(void)
 		
 		secondCount = (secondCount+1) & 0xFF;
 		
-		uint8_t bitmask = 0x1;
-		
 		for(int i = 0; i < NUM_LINES; i++){
+			uint8_t bitmask = 0x1 << i;
 			if(bitmask & secondCount){
 				values[i] = GPIOD_LINE_VALUE_ACTIVE;
 			} else {

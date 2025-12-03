@@ -1,3 +1,9 @@
-/include/ "system-conf.dtsi"
+#include "system-conf.dtsi"
+
 / {
+};
+
+/* Mark PL_CLK0 as critical on the ZynqMP clock controller */
+&zynqmp_clk {
+    clock-critical = <1>;
 };

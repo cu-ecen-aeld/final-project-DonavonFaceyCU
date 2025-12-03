@@ -1,7 +1,7 @@
 {
   "design": {
     "design_info": {
-      "boundary_crc": "0x1775B43CF6BA2B8B",
+      "boundary_crc": "0x7F35A5B9C7AD1AA",
       "device": "xck26-sfvc784-2LV-c",
       "gen_directory": "../../../../Example_Project.gen/sources_1/bd/kria_starter_kit",
       "name": "kria_starter_kit",
@@ -13,7 +13,24 @@
     },
     "design_tree": {
       "zynq_ultra_ps_e_0": "",
-      "rst_ps8_0_99M": ""
+      "rst_ps8_0_99M": "",
+      "axi_gpio_0": "",
+      "axi_smc": ""
+    },
+    "interface_ports": {
+      "som240_1_connector_bank45_gpio": {
+        "mode": "Master",
+        "vlnv_bus_definition": "xilinx.com:interface:gpio:1.0",
+        "vlnv": "xilinx.com:interface:gpio_rtl:1.0",
+        "port_maps": {
+          "TRI_O": {
+            "physical_name": "som240_1_connector_bank45_gpio_tri_o",
+            "direction": "O",
+            "left": "4",
+            "right": "0"
+          }
+        }
+      }
     },
     "ports": {
       "EMIO_OUT": {
@@ -1485,6 +1502,114 @@
         "xci_path": "ip/kria_starter_kit_rst_ps8_0_99M_0/kria_starter_kit_rst_ps8_0_99M_0.xci",
         "inst_hier_path": "rst_ps8_0_99M",
         "has_run_ip_tcl": "true"
+      },
+      "axi_gpio_0": {
+        "vlnv": "xilinx.com:ip:axi_gpio:2.0",
+        "ip_revision": "37",
+        "xci_name": "kria_starter_kit_axi_gpio_0_0",
+        "xci_path": "ip/kria_starter_kit_axi_gpio_0_0/kria_starter_kit_axi_gpio_0_0.xci",
+        "inst_hier_path": "axi_gpio_0",
+        "has_run_ip_tcl": "true",
+        "parameters": {
+          "GPIO_BOARD_INTERFACE": {
+            "value": "som240_1_connector_bank45_gpio"
+          },
+          "USE_BOARD_FLOW": {
+            "value": "true"
+          }
+        }
+      },
+      "axi_smc": {
+        "vlnv": "xilinx.com:ip:smartconnect:1.0",
+        "ip_revision": "27",
+        "xci_name": "kria_starter_kit_axi_smc_0",
+        "xci_path": "ip/kria_starter_kit_axi_smc_0/kria_starter_kit_axi_smc_0.xci",
+        "inst_hier_path": "axi_smc",
+        "has_run_ip_tcl": "true",
+        "parameters": {
+          "NUM_SI": {
+            "value": "1"
+          }
+        },
+        "interface_ports": {
+          "S00_AXI": {
+            "mode": "Slave",
+            "vlnv_bus_definition": "xilinx.com:interface:aximm:1.0",
+            "vlnv": "xilinx.com:interface:aximm_rtl:1.0",
+            "parameters": {
+              "NUM_READ_OUTSTANDING": {
+                "value": "8"
+              },
+              "NUM_WRITE_OUTSTANDING": {
+                "value": "8"
+              }
+            },
+            "bridges": [
+              "M00_AXI"
+            ],
+            "bd_attributes": {
+              "BRIDGES": {
+                "value": "M00_AXI",
+                "value_src": "auto"
+              },
+              "TYPE": {
+                "value": "interior",
+                "value_src": "default"
+              }
+            }
+          },
+          "M00_AXI": {
+            "mode": "Master",
+            "vlnv_bus_definition": "xilinx.com:interface:aximm:1.0",
+            "vlnv": "xilinx.com:interface:aximm_rtl:1.0",
+            "parameters": {
+              "NUM_READ_OUTSTANDING": {
+                "value": "8"
+              },
+              "NUM_READ_THREADS": {
+                "value": "1"
+              },
+              "NUM_WRITE_OUTSTANDING": {
+                "value": "8"
+              },
+              "NUM_WRITE_THREADS": {
+                "value": "1"
+              },
+              "RUSER_BITS_PER_BYTE": {
+                "value": "0"
+              },
+              "WUSER_BITS_PER_BYTE": {
+                "value": "0"
+              }
+            },
+            "bd_attributes": {
+              "TYPE": {
+                "value": "interior",
+                "value_src": "default"
+              }
+            }
+          }
+        }
+      }
+    },
+    "interface_nets": {
+      "axi_gpio_0_GPIO": {
+        "interface_ports": [
+          "som240_1_connector_bank45_gpio",
+          "axi_gpio_0/GPIO"
+        ]
+      },
+      "axi_smc_M00_AXI": {
+        "interface_ports": [
+          "axi_smc/M00_AXI",
+          "axi_gpio_0/S_AXI"
+        ]
+      },
+      "zynq_ultra_ps_e_0_M_AXI_HPM0_FPD": {
+        "interface_ports": [
+          "zynq_ultra_ps_e_0/M_AXI_HPM0_FPD",
+          "axi_smc/S00_AXI"
+        ]
       }
     },
     "nets": {
@@ -1492,6 +1617,13 @@
         "ports": [
           "PS_RESET",
           "rst_ps8_0_99M/aux_reset_in"
+        ]
+      },
+      "rst_ps8_0_99M_peripheral_aresetn": {
+        "ports": [
+          "rst_ps8_0_99M/peripheral_aresetn",
+          "axi_gpio_0/s_axi_aresetn",
+          "axi_smc/aresetn"
         ]
       },
       "zynq_ultra_ps_e_0_emio_gpio_o": {
@@ -1505,7 +1637,9 @@
           "zynq_ultra_ps_e_0/pl_clk0",
           "rst_ps8_0_99M/slowest_sync_clk",
           "zynq_ultra_ps_e_0/maxihpm0_fpd_aclk",
-          "PL_CLK"
+          "PL_CLK",
+          "axi_gpio_0/s_axi_aclk",
+          "axi_smc/aclk"
         ]
       },
       "zynq_ultra_ps_e_0_pl_resetn0": {
@@ -1513,6 +1647,21 @@
           "zynq_ultra_ps_e_0/pl_resetn0",
           "rst_ps8_0_99M/ext_reset_in"
         ]
+      }
+    },
+    "addressing": {
+      "/zynq_ultra_ps_e_0": {
+        "address_spaces": {
+          "Data": {
+            "segments": {
+              "SEG_axi_gpio_0_Reg": {
+                "address_block": "/axi_gpio_0/S_AXI/Reg",
+                "offset": "0x00A0000000",
+                "range": "64K"
+              }
+            }
+          }
+        }
       }
     }
   }

@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version              : Vivado v.2025.1 (lin64) Build 6140274 Wed May 21 22:58:25 MDT 2025
-| Date                      : Sun Nov 30 19:33:59 2025
+| Date                      : Tue Dec  2 22:34:12 2025
 | Host                      : Ubuntu running 64-bit Ubuntu 22.04.5 LTS
 | Command                   : report_io -file TopLevelModule_io_placed.rpt
 | Design                    : TopLevelModule
@@ -25,7 +25,7 @@ Table of Contents
 +---------------+
 | Total User IO |
 +---------------+
-|             8 |
+|             9 |
 +---------------+
 
 
@@ -467,7 +467,7 @@ Table of Contents
 | K9         |                          | High Performance | IO_L23P_T3U_N8_I2C_SCLK_65         | User IO       |             |      65 |            |                         |      |                   |                      |           |            |           |          |      |                  |              |                   |              |
 | K10        |                          |                  | VCCINT_IO                          | VCCINT        |             |         |            |                         |      |                   |                      |           |            |           |          |      |                  |              |                   |              |
 | K11        |                          |                  | GND                                | GND           |             |         |            |                         |      |                   |                      |       0.0 |            |           |          |      |                  |              |                   |              |
-| K12        |                          | High Density     | IO_L2N_AD14N_45                    | User IO       |             |      45 |            |                         |      |                   |                      |           |            |           |          |      |                  |              |                   |              |
+| K12        | PL_CLK_OUT               | High Density     | IO_L2N_AD14N_45                    | OUTPUT        | LVCMOS33    |      45 |         12 |                         | SLOW |                   |            FP_VTT_50 |           | FIXED      |           |          |      | NONE             |              |                   |              |
 | K13        |                          | High Density     | IO_L2P_AD14P_45                    | User IO       |             |      45 |            |                         |      |                   |                      |           |            |           |          |      |                  |              |                   |              |
 | K15        | DPAUX_DP_HOT_PLUG_DETECT |                  | PS_MIO28_501                       | PSS IO        | LVCMOS18    |         |         12 |                         | FAST |               Ohm |                      |           |            | PULLUP    |          |      |                  |              |                   |              |
 | K16        |                          |                  | GND                                | GND           |             |         |            |                         |      |                   |                      |       0.0 |            |           |          |      |                  |              |                   |              |

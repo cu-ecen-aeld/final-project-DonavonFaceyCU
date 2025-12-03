@@ -21,13 +21,13 @@
 
 
 module TopLevelModule(
-    output [7:0] HDIO_OUT
+    output [7:0] HDIO_OUT,
+    output PL_CLK_OUT
     );
     
     wire [7:0] EMIO_IN;
     wire PL_CLK;
     
-    /*
     wire PWM_CLK;
     wire [3:0] SELECTED_DIGIT;
     
@@ -44,20 +44,20 @@ module TopLevelModule(
         .dataOut        (SELECTED_DIGIT)
     );
     
-    seven_seg_decoder (
+    seven_seg_decoder seg (
         .hex            (SELECTED_DIGIT),
         .seg            (HDIO_OUT[6:0])
     );
-    */
     
     kria_starter_kit starter_kit (
+        .PL_CLK         (PL_CLK),
         .EMIO_OUT       (EMIO_IN),
-        .PS_RESET       (1'b1),
-        .PL_CLK         (PL_CLK)
+        .PS_RESET       (1'b1)
     );
     
-    //assign HDIO_OUT[7] = PWM_CLK;
-    assign HDIO_OUT = EMIO_IN;
+    assign PL_CLK_OUT = PL_CLK;
+    assign HDIO_OUT[7] = ~PWM_CLK;
+    //assign HDIO_OUT = EMIO_IN;
     
 endmodule
 

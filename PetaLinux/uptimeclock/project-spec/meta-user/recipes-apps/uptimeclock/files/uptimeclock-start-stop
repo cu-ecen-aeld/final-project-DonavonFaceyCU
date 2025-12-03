@@ -5,10 +5,10 @@
 # Required-Stop:     $remote_fs $syslog
 # Default-Start:     5
 # Default-Stop:      0 1 6
-# Short-Description: Start uptimeclock GPIO daemon
+# Short-Description: Start uptimeclock GPIO daemon and keep PL clock alive
 ### END INIT INFO
 
-#Generated using ChatGPT
+#Generated using ChatGPT (modified for PL clock keepalive)
 
 DAEMON=/usr/bin/uptimeclock
 PIDFILE=/var/run/uptimeclock.pid
@@ -17,6 +17,15 @@ NAME=uptimeclock
 case "$1" in
   start)
     echo "Starting $NAME..."
+
+    # Keep PL_CLK0 alive by forcing AXI GPIO runtime PM ON
+    GPIO_DEV="/sys/bus/platform/devices/a0000000.gpio"
+    if [ -w "$GPIO_DEV/power/control" ]; then
+        echo "on" > "$GPIO_DEV/power/control"
+        echo "Enabled PL_CLK0 keepalive for AXI GPIO"
+    else
+        echo "PL_CLK0 keepalive not applied (device not present yet)"
+    fi
 
     if [ -f "$PIDFILE" ] && kill -0 $(cat "$PIDFILE") 2>/dev/null; then
         echo "$NAME already running"
@@ -33,7 +42,6 @@ case "$1" in
 
   stop)
     echo "Stopping $NAME..."
-
     if [ -f "$PIDFILE" ]; then
         start-stop-daemon --stop --pidfile "$PIDFILE" --retry=TERM/5/KILL/5
         rm -f "$PIDFILE"

@@ -3,8 +3,8 @@
 # SW Build 6140274 on Wed May 21 22:58:25 MDT 2025
 # IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
 # SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
-# Start of session at: Sun Nov 30 19:13:54 2025
-# Process ID         : 3633492
+# Start of session at: Tue Dec  2 11:58:07 2025
+# Process ID         : 1514397
 # Current directory  : /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado
 # Command line       : vivado
 # Log file           : /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/vivado.log
@@ -19,35 +19,105 @@
 # Host memory        : 16769 MB
 # Swap memory        : 4087 MB
 # Total Virtual      : 20856 MB
-# Available Virtual  : 17458 MB
+# Available Virtual  : 16365 MB
 #-----------------------------------------------------------
 start_gui
 open_project /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.xpr
+file mkdir /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sim_1/new/tb_TopLevelModule.v w ]
+add_files -fileset sim_1 /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sim_1/new/tb_TopLevelModule.v
+set_property simulator_language Verilog [current_project]
+set_property top tb_TopLevelModule [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+source tb_TopLevelModule.tcl
+current_wave_config {Untitled 1}
+add_wave {{/tb_TopLevelModule/dut/clk_div/clk_out}} 
+run all
+restart
+run all
+step
+restart
+run 10 s
+run 10 s
+restart
+run all
+close_sim
+launch_simulation
+source tb_TopLevelModule.tcl
+run all
+current_wave_config {Untitled 2}
+add_wave {{/tb_TopLevelModule/dut/clk_div/clk_in}} 
+current_wave_config {Untitled 2}
+add_wave {{/tb_TopLevelModule/dut/clk_div/clk_out}} 
+restart
+run all
+relaunch_sim
+run all
+close_sim
 reset_run synth_1
 launch_runs impl_1 -to_step write_bitstream -jobs 4
 wait_on_run impl_1
+open_run impl_1
+set_property pfm_name {Xilinx:KV260:KV260_uptime_clock:1.0} [get_files -all {/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/bd/kria_starter_kit/kria_starter_kit.bd}]
+set_property platform.uses_pr {true} [current_project]
+write_hw_platform -hw -include_bit -force -file /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/SharedFiles/uptimeclock.xsa
+close_design
+open_bd_design {/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/bd/kria_starter_kit/kria_starter_kit.bd}
+close_bd_design [get_bd_designs kria_starter_kit]
+synth_design -top TopLevelModule -part xck26-sfvc784-2LV-c -lint 
+synth_design -top TopLevelModule -part xck26-sfvc784-2LV-c -lint 
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+open_run impl_1
+close_design
+open_bd_design {/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/bd/kria_starter_kit/kria_starter_kit.bd}
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_gpio:2.0 axi_gpio_0
+endgroup
+set_property location {3 1050 508} [get_bd_cells axi_gpio_0]
+set_property location {2 955 489} [get_bd_cells axi_gpio_0]
+connect_bd_net [get_bd_pins axi_gpio_0/s_axi_aclk] [get_bd_pins zynq_ultra_ps_e_0/pl_clk0]
+set_property location {2.5 1547 483} [get_bd_cells axi_gpio_0]
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:board -config { Board_Interface {som240_1_connector_bank45_gpio ( Bank 45 GPIO (som240_1_connector) ) } Manual_Source {Auto}}  [get_bd_intf_pins axi_gpio_0/GPIO]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/zynq_ultra_ps_e_0/pl_clk0 (99 MHz)} Clk_slave {/zynq_ultra_ps_e_0/pl_clk0 (99 MHz)} Clk_xbar {/zynq_ultra_ps_e_0/pl_clk0 (99 MHz)} Master {/zynq_ultra_ps_e_0/M_AXI_HPM0_FPD} Slave {/axi_gpio_0/S_AXI} ddr_seg {Auto} intc_ip {New AXI SmartConnect} master_apm {0}}  [get_bd_intf_pins axi_gpio_0/S_AXI]
+endgroup
+save_bd_design
+close_bd_design [get_bd_designs kria_starter_kit]
+make_wrapper -files [get_files /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/bd/kria_starter_kit/kria_starter_kit.bd] -top
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+open_run impl_1
+synth_design -top TopLevelModule -part xck26-sfvc784-2LV-c -lint 
+place_ports PL_CLK K12
+set_property iostandard LVCMOS33 [get_ports [list PL_CLK]]
+save_constraints -force
+close_design
+synth_design -top TopLevelModule -part xck26-sfvc784-2LV-c -lint 
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+place_ports PL_CLK_OUT K12
+save_constraints
+synth_design -top TopLevelModule -part xck26-sfvc784-2LV-c -lint 
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+set_property IOSTANDARD LVCMOS33 [get_ports [list PL_CLK_OUT]]
+save_constraints
 reset_run impl_1
-synth_design -top TopLevelModule -part xck26-sfvc784-2LV-c -lint 
-synth_design -rtl -rtl_skip_mlo -name rtl_1
-create_ip_run [get_files -of_objects [get_fileset sources_1] /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/bd/kria_starter_kit/kria_starter_kit.bd]
-refresh_design
-create_ip_run [get_files -of_objects [get_fileset sources_1] /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/bd/kria_starter_kit/kria_starter_kit.bd]
-refresh_design
-close_design
-synth_design -top TopLevelModule -part xck26-sfvc784-2LV-c -lint 
-synth_design -rtl -rtl_skip_mlo -name rtl_1
-close_design
-synth_design -rtl -rtl_skip_mlo -name rtl_1
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream -jobs 4
-wait_on_run impl_1
-reset_run synth_1
-create_ip_run [get_files -of_objects [get_fileset sources_1] /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/bd/kria_starter_kit/kria_starter_kit.bd]
-refresh_design
-launch_runs impl_1 -to_step write_bitstream -jobs 4
+launch_runs impl_1 -jobs 4
 wait_on_run impl_1
 close_design
 open_run impl_1
 set_property pfm_name {Xilinx:KV260:KV260_uptime_clock:1.0} [get_files -all {/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/bd/kria_starter_kit/kria_starter_kit.bd}]
 set_property platform.uses_pr {true} [current_project]
-write_hw_platform -hw -include_bit -force -file /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/EMIO_Passthrough.xsa
+write_hw_platform -hw -force -file /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/SharedFiles/uptimeclock.xsa
+open_bd_design {/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/bd/kria_starter_kit/kria_starter_kit.bd}
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property pfm_name {Xilinx:KV260:KV260_uptime_clock:1.0} [get_files -all {/home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.srcs/sources_1/bd/kria_starter_kit/kria_starter_kit.bd}]
+set_property platform.uses_pr {true} [current_project]
+write_hw_platform -hw -include_bit -force -file /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/SharedFiles/uptimeclock.xsa

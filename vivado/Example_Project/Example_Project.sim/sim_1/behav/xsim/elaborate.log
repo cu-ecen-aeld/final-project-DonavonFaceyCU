@@ -1,0 +1,44 @@
+Vivado Simulator v2025.1.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /tools/Xilinx/2025.1/Vivado/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_TopLevelModule_behav xil_defaultlib.tb_TopLevelModule xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by AMD, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clk_div_pow2
+Compiling module xil_defaultlib.Digit_Mux
+Compiling module xil_defaultlib.seven_seg_decoder
+Compiling module unisims_ver.FDRE_default
+Compiling module xil_defaultlib.kria_starter_kit_rst_ps8_0_99M_0...
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling module xil_defaultlib.kria_starter_kit_rst_ps8_0_99M_0...
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.SRL16E(INIT=16'b1111111111111111...
+Compiling module unisims_ver.LUT5
+Compiling module unisims_ver.LUT4
+Compiling module xil_defaultlib.kria_starter_kit_rst_ps8_0_99M_0...
+Compiling module unisims_ver.FDSE_default
+Compiling module unisims_ver.x_lut3_mux8
+Compiling module unisims_ver.LUT3(INIT=8'b01111000)
+Compiling module unisims_ver.LUT6(INIT=64'b011111111111111111...
+Compiling module xil_defaultlib.kria_starter_kit_rst_ps8_0_99M_0...
+Compiling module xil_defaultlib.kria_starter_kit_rst_ps8_0_99M_0...
+Compiling module xil_defaultlib.kria_starter_kit_rst_ps8_0_99M_0...
+Compiling module xil_defaultlib.kria_starter_kit_rst_ps8_0_99M_0
+Compiling module unisims_ver.GND
+Compiling module unisims_ver.PS8
+Compiling module unisims_ver.BUFG_PS
+Compiling module xil_defaultlib.kria_starter_kit_zynq_ultra_ps_e...
+Compiling module xil_defaultlib.kria_starter_kit_zynq_ultra_ps_e...
+Compiling module xil_defaultlib.kria_starter_kit
+Compiling module xil_defaultlib.TopLevelModule
+Compiling module xil_defaultlib.tb_TopLevelModule
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_TopLevelModule_behav

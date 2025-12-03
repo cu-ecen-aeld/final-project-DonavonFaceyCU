@@ -63,7 +63,7 @@ set_param power.enableUnconnectedCarry8PinPower 1
 set_param checkpoint.writeSynthRtdsInDcp 1
 set_param general.usePosixSpawnForFork 1
 set_param chipscope.maxJobs 2
-set_param synth.incrementalSynthesisCache ./.Xil/Vivado-3633492-Ubuntu/incrSyn
+set_param synth.incrementalSynthesisCache ./.Xil/Vivado-1514397-Ubuntu/incrSyn
 set_msg_config -id {Synth 8-256} -limit 10000
 set_msg_config -id {Synth 8-638} -limit 10000
 OPTRACE "Creating in-memory project" START { }
@@ -75,7 +75,7 @@ set_param synth.vivado.isSynthRun true
 set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
 set_property webtalk.parent_dir /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.cache/wt [current_project]
 set_property parent.project_path /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.xpr [current_project]
-set_property XPM_LIBRARIES XPM_CDC [current_project]
+set_property XPM_LIBRARIES {XPM_CDC XPM_FIFO XPM_MEMORY} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
 set_property board_part xilinx.com:kv260_som:part0:1.4 [current_project]
@@ -91,6 +91,18 @@ set_property used_in_implementation false [get_files -all /home/stealthadmin/ECE
 set_property used_in_implementation false [get_files -all /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/ip/kria_starter_kit_zynq_ultra_ps_e_0_0/kria_starter_kit_zynq_ultra_ps_e_0_0.xdc]
 set_property used_in_implementation false [get_files -all /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/ip/kria_starter_kit_rst_ps8_0_99M_0/kria_starter_kit_rst_ps8_0_99M_0_board.xdc]
 set_property used_in_implementation false [get_files -all /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/ip/kria_starter_kit_rst_ps8_0_99M_0/kria_starter_kit_rst_ps8_0_99M_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/ip/kria_starter_kit_axi_gpio_0_0/kria_starter_kit_axi_gpio_0_0_board.xdc]
+set_property used_in_implementation false [get_files -all /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/ip/kria_starter_kit_axi_gpio_0_0/kria_starter_kit_axi_gpio_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/ip/kria_starter_kit_axi_smc_0/bd_0/ip/ip_1/bd_0ee3_psr_aclk_0_board.xdc]
+set_property used_in_implementation false [get_files -all /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/ip/kria_starter_kit_axi_smc_0/bd_0/ip/ip_5/bd_0ee3_s00a2s_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/ip/kria_starter_kit_axi_smc_0/bd_0/ip/ip_6/bd_0ee3_sarn_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/ip/kria_starter_kit_axi_smc_0/bd_0/ip/ip_7/bd_0ee3_srn_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/ip/kria_starter_kit_axi_smc_0/bd_0/ip/ip_8/bd_0ee3_sawn_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/ip/kria_starter_kit_axi_smc_0/bd_0/ip/ip_9/bd_0ee3_swn_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/ip/kria_starter_kit_axi_smc_0/bd_0/ip/ip_10/bd_0ee3_sbn_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/ip/kria_starter_kit_axi_smc_0/bd_0/ip/ip_11/bd_0ee3_m00s2a_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/ip/kria_starter_kit_axi_smc_0/ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/ip/kria_starter_kit_axi_smc_0/smartconnect.xdc]
 set_property used_in_implementation false [get_files -all /home/stealthadmin/ECEN5713/Repo_FinalProject/final-project-DonavonFaceyCU/vivado/Example_Project/Example_Project.gen/sources_1/bd/kria_starter_kit/kria_starter_kit_ooc.xdc]
 
 OPTRACE "Adding files" END { }
